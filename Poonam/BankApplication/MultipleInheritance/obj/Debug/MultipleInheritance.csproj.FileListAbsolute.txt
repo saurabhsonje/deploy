@@ -1,7 +1,0 @@
-C:\Users\poonam.jondhale\source\repos\BankApplication\MultipleInheritance\bin\Debug\MultipleInheritance.exe.config
-C:\Users\poonam.jondhale\source\repos\BankApplication\MultipleInheritance\bin\Debug\MultipleInheritance.exe
-C:\Users\poonam.jondhale\source\repos\BankApplication\MultipleInheritance\bin\Debug\MultipleInheritance.pdb
-C:\Users\poonam.jondhale\source\repos\BankApplication\MultipleInheritance\obj\Debug\MultipleInheritance.csprojAssemblyReference.cache
-C:\Users\poonam.jondhale\source\repos\BankApplication\MultipleInheritance\obj\Debug\MultipleInheritance.csproj.CoreCompileInputs.cache
-C:\Users\poonam.jondhale\source\repos\BankApplication\MultipleInheritance\obj\Debug\MultipleInheritance.exe
-C:\Users\poonam.jondhale\source\repos\BankApplication\MultipleInheritance\obj\Debug\MultipleInheritance.pdb
