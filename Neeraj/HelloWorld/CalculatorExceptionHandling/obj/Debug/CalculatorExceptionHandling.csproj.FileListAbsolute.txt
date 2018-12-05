@@ -1,0 +1,10 @@
+C:\Users\neeraj.goidani\Source\Repos\TrainingAssignments\Neeraj\HelloWorld\CalculatorExceptionHandling\bin\Debug\CalculatorExceptionHandling.exe.config
+C:\Users\neeraj.goidani\Source\Repos\TrainingAssignments\Neeraj\HelloWorld\CalculatorExceptionHandling\bin\Debug\CalculatorExceptionHandling.exe
+C:\Users\neeraj.goidani\Source\Repos\TrainingAssignments\Neeraj\HelloWorld\CalculatorExceptionHandling\bin\Debug\CalculatorExceptionHandling.pdb
+C:\Users\neeraj.goidani\Source\Repos\TrainingAssignments\Neeraj\HelloWorld\CalculatorExceptionHandling\bin\Debug\log4net.dll
+C:\Users\neeraj.goidani\Source\Repos\TrainingAssignments\Neeraj\HelloWorld\CalculatorExceptionHandling\bin\Debug\log4net.xml
+C:\Users\neeraj.goidani\Source\Repos\TrainingAssignments\Neeraj\HelloWorld\CalculatorExceptionHandling\obj\Debug\CalculatorExceptionHandling.csprojAssemblyReference.cache
+C:\Users\neeraj.goidani\Source\Repos\TrainingAssignments\Neeraj\HelloWorld\CalculatorExceptionHandling\obj\Debug\CalculatorExceptionHandling.csproj.CoreCompileInputs.cache
+C:\Users\neeraj.goidani\Source\Repos\TrainingAssignments\Neeraj\HelloWorld\CalculatorExceptionHandling\obj\Debug\CalculatorExceptionHandling.csproj.CopyComplete
+C:\Users\neeraj.goidani\Source\Repos\TrainingAssignments\Neeraj\HelloWorld\CalculatorExceptionHandling\obj\Debug\CalculatorExceptionHandling.exe
+C:\Users\neeraj.goidani\Source\Repos\TrainingAssignments\Neeraj\HelloWorld\CalculatorExceptionHandling\obj\Debug\CalculatorExceptionHandling.pdb
