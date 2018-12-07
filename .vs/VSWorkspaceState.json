@@ -1,10 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Shreya",
-    "\\Shreya\\BankSystem",
-    "\\Shreya\\FirstApp"
+    "\\Neeraj",
+    "\\Neeraj\\HelloWorld",
+    "\\Neeraj\\HelloWorld\\HelloWorld",
+    "\\Poonam",
+    "\\Poonam\\FirstApp"
   ],
-  "SelectedNode": "\\Shreya",
+  "SelectedNode": "\\Neeraj\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
   "PreviewInSolutionExplorer": false
 }
