@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shapes", "Shapes\Shapes.csproj", "{87011AA2-E6B3-4516-A9D2-A2792A23CEC4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionsToDoList", "CollectionsToDoList\CollectionsToDoList.csproj", "{8B6A12DB-19B8-47B0-8A06-F9952B91AC6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorExceptionHandling", "CalculatorExceptionHandling\CalculatorExceptionHandling.csproj", "{C0040A5D-D91A-4DB1-866A-7687E3C4DF80}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{87011AA2-E6B3-4516-A9D2-A2792A23CEC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87011AA2-E6B3-4516-A9D2-A2792A23CEC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87011AA2-E6B3-4516-A9D2-A2792A23CEC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B6A12DB-19B8-47B0-8A06-F9952B91AC6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B6A12DB-19B8-47B0-8A06-F9952B91AC6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B6A12DB-19B8-47B0-8A06-F9952B91AC6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B6A12DB-19B8-47B0-8A06-F9952B91AC6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0040A5D-D91A-4DB1-866A-7687E3C4DF80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0040A5D-D91A-4DB1-866A-7687E3C4DF80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0040A5D-D91A-4DB1-866A-7687E3C4DF80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0040A5D-D91A-4DB1-866A-7687E3C4DF80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

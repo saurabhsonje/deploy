@@ -1,0 +1,10 @@
+C:\Users\neeraj.goidani\Source\Repos\TrainingAssignments\Neeraj\HelloWorld\CollectionsToDoList\bin\Debug\CollectionsToDoList.exe.config
+C:\Users\neeraj.goidani\Source\Repos\TrainingAssignments\Neeraj\HelloWorld\CollectionsToDoList\bin\Debug\CollectionsToDoList.exe
+C:\Users\neeraj.goidani\Source\Repos\TrainingAssignments\Neeraj\HelloWorld\CollectionsToDoList\bin\Debug\CollectionsToDoList.pdb
+C:\Users\neeraj.goidani\Source\Repos\TrainingAssignments\Neeraj\HelloWorld\CollectionsToDoList\obj\Debug\CollectionsToDoList.csprojAssemblyReference.cache
+C:\Users\neeraj.goidani\Source\Repos\TrainingAssignments\Neeraj\HelloWorld\CollectionsToDoList\obj\Debug\CollectionsToDoList.csproj.CoreCompileInputs.cache
+C:\Users\neeraj.goidani\Source\Repos\TrainingAssignments\Neeraj\HelloWorld\CollectionsToDoList\obj\Debug\CollectionsToDoList.exe
+C:\Users\neeraj.goidani\Source\Repos\TrainingAssignments\Neeraj\HelloWorld\CollectionsToDoList\obj\Debug\CollectionsToDoList.pdb
+C:\Users\neeraj.goidani\Source\Repos\TrainingAssignments\Neeraj\HelloWorld\CollectionsToDoList\bin\Debug\log4net.dll
+C:\Users\neeraj.goidani\Source\Repos\TrainingAssignments\Neeraj\HelloWorld\CollectionsToDoList\bin\Debug\log4net.xml
+C:\Users\neeraj.goidani\Source\Repos\TrainingAssignments\Neeraj\HelloWorld\CollectionsToDoList\obj\Debug\CollectionsToDoList.csproj.CopyComplete
