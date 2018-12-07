@@ -1,0 +1,7 @@
+C:\Users\shreya.roy\source\repos\List_ToDo\List_ToDo\bin\Debug\List_ToDo.exe.config
+C:\Users\shreya.roy\source\repos\List_ToDo\List_ToDo\bin\Debug\List_ToDo.exe
+C:\Users\shreya.roy\source\repos\List_ToDo\List_ToDo\bin\Debug\List_ToDo.pdb
+C:\Users\shreya.roy\source\repos\List_ToDo\List_ToDo\obj\Debug\List_ToDo.csprojAssemblyReference.cache
+C:\Users\shreya.roy\source\repos\List_ToDo\List_ToDo\obj\Debug\List_ToDo.csproj.CoreCompileInputs.cache
+C:\Users\shreya.roy\source\repos\List_ToDo\List_ToDo\obj\Debug\List_ToDo.exe
+C:\Users\shreya.roy\source\repos\List_ToDo\List_ToDo\obj\Debug\List_ToDo.pdb
