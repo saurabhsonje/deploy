@@ -1,0 +1,10 @@
+C:\Users\poonam.jondhale\source\repos\ExceptionHandlingAssignments\ExceptionHandlingAssignments\bin\Debug\ExceptionHandlingAssignments.exe.config
+C:\Users\poonam.jondhale\source\repos\ExceptionHandlingAssignments\ExceptionHandlingAssignments\bin\Debug\ExceptionHandlingAssignments.exe
+C:\Users\poonam.jondhale\source\repos\ExceptionHandlingAssignments\ExceptionHandlingAssignments\bin\Debug\ExceptionHandlingAssignments.pdb
+C:\Users\poonam.jondhale\source\repos\ExceptionHandlingAssignments\ExceptionHandlingAssignments\obj\Debug\ExceptionHandlingAssignments.csprojAssemblyReference.cache
+C:\Users\poonam.jondhale\source\repos\ExceptionHandlingAssignments\ExceptionHandlingAssignments\obj\Debug\ExceptionHandlingAssignments.csproj.CoreCompileInputs.cache
+C:\Users\poonam.jondhale\source\repos\ExceptionHandlingAssignments\ExceptionHandlingAssignments\obj\Debug\ExceptionHandlingAssignments.exe
+C:\Users\poonam.jondhale\source\repos\ExceptionHandlingAssignments\ExceptionHandlingAssignments\obj\Debug\ExceptionHandlingAssignments.pdb
+C:\Users\poonam.jondhale\source\repos\ExceptionHandlingAssignments\ExceptionHandlingAssignments\bin\Debug\log4net.dll
+C:\Users\poonam.jondhale\source\repos\ExceptionHandlingAssignments\ExceptionHandlingAssignments\bin\Debug\log4net.xml
+C:\Users\poonam.jondhale\source\repos\ExceptionHandlingAssignments\ExceptionHandlingAssignments\obj\Debug\ExceptionHandlingAssignments.csproj.CopyComplete

@@ -1,0 +1,10 @@
+C:\Users\poonam.jondhale\source\repos\CollectionAssignments\CollectionAssignment\bin\Debug\CollectionAssignment.exe.config
+C:\Users\poonam.jondhale\source\repos\CollectionAssignments\CollectionAssignment\bin\Debug\CollectionAssignment.exe
+C:\Users\poonam.jondhale\source\repos\CollectionAssignments\CollectionAssignment\bin\Debug\CollectionAssignment.pdb
+C:\Users\poonam.jondhale\source\repos\CollectionAssignments\CollectionAssignment\obj\Debug\CollectionAssignment.csprojAssemblyReference.cache
+C:\Users\poonam.jondhale\source\repos\CollectionAssignments\CollectionAssignment\obj\Debug\CollectionAssignment.csproj.CoreCompileInputs.cache
+C:\Users\poonam.jondhale\source\repos\CollectionAssignments\CollectionAssignment\obj\Debug\CollectionAssignment.exe
+C:\Users\poonam.jondhale\source\repos\CollectionAssignments\CollectionAssignment\obj\Debug\CollectionAssignment.pdb
+C:\Users\poonam.jondhale\source\repos\CollectionAssignments\CollectionAssignment\bin\Debug\log4net.xml
+C:\Users\poonam.jondhale\source\repos\CollectionAssignments\CollectionAssignment\obj\Debug\CollectionAssignment.csproj.CopyComplete
+C:\Users\poonam.jondhale\source\repos\CollectionAssignments\CollectionAssignment\bin\Debug\log4net.dll

@@ -1,0 +1,10 @@
+C:\Users\shreya.roy\source\repos\ExceptionHandling\ExceptionHandling\bin\Debug\ExceptionHandling.exe.config
+C:\Users\shreya.roy\source\repos\ExceptionHandling\ExceptionHandling\bin\Debug\ExceptionHandling.exe
+C:\Users\shreya.roy\source\repos\ExceptionHandling\ExceptionHandling\bin\Debug\ExceptionHandling.pdb
+C:\Users\shreya.roy\source\repos\ExceptionHandling\ExceptionHandling\bin\Debug\log4net.dll
+C:\Users\shreya.roy\source\repos\ExceptionHandling\ExceptionHandling\bin\Debug\log4net.xml
+C:\Users\shreya.roy\source\repos\ExceptionHandling\ExceptionHandling\obj\Debug\ExceptionHandling.csprojAssemblyReference.cache
+C:\Users\shreya.roy\source\repos\ExceptionHandling\ExceptionHandling\obj\Debug\ExceptionHandling.csproj.CoreCompileInputs.cache
+C:\Users\shreya.roy\source\repos\ExceptionHandling\ExceptionHandling\obj\Debug\ExceptionHandling.csproj.CopyComplete
+C:\Users\shreya.roy\source\repos\ExceptionHandling\ExceptionHandling\obj\Debug\ExceptionHandling.exe
+C:\Users\shreya.roy\source\repos\ExceptionHandling\ExceptionHandling\obj\Debug\ExceptionHandling.pdb

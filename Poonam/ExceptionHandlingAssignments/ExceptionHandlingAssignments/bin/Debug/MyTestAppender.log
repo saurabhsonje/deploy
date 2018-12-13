@@ -1,0 +1,15 @@
+﻿2018-12-05 11:12:09,828 ERROR [1] ExceptionHandlingAssignments.Program.Main - Enter Number Gretaer Than Zero
+2018-12-05 11:14:20,077 ERROR [1] ExceptionHandlingAssignments.Program.Main - Enter Integer Value Only
+2018-12-05 11:23:47,278 ERROR [1] ExceptionHandlingAssignments.Calculation.Division - Divide By Zero Error
+2018-12-05 11:52:44,933 ERROR [1] ExceptionHandlingAssignments.Program.Main - Divide By Zero Error
+2018-12-05 11:52:44,960 ERROR [1] ExceptionHandlingAssignments.Program.Main - Enter Integer Value Only
+2018-12-05 11:53:07,902 ERROR [1] ExceptionHandlingAssignments.Program.Main - Enter Integer Value Only
+2018-12-05 11:56:07,877 ERROR [1] ExceptionHandlingAssignments.Program.Main - Enter Number greater than Zero
+2018-12-05 11:56:20,547 ERROR [1] ExceptionHandlingAssignments.Program.Main - Divide By Zero Error
+2018-12-05 11:56:20,555 ERROR [1] ExceptionHandlingAssignments.Program.Main - Enter Integer Value Only
+2018-12-05 11:56:35,950 ERROR [1] ExceptionHandlingAssignments.Program.Main - Enter Number greater than Zero
+2018-12-05 11:56:56,155 ERROR [1] ExceptionHandlingAssignments.Program.Main - Enter Integer Value Only
+2018-12-05 12:03:59,190 ERROR [1] ExceptionHandlingAssignments.Program.Main - Enter Integer Value Only
+2018-12-05 12:04:03,100 ERROR [1] ExceptionHandlingAssignments.Program.Main - Enter Integer Value Only
+2018-12-05 12:04:07,288 ERROR [1] ExceptionHandlingAssignments.Program.Main - Enter Integer Value Only
+2018-12-05 12:04:12,274 ERROR [1] ExceptionHandlingAssignments.Program.Main - Enter Integer Value Only
