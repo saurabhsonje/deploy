@@ -1,12 +1,10 @@
 {
   "ExpandedNodes": [
-    "",
     "\\Neeraj",
     "\\Neeraj\\HelloWorld",
-    "\\Neeraj\\HelloWorld\\HelloWorld",
-    "\\Poonam",
-    "\\Poonam\\FirstApp"
+    "\\Neeraj\\HelloWorld\\ConsoleApp1",
+    "\\Poonam\\FirstApp",
+    "\\Poonam\\FirstApp\\ConsoleApp1"
   ],
-  "SelectedNode": "\\Neeraj\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
   "PreviewInSolutionExplorer": false
 }

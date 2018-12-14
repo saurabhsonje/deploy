@@ -1,0 +1,7 @@
+C:\Users\neeraj.goidani\source\repos\TrainingAssignments\Neeraj\HelloWorld\EventsAndDelegates\obj\Debug\EventsAndDelegates.csprojAssemblyReference.cache
+C:\Users\neeraj.goidani\source\repos\TrainingAssignments\Neeraj\HelloWorld\EventsAndDelegates\obj\Debug\EventsAndDelegates.csproj.CoreCompileInputs.cache
+C:\Users\neeraj.goidani\source\repos\TrainingAssignments\Neeraj\HelloWorld\EventsAndDelegates\bin\Debug\EventsAndDelegates.exe.config
+C:\Users\neeraj.goidani\source\repos\TrainingAssignments\Neeraj\HelloWorld\EventsAndDelegates\bin\Debug\EventsAndDelegates.exe
+C:\Users\neeraj.goidani\source\repos\TrainingAssignments\Neeraj\HelloWorld\EventsAndDelegates\bin\Debug\EventsAndDelegates.pdb
+C:\Users\neeraj.goidani\source\repos\TrainingAssignments\Neeraj\HelloWorld\EventsAndDelegates\obj\Debug\EventsAndDelegates.exe
+C:\Users\neeraj.goidani\source\repos\TrainingAssignments\Neeraj\HelloWorld\EventsAndDelegates\obj\Debug\EventsAndDelegates.pdb
