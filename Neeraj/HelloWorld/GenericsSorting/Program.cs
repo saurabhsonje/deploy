@@ -35,7 +35,7 @@ namespace GenericsSorting
             numberList.Add(38);
 
 
-            Sort<T> sortss = new Sort<T>();
+          //  Sort<T> sortss = new Sort<T>();
 
 
 

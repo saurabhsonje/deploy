@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcEmpSalHr", "MvcEmpSalHr\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcWebAppTest1", "..\..\..\HelloWorld\MvcWebAppTest1\MvcWebAppTest1.csproj", "{BFB7037A-5456-40C9-9F51-68DEAA162895}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudAPI", "CrudAPI\CrudAPI.csproj", "{CA0176BB-4FCE-4307-9D7D-AA60A5D78B11}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{BFB7037A-5456-40C9-9F51-68DEAA162895}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFB7037A-5456-40C9-9F51-68DEAA162895}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BFB7037A-5456-40C9-9F51-68DEAA162895}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA0176BB-4FCE-4307-9D7D-AA60A5D78B11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA0176BB-4FCE-4307-9D7D-AA60A5D78B11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA0176BB-4FCE-4307-9D7D-AA60A5D78B11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA0176BB-4FCE-4307-9D7D-AA60A5D78B11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
