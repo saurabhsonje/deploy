@@ -1,0 +1,2 @@
+﻿2018-12-07 12:33:05,405 INFO [1] ExceptionHandling.Calculator.Main - Addition successfully
+2018-12-07 12:33:14,825 ERROR [1] ExceptionHandling.Calculator.Main - ExceptionHandling.UserDefinedExceptions: Number must be greater

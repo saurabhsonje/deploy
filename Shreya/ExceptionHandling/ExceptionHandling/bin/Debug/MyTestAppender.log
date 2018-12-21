@@ -1,2 +1,10 @@
-﻿2018-12-07 12:33:05,405 INFO [1] ExceptionHandling.Calculator.Main - Addition successfully
-2018-12-07 12:33:14,825 ERROR [1] ExceptionHandling.Calculator.Main - ExceptionHandling.UserDefinedExceptions: Number must be greater
+﻿2018-12-21 13:28:27,372 INFO [1] ExceptionHandling.Calculator.Main - Addition successfully
+2018-12-21 13:28:35,682 ERROR [1] ExceptionHandling.Calculator.Main - ExceptionHandling.UserDefinedExceptions: Number must be greater
+2018-12-21 13:38:56,684 INFO [1] ExceptionHandling.Calculator.Main - Addition successfully
+2018-12-21 13:39:05,195 ERROR [1] ExceptionHandling.Calculator.Main - ExceptionHandling.UserDefinedExceptions: Number must be greater
+2018-12-21 13:48:01,559 INFO [1] ExceptionHandling.Calculator.Main - Addition successfully
+2018-12-21 13:49:09,551 INFO [1] ExceptionHandling.Calculator.Main - Addition successfully
+2018-12-21 13:49:14,042 ERROR [1] ExceptionHandling.Calculator.Main - ExceptionHandling.UserDefinedExceptions: Number must be non zero
+2018-12-21 13:57:30,433 INFO [1] ExceptionHandling.Calculator.Main - Addition successfully
+2018-12-21 14:09:24,445 INFO [1] ExceptionHandling.Calculator.Main - Addition successfully
+2018-12-21 14:09:27,139 ERROR [1] ExceptionHandling.Calculator.Main - ExceptionHandling.UserDefinedExceptions: Number must be greater
