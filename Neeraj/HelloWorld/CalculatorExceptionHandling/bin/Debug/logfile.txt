@@ -1,1 +1,18 @@
 2018-12-05 12:19:21,141 ERROR CalculatorExceptionHandling.Calculator - CalculatorExceptionHandling.UserDefinedException: 1st no cannot be greater than 2nd number
+2018-12-21 13:31:39,539 INFO CalculatorExceptionHandling.Calculator - addition successful
+2018-12-21 13:39:36,864 INFO CalculatorExceptionHandling.Calculator - addition successful
+2018-12-21 13:50:39,708 INFO CalculatorExceptionHandling.Calculator - division successful
+2018-12-21 13:51:21,563 INFO CalculatorExceptionHandling.Calculator - division successful
+2018-12-21 13:52:16,563 INFO CalculatorExceptionHandling.Calculator - Subtraction successful
+2018-12-21 13:52:21,433 INFO CalculatorExceptionHandling.Calculator - addition successful
+2018-12-21 13:53:39,785 INFO CalculatorExceptionHandling.Calculator - addition successful
+2018-12-21 13:55:14,708 INFO CalculatorExceptionHandling.Calculator - addition successful
+2018-12-21 13:55:18,394 INFO CalculatorExceptionHandling.Calculator - Subtraction successful
+2018-12-21 13:56:15,451 INFO CalculatorExceptionHandling.Calculator - addition successful
+2018-12-21 14:03:29,351 INFO CalculatorExceptionHandling.Calculator - addition successful
+2018-12-21 14:03:36,046 INFO CalculatorExceptionHandling.Calculator - Subtraction successful
+2018-12-21 14:03:40,247 INFO CalculatorExceptionHandling.Calculator - division successful
+2018-12-21 14:26:36,922 INFO CalculatorExceptionHandling.Calculator - addition successful
+2018-12-21 14:26:46,230 INFO CalculatorExceptionHandling.Calculator - Subtraction successful
+2018-12-21 14:26:56,929 INFO CalculatorExceptionHandling.Calculator - division successful
+2018-12-22 18:00:06,070 INFO CalculatorExceptionHandling.Calculator - addition successful
