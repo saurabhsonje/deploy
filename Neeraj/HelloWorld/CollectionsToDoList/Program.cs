@@ -10,9 +10,9 @@ namespace CollectionsToDoList
 {
     class Program
     {
-        //Declare an instance for log4net
-        private static readonly ILog Log =
-              LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+        ////Declare an instance for log4net
+        //private static readonly ILog Log =
+        //      LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
 
         static void Main(string[] args)
         {
@@ -21,65 +21,76 @@ namespace CollectionsToDoList
             ToDo toDo;
             String task;
             int priorty;
-            do
-            {
-                Console.WriteLine("1.Add 2.View all 3.Search by Priority 4.Update Priority 5.Exit");
 
-                choice = Convert.ToInt32(Console.ReadLine());
-                switch (choice)
+            try
+            {
+                do
                 {
-                    case 1: Console.WriteLine("Enter task");
-                        task =Console.ReadLine();
-                        Console.WriteLine("Enter priority");
-                            priorty =Convert.ToInt32( Console.ReadLine()) ;
-                            toDo = new ToDo(task,priorty);
+                    Console.WriteLine("1.Add 2.View all 3.Search by Priority 4.Update Priority 5.Exit");
+
+                    //    choice = Convert.ToInt32(Console.ReadLine());
+                    choice = Int32.Parse(Console.ReadLine());
+                    switch (choice)
+                    {
+                        case 1:
+                            Console.WriteLine("Enter task");
+                            task = Console.ReadLine();
+                            Console.WriteLine("Enter priority");
+                            priorty = Int32.Parse(Console.ReadLine());
+                            toDo = new ToDo(task, priorty);
                             toDoList.Add(toDo);
                             break;
 
-                    case 2:
+                        case 2:
                             Console.WriteLine("All the tasks");
-                        foreach (ToDo item in toDoList)
-                        { 
-                            Console.WriteLine($"Task:{item.task}");
-                            Console.WriteLine($"Priority:{item.priority}");
-                        }
+                            foreach (ToDo item in toDoList)
+                            {
+                                Console.WriteLine($"Task:{item.task}");
+                                Console.WriteLine($"Priority:{item.priority}");
+                            }
                             break;
 
-                    case 3: Console.WriteLine("Enter Priority");
-                        priorty = Convert.ToInt32(Console.ReadLine());
-                        foreach (ToDo item in toDoList)
-                        {
-                            if (item.priority == priorty)
+                        case 3:
+                            Console.WriteLine("Enter Priority");
+                            priorty = Convert.ToInt32(Console.ReadLine());
+                            foreach (ToDo item in toDoList)
                             {
-                                Console.WriteLine($"Task:{item.task}");
-                               // Console.WriteLine($"Priority:{item.priority}");
+                                if (item.priority == priorty)
+                                {
+                                    Console.WriteLine($"Task:{item.task}");
+                                    // Console.WriteLine($"Priority:{item.priority}");
+                                }
+                                else
+                                {
+                                    Console.WriteLine("Item not found");
+                                }
+                                
                             }
-                        }
-                        break;
+                            break;
 
-                    case 4:
-                        Console.WriteLine("Enter task");
-                        task = Console.ReadLine();
-                        foreach (ToDo item in toDoList)
-                        {
-                            if ((item.task).Equals(task))
+                        case 4:
+                            Console.WriteLine("Enter task");
+                            task = Console.ReadLine();
+                            foreach (ToDo item in toDoList)
                             {
-                                Console.WriteLine("Found");
-                                Console.WriteLine($"Task:{item.priority}");
-                                Console.WriteLine($"Task:{item.task}");
+                                if ((item.task).Equals(task))
+                                {
+                                    Console.WriteLine("Found");
+                                    Console.WriteLine($"Task:{item.priority}");
+                                    Console.WriteLine($"Task:{item.task}");
 
-                                Console.WriteLine("Enter your new priority");
-                                int newPriorty = Convert.ToInt32(Console.ReadLine());
-                                item.priority = newPriorty;
-                                // Console.WriteLine($"Priority:{item.priority}");
+                                    Console.WriteLine("Enter your new priority");
+                                    int newPriorty = Convert.ToInt32(Console.ReadLine());
+                                    item.priority = newPriorty;
+                                    // Console.WriteLine($"Priority:{item.priority}");
+                                }
+
                             }
-                           
-                        }
-                        break;
+                            break;
 
-                    case 5:Console.WriteLine("Existing....");
-                        break;
-
+                        case 5:
+                            Console.WriteLine("Existing....");
+                            break;
 
 
 
@@ -91,23 +102,32 @@ namespace CollectionsToDoList
 
 
 
-                }
-            } while (choice != 5);
 
-            ImplementLoggingFuntion();
+                    }
+                } while (choice != 5);
+            }
+            catch (FormatException fe)
+            {
+                Console.WriteLine("Incorrect format");
+            }
+            catch (ArgumentNullException ne)
+            {
+                Console.WriteLine("Null data found ");
+            }
+
+        //    ImplementLoggingFuntion();
             // Go to http://aka.ms/dotnet-get-started-console to continue learning how to build a console app! 
         }
 
-        private static void ImplementLoggingFuntion()
+  /*      private static void ImplementLoggingFuntion()
         {
-            /* We have 5 levels of log message. Let's test all.
-             *  FATAL
-                ERROR
-                WARN
-                INFO
-                DEBUG
-             */
-            var secs = 3;
+             //We have 5 levels of log message. Let's test all.
+             //  FATAL
+             //   ERROR
+             //   WARN
+             //   INFO
+             //   DEBUG
+                         var secs = 3;
             Log.Fatal("Start log FATAL...");
             Console.WriteLine("Start log FATAL...");
             Thread.Sleep(TimeSpan.FromSeconds(secs)); // Sleep some secs
@@ -130,6 +150,6 @@ namespace CollectionsToDoList
 
             Console.WriteLine("Press any key to close the application");
             Console.ReadKey();
-        }
+        } */
     }
 }
