@@ -8,15 +8,20 @@ namespace ExceptionHandling
 {
     class Operations
     {
-        public int Add(int a, int b)
+        public void Add(int a, int b)
         {
-             return a + b;
+             Console.WriteLine(a + b);
             
         }
 
-        public int Sub(int a, int b)
+        public void Sub(int a, int b)
         {
-            return a - b;
+            Console.WriteLine( a - b);
+        }
+
+        public void Div(int a, int b)
+        {
+            Console.WriteLine(a / b);
         }
     }
 

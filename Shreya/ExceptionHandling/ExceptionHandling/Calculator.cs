@@ -13,7 +13,12 @@ namespace ExceptionHandling
 
         public static void Main(String[] args)
         {
-            int choice, a, b;
+            int choice ,num1 , num2;
+            Console.WriteLine("Enter first number");
+            num1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter second number");
+            num2 = int.Parse(Console.ReadLine());
+
             do
             {
                 Console.WriteLine("Welcome to Calculator Application");
@@ -31,12 +36,9 @@ namespace ExceptionHandling
                         try
                         {
                             Console.WriteLine("Performing addition");
-                            Console.WriteLine("Enter 1st number");
-                            a = int.Parse(Console.ReadLine());
-                            Console.WriteLine("Enter 2nd number");
-                            b = int.Parse(Console.ReadLine());
-                            op.Add(a, b);
-                            //Console.WriteLine(op.Add(a, b));
+                            
+                            op.Add(num1, num2);
+                            
                             log.Info("Addition successfully");
                         }
                         catch (FormatException e)
@@ -51,14 +53,16 @@ namespace ExceptionHandling
                         try
                         {
                             Console.WriteLine("Performing substraction");
-                            Console.WriteLine("Enter 1st number");
-                            a = int.Parse(Console.ReadLine());
-                            Console.WriteLine("Enter 2nd number");
-                            b = int.Parse(Console.ReadLine());
-                            
-                            if (a < b)
+
+
+                            if (num1 < num2)
                             {
                                 log.Error(new UserDefinedExceptions("Number must be greater"));
+                            }
+                            else
+                            {
+                                
+                                log.Info("Substraction successfully");
                             }
 
                         }
@@ -70,15 +74,15 @@ namespace ExceptionHandling
 
                         break;
 
-                    case 3:                       
-                        Console.WriteLine("Performing Divison");
-                        Console.WriteLine("Enter 1st number");
-                        a = int.Parse(Console.ReadLine());
-                        Console.WriteLine("Enter 2nd number");
-                        b = int.Parse(Console.ReadLine());
-                        if (b == 0)
+                    case 3:
+
+                        if (num2 == 0)
                         {
-                            throw new DivideByZeroException();
+                            log.Error(new UserDefinedExceptions("Number must be non zero"));
+                        }
+                        else
+                        {
+                            Console.WriteLine("Divison is successful");
                         }
 
                         break;
