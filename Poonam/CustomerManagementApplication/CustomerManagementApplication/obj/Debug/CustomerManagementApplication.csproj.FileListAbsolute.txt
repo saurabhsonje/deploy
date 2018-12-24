@@ -1,0 +1,7 @@
+C:\Users\poonam.jondhale\source\repos\CustomerManagementApplication\CustomerManagementApplication\bin\Debug\CustomerManagementApplication.exe.config
+C:\Users\poonam.jondhale\source\repos\CustomerManagementApplication\CustomerManagementApplication\bin\Debug\CustomerManagementApplication.exe
+C:\Users\poonam.jondhale\source\repos\CustomerManagementApplication\CustomerManagementApplication\bin\Debug\CustomerManagementApplication.pdb
+C:\Users\poonam.jondhale\source\repos\CustomerManagementApplication\CustomerManagementApplication\obj\Debug\CustomerManagementApplication.csprojAssemblyReference.cache
+C:\Users\poonam.jondhale\source\repos\CustomerManagementApplication\CustomerManagementApplication\obj\Debug\CustomerManagementApplication.csproj.CoreCompileInputs.cache
+C:\Users\poonam.jondhale\source\repos\CustomerManagementApplication\CustomerManagementApplication\obj\Debug\CustomerManagementApplication.exe
+C:\Users\poonam.jondhale\source\repos\CustomerManagementApplication\CustomerManagementApplication\obj\Debug\CustomerManagementApplication.pdb
