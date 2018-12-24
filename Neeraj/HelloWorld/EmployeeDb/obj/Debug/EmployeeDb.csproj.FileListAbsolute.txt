@@ -1,0 +1,12 @@
+C:\Users\neeraj.goidani\Source\Repos\TrainingAssignments\Neeraj\HelloWorld\EmployeeDb\bin\Debug\EmployeeDb.dll.config
+C:\Users\neeraj.goidani\Source\Repos\TrainingAssignments\Neeraj\HelloWorld\EmployeeDb\bin\Debug\EmployeeDb.dll
+C:\Users\neeraj.goidani\Source\Repos\TrainingAssignments\Neeraj\HelloWorld\EmployeeDb\bin\Debug\EmployeeDb.pdb
+C:\Users\neeraj.goidani\Source\Repos\TrainingAssignments\Neeraj\HelloWorld\EmployeeDb\bin\Debug\EntityFramework.dll
+C:\Users\neeraj.goidani\Source\Repos\TrainingAssignments\Neeraj\HelloWorld\EmployeeDb\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\neeraj.goidani\Source\Repos\TrainingAssignments\Neeraj\HelloWorld\EmployeeDb\bin\Debug\EntityFramework.xml
+C:\Users\neeraj.goidani\Source\Repos\TrainingAssignments\Neeraj\HelloWorld\EmployeeDb\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\neeraj.goidani\Source\Repos\TrainingAssignments\Neeraj\HelloWorld\EmployeeDb\obj\Debug\EmployeeDb.csprojAssemblyReference.cache
+C:\Users\neeraj.goidani\Source\Repos\TrainingAssignments\Neeraj\HelloWorld\EmployeeDb\obj\Debug\EmployeeDb.csproj.CoreCompileInputs.cache
+C:\Users\neeraj.goidani\Source\Repos\TrainingAssignments\Neeraj\HelloWorld\EmployeeDb\obj\Debug\EmployeeDb.csproj.CopyComplete
+C:\Users\neeraj.goidani\Source\Repos\TrainingAssignments\Neeraj\HelloWorld\EmployeeDb\obj\Debug\EmployeeDb.dll
+C:\Users\neeraj.goidani\Source\Repos\TrainingAssignments\Neeraj\HelloWorld\EmployeeDb\obj\Debug\EmployeeDb.pdb
