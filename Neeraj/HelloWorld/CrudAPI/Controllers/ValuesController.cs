@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Threading;
 using System.Web.Http;
 using CrudAPI.Models;
 
@@ -10,6 +11,18 @@ namespace CrudAPI.Controllers
 {
     public class ValuesController : ApiController
     {
+       static List<ToDo> toDoList = new List<ToDo>()
+                    {
+                        new ToDo(1,1,"meeting"),
+                        new ToDo(2,3,"lunch"),
+                        new ToDo(3,2,"client call")
+
+
+                    };
+
+
+        // string userName = Thread.CurrentPrincipal.Identity.Name;
+        [BasicAuthentication]  // name of the attribute in [] brackets to implement is
         
         public HttpResponseMessage Post([FromBody] ToDo toDo)
         {
@@ -17,7 +30,10 @@ namespace CrudAPI.Controllers
             {
                 if (toDo != null)
                 {
+                    toDoList.Add(toDo);
                     return Request.CreateResponse(HttpStatusCode.OK, toDo);
+                    
+                    
                 }
                 else
                     return Request.CreateErrorResponse(HttpStatusCode.BadRequest, "Todo is empty(null)");
@@ -30,25 +46,26 @@ namespace CrudAPI.Controllers
 
         }
 
+        [BasicAuthentication]
         public IHttpActionResult Get()
         {
-            List<ToDo> toDoList = new List<ToDo>()
+ /*          List<ToDo> toDoList = new List<ToDo>()
                     {
                         new ToDo(1,1,"meeting"),
                         new ToDo(2,3,"lunch"),
                         new ToDo(3,2,"client call")
 
 
-                    };
+                    };  */
 
             return Ok(toDoList); // returns Ok() status with a response body which contains toDoList
                                  // return Ok();  // simply returns Ok() status and nothing in response body
         }
 
 
-  /*      public List<ToDo> CreateList()
+ /*       public List<ToDo> CreateList()
         {
-            List<ToDo> toDoList = new List<ToDo>()
+             List<ToDo> toDoList = new List<ToDo>()
                     {
                         new ToDo(1,1,"meeting"),
                         new ToDo(2,3,"lunch"),
@@ -58,21 +75,25 @@ namespace CrudAPI.Controllers
                     };
 
             return toDoList; 
-        } */
+        }  */
 
 
         [Route("api/values/{id}/{priority}")]
         public HttpResponseMessage Put(int id, int priority, [FromBody] string task)
         {
+            if (id == 0)
+            {
+                throw new System.ArgumentException("Id cannot be zero");
+            }
             //  List<ToDo> toDoList = CreateList();
-            List<ToDo> toDoList = new List<ToDo>()
+ /*           List<ToDo> toDoList = new List<ToDo>()
                     {
                         new ToDo(1,1,"meeting"),
                         new ToDo(2,3,"lunch"),
                         new ToDo(3,2,"client call")
 
 
-                    };
+                    }; */
 
 
             var item = toDoList.Where(t => t.id == id).FirstOrDefault();
@@ -84,23 +105,41 @@ namespace CrudAPI.Controllers
         }
         public HttpResponseMessage Delete(int id)
         {
-            //  List<ToDo> toDoList = CreateList();
-            List<ToDo> toDoList = new List<ToDo>()
+            try
+            {
+                if (id == 0)
+                {
+                    throw new System.ArgumentException("Id cannot be zero");
+                }
+
+/*                List<ToDo> toDoList = new List<ToDo>()
                     {
                         new ToDo(1,1,"meeting"),
                         new ToDo(2,3,"lunch"),
                         new ToDo(3,2,"client call")
+                    };  */
 
+                var item = toDoList.Where(t => t.id == id).FirstOrDefault();
 
-                    };
+                if (item == null)
+                {
+                    return Request.CreateResponse(HttpStatusCode.NotFound);
+                    //throw new System.ArgumentNullException($"Could not find anything with id: " + id);
 
+                }
+                else
+                {
+                    toDoList.Remove(item);
+                    return Request.CreateResponse(HttpStatusCode.OK, toDoList);
+                }
 
+            }
+            catch (Exception e)
+            {
+                return Request.CreateErrorResponse(HttpStatusCode.BadRequest,e);
+            }
 
-            var item = toDoList.Where(t => t.id == id).FirstOrDefault();
-
-            toDoList.Remove(item);
-
-            return Request.CreateResponse(HttpStatusCode.OK, toDoList);
+          
 
         }
 
