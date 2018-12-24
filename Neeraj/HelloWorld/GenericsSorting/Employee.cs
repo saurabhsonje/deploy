@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GenericsSorting
 {
-    class Employee :IValue
+    class Employee :IValue ,IComparable<Employee>
     {
         public int id { set; get; }
         public int age { set; get; }
@@ -23,7 +23,19 @@ namespace GenericsSorting
 
         public int GetValue()
         {
-            return age;
+            return id;
+        }
+
+ 
+
+    
+
+        public int CompareTo(Employee that)
+        {
+            if (this.age > that.age) return -1;
+            if (this.age == that.age) return 0;
+            return 1;
+            //throw new NotImplementedException();
         }
     }
 
