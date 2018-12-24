@@ -1,0 +1,7 @@
+C:\Users\shreya.roy\source\repos\CustomerManagement\CustomerManagement\bin\Debug\CustomerManagement.exe.config
+C:\Users\shreya.roy\source\repos\CustomerManagement\CustomerManagement\bin\Debug\CustomerManagement.exe
+C:\Users\shreya.roy\source\repos\CustomerManagement\CustomerManagement\bin\Debug\CustomerManagement.pdb
+C:\Users\shreya.roy\source\repos\CustomerManagement\CustomerManagement\obj\Debug\CustomerManagement.csprojAssemblyReference.cache
+C:\Users\shreya.roy\source\repos\CustomerManagement\CustomerManagement\obj\Debug\CustomerManagement.csproj.CoreCompileInputs.cache
+C:\Users\shreya.roy\source\repos\CustomerManagement\CustomerManagement\obj\Debug\CustomerManagement.exe
+C:\Users\shreya.roy\source\repos\CustomerManagement\CustomerManagement\obj\Debug\CustomerManagement.pdb
