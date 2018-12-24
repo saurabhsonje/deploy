@@ -1,0 +1,7 @@
+C:\Users\neeraj.goidani\Source\Repos\TrainingAssignments\Neeraj\HelloWorld\CustRelationshipManagement\bin\Debug\CustRelationshipManagement.exe.config
+C:\Users\neeraj.goidani\Source\Repos\TrainingAssignments\Neeraj\HelloWorld\CustRelationshipManagement\bin\Debug\CustRelationshipManagement.exe
+C:\Users\neeraj.goidani\Source\Repos\TrainingAssignments\Neeraj\HelloWorld\CustRelationshipManagement\bin\Debug\CustRelationshipManagement.pdb
+C:\Users\neeraj.goidani\Source\Repos\TrainingAssignments\Neeraj\HelloWorld\CustRelationshipManagement\obj\Debug\CustRelationshipManagement.csprojAssemblyReference.cache
+C:\Users\neeraj.goidani\Source\Repos\TrainingAssignments\Neeraj\HelloWorld\CustRelationshipManagement\obj\Debug\CustRelationshipManagement.csproj.CoreCompileInputs.cache
+C:\Users\neeraj.goidani\Source\Repos\TrainingAssignments\Neeraj\HelloWorld\CustRelationshipManagement\obj\Debug\CustRelationshipManagement.exe
+C:\Users\neeraj.goidani\Source\Repos\TrainingAssignments\Neeraj\HelloWorld\CustRelationshipManagement\obj\Debug\CustRelationshipManagement.pdb
