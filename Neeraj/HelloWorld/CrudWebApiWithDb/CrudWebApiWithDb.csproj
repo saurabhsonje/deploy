@@ -225,6 +225,13 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\getAllEmployees.cshtml" />
+    <Content Include="Views\Home\addEmployee.cshtml" />
+    <Content Include="Views\Home\employeeDetails.cshtml" />
+    <Content Include="Views\Home\RazorTest.cshtml" />
+    <Content Include="Views\Home\EditEmployee.cshtml" />
+    <Content Include="Views\Home\SuccessUpdate.cshtml" />
+    <Content Include="Views\Home\DeleteEmployee.cshtml" />
+    <Content Include="Views\Home\SuccessDelete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
