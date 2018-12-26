@@ -24,10 +24,12 @@ namespace BankApplication
         }
         public double withdraw(double amount)
         {
-            if(this.custBalance<500)
-            {
-                Console.WriteLine("Insufficent Balance"+this.custBalance);
-            }
+           
+                if (this.custBalance < 500)
+                {
+                throw new HandlingException("Amount Less Than 500");
+                }
+          
            return this.custBalance = this.custBalance - amount;
         }
         public void credit(double amount)
