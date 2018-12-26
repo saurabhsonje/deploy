@@ -30,6 +30,36 @@ namespace CrudWebApiWithDb.Dao
 
         }
 
+        public tblEmployee RetrieveEmployeeFromDb(int id)
+        {
+
+            using (EmployeeEntities employeeEntities = new EmployeeEntities())
+            {
+                try
+                {
+                    tblEmployee requestedEmployee = employeeEntities.tblEmployees.Where(e => e.Id == id).FirstOrDefault(); // throws ArgumentNullException if not found
+
+                    if (requestedEmployee == null)
+                    {
+                        return null;
+                    }
+
+
+                    return requestedEmployee;
+
+                }
+                catch (ArgumentNullException e)
+                {
+                    return null;
+                }
+
+
+            }
+        }
+
+
+
+
 
         public bool AddingEmployeeIntoDb(tblEmployee employeetoBeAdded)
         {
@@ -94,6 +124,46 @@ namespace CrudWebApiWithDb.Dao
 
 
         }
+
+        public bool DeleteEmployeeFromDb(int id)
+        {
+            try
+            {
+                using (EmployeeEntities employeeEntities = new EmployeeEntities())
+                {
+
+                    tblEmployee employeeFromQuery = employeeEntities.tblEmployees.Where(e => e.Id == id).FirstOrDefault();
+
+                    if (employeeFromQuery == null)
+                    {
+                        return false;
+                      //  return NotFound();
+                        //  return Request.CreateErrorResponse(HttpStatusCode.NotFound, new ArgumentNullException());
+                    }
+                    else
+                    {
+                        employeeEntities.tblEmployees.Remove(employeeFromQuery);
+                        employeeEntities.SaveChanges();
+                        return true;
+
+                        //return Ok();
+
+                        //   return Request.CreateResponse(HttpStatusCode.OK);
+                    }
+
+                }
+            }
+            catch (Exception e)
+            {
+                return false;
+            }
+
+
+
+        }
+
+
+
 
 
 

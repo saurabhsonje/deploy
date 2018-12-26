@@ -30,39 +30,23 @@ namespace CrudWebApiWithDb.Controllers
 
         public IHttpActionResult GetTblEmployees(int id)
         {
-            using (EmployeeEntities employeeEntities = new EmployeeEntities())
+
+            tblEmployee requestedEmployee =  dao.RetrieveEmployeeFromDb(id);
+
+            if (requestedEmployee == null)
             {
-                try
-                {
-                    tblEmployee requestedEmployee = employeeEntities.tblEmployees.Where(e => e.Id == id).FirstOrDefault(); // throws ArgumentNullException if not found
-                 /*   if (requestedEmployee.Equals(null))
-                    {
-                        return NotFound();
-                    }
-                    */
-                    if (requestedEmployee == null)
-                    {
-                        return NotFound();
-                    }
-
-
-                    return Ok(requestedEmployee);
-
-                }
-                catch (ArgumentNullException e)
-                {
-                    return NotFound();    
-                }
-
-
+                return NotFound();
+            }
+            else
+            {
+                return Ok(requestedEmployee);
             }
 
         }
 
         public HttpResponseMessage PostEmployee([FromBody] tblEmployee employeeAdded)
         {
-            using (EmployeeEntities employeeEntities = new EmployeeEntities())
-            {
+            
 
                 if (dao.AddingEmployeeIntoDb(employeeAdded))
                 {
@@ -74,7 +58,7 @@ namespace CrudWebApiWithDb.Controllers
                     return Request.CreateResponse(HttpStatusCode.NoContent, "Nothing inside request body");
                 }
               
-            }
+            
         }
 
         public HttpResponseMessage PutEmployee(int id,[FromBody] tblEmployee employeeFromBody )
@@ -96,35 +80,17 @@ namespace CrudWebApiWithDb.Controllers
 
         public IHttpActionResult DeleteEmployee(int id)
         {
-            try
+
+            bool status = dao.DeleteEmployeeFromDb(id);
+            if (status == false)
             {
-                using (EmployeeEntities employeeEntities = new EmployeeEntities())
-                {
-
-                    tblEmployee employeeFromQuery = employeeEntities.tblEmployees.Where(e => e.Id == id).FirstOrDefault();
-
-                    if (employeeFromQuery == null)
-                    {
-                        return NotFound();
-                      //  return Request.CreateErrorResponse(HttpStatusCode.NotFound, new ArgumentNullException());
-                    }
-                    else
-                    {
-                        employeeEntities.tblEmployees.Remove(employeeFromQuery);
-                        employeeEntities.SaveChanges();
-                        return Ok();
-                        
-                        //   return Request.CreateResponse(HttpStatusCode.OK);
-                    }
-
-                }
+                return NotFound();
             }
-            catch (Exception e)
+            else
             {
-                return BadRequest();
+                return Ok();
             }
-
-
+        
         }
 
 
