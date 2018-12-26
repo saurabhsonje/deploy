@@ -8,16 +8,25 @@ namespace MvcEmpSalHr.Controllers
 {
     public class EmployeeController : Controller
     {
-        IList<Models.Employee> empList = new List<Models.Employee>();
+      static  IList<Models.Employee> empList = new List<Models.Employee>()
+      {
+          new Models.Employee(1, "Neeraj", "Scalable", 10),
+          new Models.Employee(2, "Mahek", "Scalable", 30),
+          new Models.Employee(3, "Bharathi", "IOS", 20),
+          new Models.Employee(4, "Naren", "DC", 10),
+
+
+    };
 
         public delegate ActionResult listOfEmp(); 
 
         listOfEmp employeeList; 
 
-        public void GenerateListOfEmployee()
+        public ActionResult GenerateListOfEmployee()
         {
             employeeList = Index;
-            employeeList.Invoke();
+           ActionResult viewResult=  employeeList.Invoke();
+            return viewResult;
 
         }
 
@@ -26,30 +35,38 @@ namespace MvcEmpSalHr.Controllers
         public ActionResult Index()
         {
             
-            {
+          //  {
                 // new Models.Employee(id=1,name="Neeraj",branch="Scalable",salary=10)
-              Models.Employee e1=  new Models.Employee(id: 1, name: "Neeraj", branch: "Scalable", salary: 10);
+    /*          Models.Employee e1=  new Models.Employee(id: 1, name: "Neeraj", branch: "Scalable", salary: 10);
                 Models.Employee e2 = new Models.Employee(id: 2, name: "Ashiq", branch: "IOS", salary: 20);
                 Models.Employee e3 = new Models.Employee(id: 3, name: "Raj", branch: "JS", salary: 30);
                 Models.Employee e4 = new Models.Employee(id: 4, name: "Neeraj", branch: "Scalable", salary: 15);
-                //   empList.Add(1, "Neeraj", "Scalable", 10);
+                   
                 empList.Add(e1);
                 empList.Add(e2);
                 empList.Add(e3);
 
-                empList.Add(e4);
-            };
+                empList.Add(e4); */
+      //      };
 
            //redirect makes us reload everything and theemplist becomes zero
-            return View(empList);
+            return View("Index",empList);
         }
 
         public ActionResult HighestSalary()
         {
-             int maxSal = empList.Max(e => e.salary);
-            var highestSalEmp = empList.FirstOrDefault(e => e.salary >= maxSal);
-          //  IEnumerable<Models.Employee> highSalEmployee = empList.Where(e =>  e.salary == maxSal);
-            return View();
+            try
+            {
+                int maxSal = empList.Max(e => e.salary);
+                var highestSalEmp = empList.FirstOrDefault(e => e.salary >= maxSal);
+                //  IEnumerable<Models.Employee> highSalEmployee = empList.Where(e =>  e.salary == maxSal);
+                return View();
+            }
+            catch (ArgumentNullException e)
+            {
+                Console.WriteLine("Error occured {0}",e);
+                return null;
+            }
         }
 
         
@@ -72,7 +89,7 @@ namespace MvcEmpSalHr.Controllers
             empList.Add(employee);
 
             // return RedirectToAction("Index");
-            return View("Index");
+            return View("Index",empList);
 
 
         }
