@@ -37,6 +37,7 @@ namespace EmployeeService.Controllers
             return View(employee);
         }
 
+        //Create Employee
         public ActionResult create()
         {
             return View();
@@ -63,6 +64,7 @@ namespace EmployeeService.Controllers
             return View(employee);
         }
 
+        //Edit Employee
         public ActionResult Edit(int id)
         {
             Employee employee = null;
@@ -106,6 +108,7 @@ namespace EmployeeService.Controllers
             return View(employee);
         }
 
+        //Delete Employee
         public ActionResult Delete(int id)
         {
             using (var client = new HttpClient())
