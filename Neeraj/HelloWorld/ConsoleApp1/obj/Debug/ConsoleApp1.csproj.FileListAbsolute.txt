@@ -5,3 +5,9 @@ C:\Users\neeraj.goidani\source\repos\HelloWorld\ConsoleApp1\obj\Debug\ConsoleApp
 C:\Users\neeraj.goidani\source\repos\HelloWorld\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
 C:\Users\neeraj.goidani\source\repos\HelloWorld\ConsoleApp1\obj\Debug\ConsoleApp1.exe
 C:\Users\neeraj.goidani\source\repos\HelloWorld\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\neeraj.goidani\source\repos\TrainingAssignments\Neeraj\HelloWorld\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\neeraj.goidani\source\repos\TrainingAssignments\Neeraj\HelloWorld\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\neeraj.goidani\source\repos\TrainingAssignments\Neeraj\HelloWorld\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\neeraj.goidani\source\repos\TrainingAssignments\Neeraj\HelloWorld\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\neeraj.goidani\source\repos\TrainingAssignments\Neeraj\HelloWorld\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\neeraj.goidani\source\repos\TrainingAssignments\Neeraj\HelloWorld\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

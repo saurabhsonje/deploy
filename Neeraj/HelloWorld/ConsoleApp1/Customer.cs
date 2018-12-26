@@ -18,29 +18,47 @@ namespace ConsoleApp1
             int amount,choice=0;
             while (choice!=5) {
                 Console.WriteLine($"Please enter your choice :{name} 1.Create Account 2.Check Balance 3.Credit 4.Debit 5.Exit");
-                 choice = Convert.ToInt32(Console.ReadLine());
-                switch (choice)
+                //choice = Convert.ToInt32(Console.ReadLine());
+                //  Int32.TryParse(Console.ReadLine(), out choice);
+                try
                 {
-                    case 1: Console.WriteLine("Enter your name");
-                        name = Console.ReadLine();
-                        acc = new Account(id,name, 0);
-                        id++;
-                        break;
+                    choice = Int32.Parse(Console.ReadLine());
+                    switch (choice)
+                    {
+                        case 1:
+                            Console.WriteLine("Enter your name");
+                            name = Console.ReadLine();
+                            acc = new Account(id, name, 0); // passing 0 as initial balance
+                            id++;
+                            Console.WriteLine("Account Created for {0}", name);
+                            break;
 
-                    case 2: acc.checkBalance();
-                        break;
+                        case 2:
+                            acc.checkBalance();
+                            break;
 
-                    case 3: Console.WriteLine("Enter the amount to credit");
-                        amount = Convert.ToInt16(Console.ReadLine());
-                        acc.credit(amount);
-                        break;
+                        case 3:
+                            Console.WriteLine("Enter the amount to credit");
+                            Int32.TryParse(Console.ReadLine(), out amount);
+                            //  amount = Convert.ToInt16(Console.ReadLine());
+                            acc.credit(amount);
+                            break;
 
-                    case 4: Console.WriteLine("Enter the amount to debit");
-                        amount = Convert.ToInt16(Console.ReadLine());
-                        acc.debit(amount);
-                        break;
+                        case 4:
+                            Console.WriteLine("Enter the amount to debit");
+                            Int32.TryParse(Console.ReadLine(), out amount);
+                            //amount = Convert.ToInt16(Console.ReadLine());
+                            acc.debit(amount);
+                            break;
 
+                    }
                 }
+                catch (FormatException fe)
+                {
+                    Console.WriteLine("Incorrect type of input.");
+                }
+                
+           
             } 
 
 

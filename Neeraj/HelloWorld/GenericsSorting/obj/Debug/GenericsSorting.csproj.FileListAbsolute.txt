@@ -1,0 +1,7 @@
+C:\Users\neeraj.goidani\source\repos\TrainingAssignments\Neeraj\HelloWorld\GenericsSorting\bin\Debug\GenericsSorting.exe.config
+C:\Users\neeraj.goidani\source\repos\TrainingAssignments\Neeraj\HelloWorld\GenericsSorting\bin\Debug\GenericsSorting.exe
+C:\Users\neeraj.goidani\source\repos\TrainingAssignments\Neeraj\HelloWorld\GenericsSorting\bin\Debug\GenericsSorting.pdb
+C:\Users\neeraj.goidani\source\repos\TrainingAssignments\Neeraj\HelloWorld\GenericsSorting\obj\Debug\GenericsSorting.csprojAssemblyReference.cache
+C:\Users\neeraj.goidani\source\repos\TrainingAssignments\Neeraj\HelloWorld\GenericsSorting\obj\Debug\GenericsSorting.csproj.CoreCompileInputs.cache
+C:\Users\neeraj.goidani\source\repos\TrainingAssignments\Neeraj\HelloWorld\GenericsSorting\obj\Debug\GenericsSorting.exe
+C:\Users\neeraj.goidani\source\repos\TrainingAssignments\Neeraj\HelloWorld\GenericsSorting\obj\Debug\GenericsSorting.pdb

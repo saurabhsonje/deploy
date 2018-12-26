@@ -5,3 +5,10 @@ C:\Users\neeraj.goidani\source\repos\HelloWorld\Shapes\obj\Debug\Shapes.csprojAs
 C:\Users\neeraj.goidani\source\repos\HelloWorld\Shapes\obj\Debug\Shapes.csproj.CoreCompileInputs.cache
 C:\Users\neeraj.goidani\source\repos\HelloWorld\Shapes\obj\Debug\Shapes.exe
 C:\Users\neeraj.goidani\source\repos\HelloWorld\Shapes\obj\Debug\Shapes.pdb
+C:\Users\neeraj.goidani\source\repos\TrainingAssignments\Neeraj\HelloWorld\Shapes\bin\Debug\Shapes.exe.config
+C:\Users\neeraj.goidani\source\repos\TrainingAssignments\Neeraj\HelloWorld\Shapes\bin\Debug\Shapes.exe
+C:\Users\neeraj.goidani\source\repos\TrainingAssignments\Neeraj\HelloWorld\Shapes\bin\Debug\Shapes.pdb
+C:\Users\neeraj.goidani\source\repos\TrainingAssignments\Neeraj\HelloWorld\Shapes\obj\Debug\Shapes.csprojAssemblyReference.cache
+C:\Users\neeraj.goidani\source\repos\TrainingAssignments\Neeraj\HelloWorld\Shapes\obj\Debug\Shapes.csproj.CoreCompileInputs.cache
+C:\Users\neeraj.goidani\source\repos\TrainingAssignments\Neeraj\HelloWorld\Shapes\obj\Debug\Shapes.exe
+C:\Users\neeraj.goidani\source\repos\TrainingAssignments\Neeraj\HelloWorld\Shapes\obj\Debug\Shapes.pdb
