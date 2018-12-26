@@ -1,87 +1,57 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Net.Http;
-using System.Net.Http.Headers;
-using System.Threading.Tasks;
-using System.Web;
 using System.Web.Mvc;
 using EmployeeDb;
+using CrudWebApiWithDb;
 
 namespace CrudWebApiWithDb.Controllers
 {
     public class HomeController : Controller
     {
+        EmployeeClientToServer request = new EmployeeClientToServer();
 
-        public ActionResult Index()
+        public ActionResult getAllEmployees()
         {
-            ViewBag.Title = "Home Page";
-
-            return View();
-        }
-
-
-        public async Task<ActionResult> getAllEmployees()
-        {
-
-            HttpClient client = new HttpClient();
-            client.BaseAddress = new Uri("http://localhost:61482/");
-            client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-            HttpResponseMessage responseMessage = await client.GetAsync("api/values");
-
-           
-            if (responseMessage.IsSuccessStatusCode == true)
-            {
-                List<tblEmployee> employeeList = await responseMessage.Content.ReadAsAsync<List<tblEmployee>>();
-
-                return View(employeeList);
-            }
-            else
+            List<tblEmployee> employeeList = request.EmployeeList();
+            if (employeeList == null)
             {
                 return null;
             }
-
+            else
+            {
+                return View(employeeList);
+            }
 
 
         }
 
-
-        public ActionResult addEmployee()
+        public ActionResult AddEmployee()
         {
 
             return View();
         }
 
         [HttpPost]
-        public async Task<ActionResult> AddEmployee(FormCollection data)
+        public ActionResult AddEmployee(FormCollection data)
         {
-            int salary = Convert.ToInt32(data["salary"]);
-            string name = (data["name"]);
-            string dept = (data["dept"]);
-
-            tblEmployee employee = new tblEmployee();
-            employee.Name = name;
-            employee.Dept = dept;
-            employee.Salary = salary;
-
-            HttpClient client = new HttpClient();
-            client.BaseAddress = new Uri("http://localhost:61482/");
-
-            HttpResponseMessage responseMessage = await client.PostAsJsonAsync("api/values", employee);
-
-            if (responseMessage.IsSuccessStatusCode == true)
+            bool status = request.AddEmployee(data);
+           // tblEmployee employee= request.AddEmployee(data);
+            if (status==false)
             {
-                tblEmployee tblemployee = await responseMessage.Content.ReadAsAsync<tblEmployee>();
-                return View("employeeDetails", tblemployee);
+                return null;           
+                
             }
             else
             {
-                return null;
+                return View("SuccessAdded");
             }
+
+            
 
         }
 
-        // id is an optional parameter
+        
         public ActionResult EditEmployee(int id)
         {
             try
@@ -110,17 +80,13 @@ namespace CrudWebApiWithDb.Controllers
 
 
         [HttpPost]
-        public async Task<ActionResult> EditEmployee(tblEmployee employee)
+        public  ActionResult EditEmployee(tblEmployee employee)
         {
-            HttpClient client = new HttpClient();
-            client.BaseAddress = new Uri("http://localhost:61482/");
-            int id = employee.Id;
+            bool status = request.UpdateEmployee(employee);
 
-            HttpResponseMessage responseMessage = await client.PutAsJsonAsync($"api/values/{id}", employee);
-
-            if (responseMessage.IsSuccessStatusCode == true)
+            if (status == true)
             {
-              //  tblEmployee tblemployee = await responseMessage.Content.ReadAsAsync<tblEmployee>();
+              
                 return View("SuccessUpdate");
             }
             else
@@ -159,17 +125,12 @@ namespace CrudWebApiWithDb.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult> DeleteEmployee(tblEmployee employee)
+        public  ActionResult DeleteEmployee(tblEmployee employee)
         {
-            HttpClient client = new HttpClient();
-            client.BaseAddress = new Uri("http://localhost:61482/");
-            int id = employee.Id;
+            bool status = request.DeleteEmployee(employee);
 
-            HttpResponseMessage responseMessage = await client.DeleteAsync($"api/values/{id}");
-
-            if (responseMessage.IsSuccessStatusCode == true)
+            if (status == true)
             {
-                //  tblEmployee tblemployee = await responseMessage.Content.ReadAsAsync<tblEmployee>();
                 return View("SuccessDelete");
             }
             else
@@ -177,14 +138,6 @@ namespace CrudWebApiWithDb.Controllers
                 return null;
             }
 
-
         }
-
-
-
-
-
-
-
     }
 }

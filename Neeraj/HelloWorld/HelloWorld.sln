@@ -23,9 +23,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqLambda", "LinqLambda\Li
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcEmpSalHr", "MvcEmpSalHr\MvcEmpSalHr.csproj", "{72C6096E-436E-4B43-AAD5-80A571DD9507}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcWebAppTest1", "..\..\..\HelloWorld\MvcWebAppTest1\MvcWebAppTest1.csproj", "{BFB7037A-5456-40C9-9F51-68DEAA162895}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudAPI", "CrudAPI\CrudAPI.csproj", "{CA0176BB-4FCE-4307-9D7D-AA60A5D78B11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcWebAppTest1", "..\..\..\..\..\..\..\test\WebApplicationTrial\MvcWebAppTest1\MvcWebAppTest1.csproj", "{BFB7037A-5456-40C9-9F51-68DEAA162895}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustRelationshipManagement", "CustRelationshipManagement\CustRelationshipManagement.csproj", "{2EC86E6F-07EF-4F04-95D9-8CF703AD4C2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudWebApiWithDb", "CrudWebApiWithDb\CrudWebApiWithDb.csproj", "{C2CCB796-F0E6-4149-A40B-EA02A1018FCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeDb", "EmployeeDb\EmployeeDb.csproj", "{2361C5CE-E0B3-41C6-A4E7-B26F6B0F8C96}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,14 +79,26 @@ Global
 		{72C6096E-436E-4B43-AAD5-80A571DD9507}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72C6096E-436E-4B43-AAD5-80A571DD9507}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72C6096E-436E-4B43-AAD5-80A571DD9507}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BFB7037A-5456-40C9-9F51-68DEAA162895}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BFB7037A-5456-40C9-9F51-68DEAA162895}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BFB7037A-5456-40C9-9F51-68DEAA162895}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BFB7037A-5456-40C9-9F51-68DEAA162895}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CA0176BB-4FCE-4307-9D7D-AA60A5D78B11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CA0176BB-4FCE-4307-9D7D-AA60A5D78B11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA0176BB-4FCE-4307-9D7D-AA60A5D78B11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA0176BB-4FCE-4307-9D7D-AA60A5D78B11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFB7037A-5456-40C9-9F51-68DEAA162895}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFB7037A-5456-40C9-9F51-68DEAA162895}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFB7037A-5456-40C9-9F51-68DEAA162895}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFB7037A-5456-40C9-9F51-68DEAA162895}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EC86E6F-07EF-4F04-95D9-8CF703AD4C2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EC86E6F-07EF-4F04-95D9-8CF703AD4C2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EC86E6F-07EF-4F04-95D9-8CF703AD4C2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EC86E6F-07EF-4F04-95D9-8CF703AD4C2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2CCB796-F0E6-4149-A40B-EA02A1018FCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2CCB796-F0E6-4149-A40B-EA02A1018FCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2CCB796-F0E6-4149-A40B-EA02A1018FCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2CCB796-F0E6-4149-A40B-EA02A1018FCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2361C5CE-E0B3-41C6-A4E7-B26F6B0F8C96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2361C5CE-E0B3-41C6-A4E7-B26F6B0F8C96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2361C5CE-E0B3-41C6-A4E7-B26F6B0F8C96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2361C5CE-E0B3-41C6-A4E7-B26F6B0F8C96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

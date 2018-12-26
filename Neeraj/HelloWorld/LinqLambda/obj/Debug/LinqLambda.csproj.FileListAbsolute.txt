@@ -1,7 +1,6 @@
 C:\Users\neeraj.goidani\source\repos\TrainingAssignments\Neeraj\HelloWorld\LinqLambda\bin\Debug\LinqLambda.exe.config
 C:\Users\neeraj.goidani\source\repos\TrainingAssignments\Neeraj\HelloWorld\LinqLambda\bin\Debug\LinqLambda.exe
 C:\Users\neeraj.goidani\source\repos\TrainingAssignments\Neeraj\HelloWorld\LinqLambda\bin\Debug\LinqLambda.pdb
-C:\Users\neeraj.goidani\source\repos\TrainingAssignments\Neeraj\HelloWorld\LinqLambda\obj\Debug\LinqLambda.csprojAssemblyReference.cache
 C:\Users\neeraj.goidani\source\repos\TrainingAssignments\Neeraj\HelloWorld\LinqLambda\obj\Debug\LinqLambda.csproj.CoreCompileInputs.cache
 C:\Users\neeraj.goidani\source\repos\TrainingAssignments\Neeraj\HelloWorld\LinqLambda\obj\Debug\LinqLambda.exe
 C:\Users\neeraj.goidani\source\repos\TrainingAssignments\Neeraj\HelloWorld\LinqLambda\obj\Debug\LinqLambda.pdb

@@ -5,30 +5,25 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using EmployeeDb;
+using CrudWebApiWithDb.Dao;
 
 namespace CrudWebApiWithDb.Controllers
 {
     public class ValuesController : ApiController
     {
+        EmployeeDao dao = new EmployeeDao();
 
         public IHttpActionResult GetTblEmployees()
         {
-            using (EmployeeEntities employeeEntities = new EmployeeEntities())
+           List<tblEmployee> employeesList = dao.EmployeeListFromDb();
+
+            if (employeesList != null)
             {
-
-                try
-                {
-                    List<tblEmployee> employeeList = employeeEntities.tblEmployees.ToList();
-
-                    return Ok(employeeList);
-
-                }
-                catch (ArgumentNullException e)
-                {
-                    return NotFound();
-                }
-
-
+                return Ok(employeesList);
+            }
+            else
+            {
+                return NotFound();
             }
 
         }
@@ -69,57 +64,30 @@ namespace CrudWebApiWithDb.Controllers
             using (EmployeeEntities employeeEntities = new EmployeeEntities())
             {
 
-                try
+                if (dao.AddingEmployeeIntoDb(employeeAdded))
                 {
-                    if (employeeAdded != null)
-                    {
-                        employeeEntities.tblEmployees.Add(employeeAdded);
-                        employeeEntities.SaveChanges();
-                        return Request.CreateResponse(HttpStatusCode.OK, employeeAdded);
-                    }
-                    else
-                    {
-                        return Request.CreateResponse(HttpStatusCode.NoContent, "Nothing inside request body");
-                    }
+                    return Request.CreateResponse(HttpStatusCode.OK);
 
                 }
-                catch (Exception e)
+                else
                 {
-                    return Request.CreateResponse(HttpStatusCode.BadRequest,e);
+                    return Request.CreateResponse(HttpStatusCode.NoContent, "Nothing inside request body");
                 }
-     
-
+              
             }
         }
 
         public HttpResponseMessage PutEmployee(int id,[FromBody] tblEmployee employeeFromBody )
         {
-         
-            try
+
+            if (dao.EditingEmployeeinDb(id, employeeFromBody))
             {
-                using (EmployeeEntities employeeEntities = new EmployeeEntities())
-                {
-
-                    tblEmployee employeeFromQuery = employeeEntities.tblEmployees.Where(e => e.Id == id).FirstOrDefault();
-
-                    if (employeeFromQuery == null)
-                    {
-                        return Request.CreateErrorResponse(HttpStatusCode.NotFound, new ArgumentNullException());
-                    }
-                    else
-                    {
-                        employeeFromQuery.Name = employeeFromBody.Name;
-                        employeeFromQuery.Salary = employeeFromBody.Salary;
-                        employeeFromQuery.Dept = employeeFromBody.Dept;
-                        employeeEntities.SaveChanges();
-                        return Request.CreateResponse(HttpStatusCode.OK);
-                    }
-
-                }
+                return Request.CreateResponse(HttpStatusCode.OK);
             }
-            catch (Exception e)
+            else
             {
-                return Request.CreateErrorResponse(HttpStatusCode.BadRequest, e);
+                return Request.CreateResponse(HttpStatusCode.NotFound);
+
             }
 
 
