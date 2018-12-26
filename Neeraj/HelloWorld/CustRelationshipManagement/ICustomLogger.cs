@@ -9,5 +9,6 @@ namespace CustRelationshipManagement
     interface ICustomLogger
     {
         void setLoggin(int customerChoice);
+        
     }
 }

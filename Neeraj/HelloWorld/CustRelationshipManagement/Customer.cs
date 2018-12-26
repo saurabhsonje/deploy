@@ -25,11 +25,13 @@ namespace CustRelationshipManagement
         {
             if (customerChoice == 1)
             {
+                System.IO.File.WriteAllText(@"c:\Users\neeraj.goidani\textlog.txt", "Text Message Sent");
                 Console.WriteLine("Text Message Sent");
             }
 
             if (customerChoice == 2)
             {
+                System.IO.File.WriteAllText(@"c:\Users\neeraj.goidani\emaillog.txt", "Text Message Sent");
                 Console.WriteLine("Email Sent");
             }
 
