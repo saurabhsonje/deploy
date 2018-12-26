@@ -9,7 +9,7 @@ namespace EmployeeService.Controllers
 {
     public class EmployeeController : Controller
     {
-        // GET: Employee
+        // GET: Employee details
         public ActionResult Index()
         {
             IEnumerable<Employee> employee = null;
