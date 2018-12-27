@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="EmployeeDataModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Employee">
+          <Key>
+            <PropertyRef Name="EmpId" />
+          </Key>
+          <Property Name="EmpId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="EmpName" Type="varchar" MaxLength="50" />
+          <Property Name="EmpSalary" Type="float" />
+          <Property Name="EmpStudio" Type="varchar" MaxLength="50" />
+          <Property Name="EmpUserName" Type="varchar" MaxLength="50" />
+          <Property Name="EmpPassword" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Studio">
+          <Key>
+            <PropertyRef Name="EmpStudio" />
+          </Key>
+          <Property Name="StudioId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="EmpStudio" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="StudioInfo" Type="varchar(max)" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_Employee_Studio">
+          <End Role="Studio" Type="Self.Studio" Multiplicity="0..1" />
+          <End Role="Employee" Type="Self.Employee" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Studio">
+              <PropertyRef Name="EmpStudio" />
+            </Principal>
+            <Dependent Role="Employee">
+              <PropertyRef Name="EmpStudio" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="EmployeeDataModelStoreContainer">
+          <EntitySet Name="Employee" EntityType="Self.Employee" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Studio" EntityType="Self.Studio" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_Employee_Studio" Association="Self.FK_Employee_Studio">
+            <End Role="Studio" EntitySet="Studio" />
+            <End Role="Employee" EntitySet="Employee" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="EmployeeDataModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Employee">
+          <Key>
+            <PropertyRef Name="EmpId" />
+          </Key>
+          <Property Name="EmpId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="EmpName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="EmpSalary" Type="Double" />
+          <Property Name="EmpStudio" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="EmpUserName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="EmpPassword" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Studio" Relationship="Self.FK_Employee_Studio" FromRole="Employee" ToRole="Studio" />
+        </EntityType>
+        <EntityType Name="Studio">
+          <Key>
+            <PropertyRef Name="EmpStudio" />
+          </Key>
+          <Property Name="StudioId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="EmpStudio" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="StudioInfo" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="Employees" Relationship="Self.FK_Employee_Studio" FromRole="Studio" ToRole="Employee" />
+        </EntityType>
+        <Association Name="FK_Employee_Studio">
+          <End Role="Studio" Type="Self.Studio" Multiplicity="0..1" />
+          <End Role="Employee" Type="Self.Employee" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Studio">
+              <PropertyRef Name="EmpStudio" />
+            </Principal>
+            <Dependent Role="Employee">
+              <PropertyRef Name="EmpStudio" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="EmployeeDataEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Employees" EntityType="Self.Employee" />
+          <EntitySet Name="Studios" EntityType="Self.Studio" />
+          <AssociationSet Name="FK_Employee_Studio" Association="Self.FK_Employee_Studio">
+            <End Role="Studio" EntitySet="Studios" />
+            <End Role="Employee" EntitySet="Employees" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="EmployeeDataModelStoreContainer" CdmEntityContainer="EmployeeDataEntities">
+          <EntitySetMapping Name="Employees">
+            <EntityTypeMapping TypeName="EmployeeDataModel.Employee">
+              <MappingFragment StoreEntitySet="Employee">
+                <ScalarProperty Name="EmpId" ColumnName="EmpId" />
+                <ScalarProperty Name="EmpName" ColumnName="EmpName" />
+                <ScalarProperty Name="EmpSalary" ColumnName="EmpSalary" />
+                <ScalarProperty Name="EmpStudio" ColumnName="EmpStudio" />
+                <ScalarProperty Name="EmpUserName" ColumnName="EmpUserName" />
+                <ScalarProperty Name="EmpPassword" ColumnName="EmpPassword" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Studios">
+            <EntityTypeMapping TypeName="EmployeeDataModel.Studio">
+              <MappingFragment StoreEntitySet="Studio">
+                <ScalarProperty Name="StudioId" ColumnName="StudioId" />
+                <ScalarProperty Name="EmpStudio" ColumnName="EmpStudio" />
+                <ScalarProperty Name="StudioInfo" ColumnName="StudioInfo" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
