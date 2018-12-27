@@ -24,10 +24,9 @@ namespace WebApplication.Controllers
         [HttpPost]
         public ActionResult Create(EmployeeInformation employee)
         {
-            if (client.Create(employee))
-                return View("SuccessAdd");
-            //  return RedirectToAction("GetEmployees");
-            else
+           if( client.Create(employee))
+            return RedirectToAction("GetEmployees");
+           else
                 return RedirectToAction("Create");
         }
         [HttpGet]
@@ -35,13 +34,6 @@ namespace WebApplication.Controllers
         {
             List<EmployeeInformation> employees=client.GetEmployees();
             return View(employees);
-        }
-
-        [HttpGet]
-        public ActionResult Login()
-        {
-            return View();
-
         }
     }
 }
