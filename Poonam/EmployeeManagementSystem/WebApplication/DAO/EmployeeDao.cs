@@ -38,5 +38,17 @@ namespace WebApplication.DAO
         {
             return db.EmployeeInformations.ToList();
         }
+
+
+        public EmployeeInformation GetSingleEmployee()
+        {
+            using (EmployeeDbEntities2 db1 = new EmployeeDbEntities2())
+            {
+                db1.EmployeeInformations.Any()
+
+
+            }
+
+        }
     }
 }
