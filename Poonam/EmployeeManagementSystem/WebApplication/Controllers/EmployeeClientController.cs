@@ -1,4 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
 using System.Web.Mvc;
 using WebApplication.HttpClients;
 namespace WebApplication.Controllers
@@ -10,7 +13,7 @@ namespace WebApplication.Controllers
         public ActionResult Index()
         {
             
-            return View();
+            return View("");
 
         }
         [HttpGet]
@@ -21,9 +24,10 @@ namespace WebApplication.Controllers
         [HttpPost]
         public ActionResult Create(EmployeeInformation employee)
         {
-           if( client.Create(employee))
-            return RedirectToAction("GetEmployees");
-           else
+            if (client.Create(employee))
+                return View("SuccessAdd");
+            //  return RedirectToAction("GetEmployees");
+            else
                 return RedirectToAction("Create");
         }
         [HttpGet]
@@ -32,6 +36,24 @@ namespace WebApplication.Controllers
             List<EmployeeInformation> employees=client.GetEmployees();
             return View(employees);
         }
-      
+
+        [HttpGet]
+        public ActionResult Login()
+        {
+            return View();
+
+        }
+
+
+        [HttpPost]
+        public ActionResult Login(EmployeeInformation employee)
+        {
+            bool status = client.ValidEmployeeCredentials(employee);
+
+            return View();
+
+
+
+        }
     }
 }
