@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EmployeeDbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="EmployeeInformation">
+    <Key>
+      <PropertyRef Name="EmpId" />
+    </Key>
+    <Property Name="EmpId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="EmpName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="EmpSalary" Type="int" Nullable="false" />
+    <Property Name="EmpStudio" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="EmpUserName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="EmpPassword" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="StudioInformation">
+    <Key>
+      <PropertyRef Name="EmpStudio" />
+    </Key>
+    <Property Name="StudioId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="EmpStudio" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="StudioInformation" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_EmployeeInformation_StudioInformation">
+    <End Role="StudioInformation" Type="Self.StudioInformation" Multiplicity="1" />
+    <End Role="EmployeeInformation" Type="Self.EmployeeInformation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StudioInformation">
+        <PropertyRef Name="EmpStudio" />
+      </Principal>
+      <Dependent Role="EmployeeInformation">
+        <PropertyRef Name="EmpStudio" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="EmployeeDbModelStoreContainer">
+    <EntitySet Name="EmployeeInformation" EntityType="Self.EmployeeInformation" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="StudioInformation" EntityType="Self.StudioInformation" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_EmployeeInformation_StudioInformation" Association="Self.FK_EmployeeInformation_StudioInformation">
+      <End Role="StudioInformation" EntitySet="StudioInformation" />
+      <End Role="EmployeeInformation" EntitySet="EmployeeInformation" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
