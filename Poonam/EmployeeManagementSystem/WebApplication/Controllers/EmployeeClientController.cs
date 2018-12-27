@@ -12,7 +12,9 @@ namespace WebApplication.Controllers
         // GET: EmployeeClient
         public ActionResult Index()
         {
-            return View();
+            
+            return View("");
+
         }
         [HttpGet]
         public ActionResult Create()
