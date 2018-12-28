@@ -59,18 +59,5 @@ namespace WebApplication.HttpClients
             }
 
         }
-
-        public bool ValidEmployeeCredentials(EmployeeInformation employee)
-        {
-            HttpClient client = new HttpClient();
-            client.BaseAddress = new Uri("http://localhost:54297/");
-            client.DefaultRequestHeaders.Accept.Clear();
-            client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-            HttpResponseMessage response = client.PostAsJsonAsync("api/employee/", employee).Result;
-
-
-
-        }
-
     }
 }

@@ -56,13 +56,5 @@ namespace WebApplication.Controllers
         }
 
 
-        public IHttpActionResult GetEmployee()
-        {
-            EmployeeInformation employee = dao.
-
-
-        }
-
-
     }
 }
