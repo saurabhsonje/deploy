@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EmployeeDataModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="EmpId" />
+    </Key>
+    <Property Name="EmpId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="EmpName" Type="varchar" MaxLength="50" />
+    <Property Name="EmpSalary" Type="float" />
+    <Property Name="EmpStudio" Type="varchar" MaxLength="50" />
+    <Property Name="EmpUserName" Type="varchar" MaxLength="50" />
+    <Property Name="EmpPassword" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Studio">
+    <Key>
+      <PropertyRef Name="EmpStudio" />
+    </Key>
+    <Property Name="StudioId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="EmpStudio" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="StudioInfo" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Employee_Studio">
+    <End Role="Studio" Type="Self.Studio" Multiplicity="0..1" />
+    <End Role="Employee" Type="Self.Employee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Studio">
+        <PropertyRef Name="EmpStudio" />
+      </Principal>
+      <Dependent Role="Employee">
+        <PropertyRef Name="EmpStudio" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="EmployeeDataModelStoreContainer">
+    <EntitySet Name="Employee" EntityType="Self.Employee" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Studio" EntityType="Self.Studio" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Employee_Studio" Association="Self.FK_Employee_Studio">
+      <End Role="Studio" EntitySet="Studio" />
+      <End Role="Employee" EntitySet="Employee" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
