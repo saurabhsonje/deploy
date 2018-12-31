@@ -15,11 +15,17 @@ namespace EmployeeManagementSystem
             // Web API routes
             config.MapHttpAttributeRoutes();
 
+
             config.Routes.MapHttpRoute(
-                name: "DefaultApi",
+                name: "EmployeeApi",
                 routeTemplate: "api/{controller}/{id}",
-                defaults: new { id = RouteParameter.Optional }
+                defaults: new
+                {
+                    id = RouteParameter.Optional
+
+                }
             );
+
             config.Formatters.Remove(config.Formatters.XmlFormatter);
             config.Formatters.JsonFormatter.SupportedMediaTypes.Add(new MediaTypeHeaderValue("application/json"));
             config.Formatters.JsonFormatter.SerializerSettings.ReferenceLoopHandling

@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Threading;
 using System.Web.Http;
 
 namespace EmployeeManagementSystem.Controllers
@@ -12,6 +13,7 @@ namespace EmployeeManagementSystem.Controllers
     {
         EmployeeDao dao = new EmployeeDao();
         [HttpPost]
+       
         public IHttpActionResult AddEmployee(Employee employee)
         {
             if (employee == null)
@@ -34,16 +36,27 @@ namespace EmployeeManagementSystem.Controllers
             }
         }
          [HttpGet]
-         public List<Employee> GetEmployees()
+        [BasicAuthentication]
+        public IHttpActionResult GetEmployees()
          {
-             return dao.GetEmployees();
+            string username = Thread.CurrentPrincipal.Identity.Name;
+            if (username != "")
+                return Ok(dao.GetEmployees());
+            else
+            {
+                return NotFound();
+            }
          }
         [HttpDelete]
+       
         public void DeleteEmployees(int id)
         {
             dao.DeleteById(id);
         }
+
+
         [HttpGet]
+        [Route("api/employeeapi/employee/{id}")]
         public Employee GetEmployee(int id)
         {
             return dao.GetEmployee(id);
@@ -53,6 +66,38 @@ namespace EmployeeManagementSystem.Controllers
         {
             dao.UpdateEmployee(id,employee);
         }
+
+
+        
+        [HttpPost]
+        [Route("api/employeeapi/login")]
+        public IHttpActionResult Check(Employee employee)
+        {
+            bool validUser = EmployeeSecurity.Login(employee.EmpUserName, employee.EmpPassword);
+            if (validUser)
+            {
+                
+                return Ok();
+            }
+            else
+            {
+                return NotFound();
+            }
+
+            
+        }
+
+        [BasicAuthentication]
+        [HttpGet]
+        [Route("api/employeeapi/studio/{id}")]
+        public Studio GetStudio(int id)
+        {
+           
+            return dao.GetStudio(id);
+        }
+
+
+
 
     }
 }

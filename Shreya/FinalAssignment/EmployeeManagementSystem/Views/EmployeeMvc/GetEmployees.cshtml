@@ -35,7 +35,9 @@
             </td>
 
             <td>
-                @Html.DisplayFor(modelItem => item.EmpStudio)
+              
+                @Html.ActionLink(item.EmpStudio, "GetStudio", new { id = item.Studio.StudioId })
+
             </td>
             <td>
                 @Html.ActionLink("Edit", "Edit", new { id = item.EmpId }) |

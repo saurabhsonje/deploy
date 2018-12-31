@@ -1,0 +1,37 @@
+﻿@model EmployeeManagementSystem.Studio
+
+@{
+    ViewBag.Title = "GetStudio";
+}
+
+<h2>GetStudio</h2>
+
+<div>
+    <h4>Studio</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.StudioId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StudioId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.StudioInfo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StudioInfo)
+        </dd>
+
+    </dl>
+</div>
+<p>
+
+    @Html.ActionLink("Back to List", "GetEmployees")
+
+    <h1> @Html.ActionLink("Logout", "Logout")</h1>
+</p>
+

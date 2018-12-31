@@ -84,5 +84,11 @@ namespace EmployeeManagementSystem.DAO
             db.Employees.Where(x => x.EmpId == id).FirstOrDefault().EmpStudio = employee.EmpStudio;
             db.SaveChanges();
         }
+
+        public Studio GetStudio(int id)
+        {
+            Studio studio = db.Studios.Where(x => x.StudioId == id).FirstOrDefault();
+            return studio;
+        }
     }
 }
