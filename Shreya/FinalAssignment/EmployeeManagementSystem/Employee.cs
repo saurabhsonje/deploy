@@ -16,7 +16,7 @@ namespace EmployeeManagementSystem
     {
         public int EmpId { get; set; }
         public string EmpName { get; set; }
-        public Nullable<double> EmpSalary { get; set; }
+        public double EmpSalary { get; set; }
         public string EmpStudio { get; set; }
         public string EmpUserName { get; set; }
         public string EmpPassword { get; set; }

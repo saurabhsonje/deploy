@@ -31,8 +31,9 @@ namespace EmployeeManagementSystem
 
                   if (EmployeeSecurity.Login(usrname, pwd))
                   {
-                      Thread.CurrentPrincipal = new GenericPrincipal(new GenericIdentity(usrname), null);
-                  }
+                    // Thread.CurrentPrincipal = new GenericPrincipal(new GenericIdentity(usrname), null);
+                 //   actionContext.Response = actionContext.Request.CreateResponse(System.Net.HttpStatusCode.Accepted);
+                }
                   else
                   {
                       actionContext.Response = actionContext.Request.CreateResponse(System.Net.HttpStatusCode.Unauthorized);

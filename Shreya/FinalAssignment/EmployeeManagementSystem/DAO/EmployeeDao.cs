@@ -11,7 +11,7 @@ namespace EmployeeManagementSystem.DAO
 {
     public class EmployeeDao
     {
-        EmployeeDataEntities1 db = new EmployeeDataEntities1();
+        EmployeeDataEntities2 db = new EmployeeDataEntities2();
         public bool AddEmployee(Employee employee)
         {
             try

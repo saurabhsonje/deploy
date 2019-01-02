@@ -12,7 +12,7 @@ namespace EmployeeManagementSystem
     {
         public static bool Login(string username, string password)
         {
-            using (EmployeeDataEntities1 db = new EmployeeDataEntities1())
+            using (EmployeeDataEntities2 db = new EmployeeDataEntities2())
             {
 
                 if (db.Employees.Any(e => e.EmpUserName.Equals(username) && e.EmpPassword.Equals(password)))

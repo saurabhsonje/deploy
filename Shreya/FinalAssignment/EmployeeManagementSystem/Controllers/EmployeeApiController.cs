@@ -35,20 +35,25 @@ namespace EmployeeManagementSystem.Controllers
                 return NotFound();
             }
         }
-         [HttpGet]
+
+        [HttpGet]
         [BasicAuthentication]
         public IHttpActionResult GetEmployees()
          {
-            string username = Thread.CurrentPrincipal.Identity.Name;
+        /*    string username = Thread.CurrentPrincipal.Identity.Name;
             if (username != "")
                 return Ok(dao.GetEmployees());
             else
             {
                 return NotFound();
-            }
-         }
+            } */
+
+            return Ok(dao.GetEmployees());
+
+
+        }
+
         [HttpDelete]
-       
         public void DeleteEmployees(int id)
         {
             dao.DeleteById(id);

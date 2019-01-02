@@ -6,8 +6,10 @@
 
 <h2>Login</h2>
 
-@using (Html.BeginForm()) 
+@using (Html.BeginForm())
 {
+  
+    
     @Html.AntiForgeryToken()
     
     <div class="form-horizontal">
@@ -18,7 +20,7 @@
         <div class="form-group">
             @Html.LabelFor(model => model.EmpUserName, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.EmpUserName, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.EditorFor(model => model.EmpUserName, new { htmlAttributes = new { @class = "form-control", required = "required" , } })
                 @Html.ValidationMessageFor(model => model.EmpUserName, "", new { @class = "text-danger" })
             </div>
         </div>
@@ -26,7 +28,7 @@
         <div class="form-group">
             @Html.LabelFor(model => model.EmpPassword, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.PasswordFor(model => model.EmpPassword, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.PasswordFor(model => model.EmpPassword, new { htmlAttributes = new { @class = "form-control", required = "required"} })
                 @Html.ValidationMessageFor(model => model.EmpPassword, "", new { @class = "text-danger" })
             </div>
         </div>
