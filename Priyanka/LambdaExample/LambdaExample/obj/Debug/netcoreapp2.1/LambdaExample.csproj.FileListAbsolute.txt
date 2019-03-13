@@ -1,0 +1,11 @@
+C:\Users\priyanka.thakur\source\repos\LambdaExample\LambdaExample\bin\Debug\netcoreapp2.1\LambdaExample.deps.json
+C:\Users\priyanka.thakur\source\repos\LambdaExample\LambdaExample\bin\Debug\netcoreapp2.1\LambdaExample.runtimeconfig.json
+C:\Users\priyanka.thakur\source\repos\LambdaExample\LambdaExample\bin\Debug\netcoreapp2.1\LambdaExample.runtimeconfig.dev.json
+C:\Users\priyanka.thakur\source\repos\LambdaExample\LambdaExample\bin\Debug\netcoreapp2.1\LambdaExample.dll
+C:\Users\priyanka.thakur\source\repos\LambdaExample\LambdaExample\bin\Debug\netcoreapp2.1\LambdaExample.pdb
+C:\Users\priyanka.thakur\source\repos\LambdaExample\LambdaExample\obj\Debug\netcoreapp2.1\LambdaExample.csprojAssemblyReference.cache
+C:\Users\priyanka.thakur\source\repos\LambdaExample\LambdaExample\obj\Debug\netcoreapp2.1\LambdaExample.csproj.CoreCompileInputs.cache
+C:\Users\priyanka.thakur\source\repos\LambdaExample\LambdaExample\obj\Debug\netcoreapp2.1\LambdaExample.AssemblyInfoInputs.cache
+C:\Users\priyanka.thakur\source\repos\LambdaExample\LambdaExample\obj\Debug\netcoreapp2.1\LambdaExample.AssemblyInfo.cs
+C:\Users\priyanka.thakur\source\repos\LambdaExample\LambdaExample\obj\Debug\netcoreapp2.1\LambdaExample.dll
+C:\Users\priyanka.thakur\source\repos\LambdaExample\LambdaExample\obj\Debug\netcoreapp2.1\LambdaExample.pdb
