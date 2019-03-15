@@ -1,0 +1,11 @@
+C:\Users\priyanka.thakur\source\repos\DelegateApp\DelegateApp\bin\Debug\netcoreapp2.1\DelegateApp.deps.json
+C:\Users\priyanka.thakur\source\repos\DelegateApp\DelegateApp\bin\Debug\netcoreapp2.1\DelegateApp.runtimeconfig.json
+C:\Users\priyanka.thakur\source\repos\DelegateApp\DelegateApp\bin\Debug\netcoreapp2.1\DelegateApp.runtimeconfig.dev.json
+C:\Users\priyanka.thakur\source\repos\DelegateApp\DelegateApp\bin\Debug\netcoreapp2.1\DelegateApp.dll
+C:\Users\priyanka.thakur\source\repos\DelegateApp\DelegateApp\bin\Debug\netcoreapp2.1\DelegateApp.pdb
+C:\Users\priyanka.thakur\source\repos\DelegateApp\DelegateApp\obj\Debug\netcoreapp2.1\DelegateApp.csprojAssemblyReference.cache
+C:\Users\priyanka.thakur\source\repos\DelegateApp\DelegateApp\obj\Debug\netcoreapp2.1\DelegateApp.csproj.CoreCompileInputs.cache
+C:\Users\priyanka.thakur\source\repos\DelegateApp\DelegateApp\obj\Debug\netcoreapp2.1\DelegateApp.AssemblyInfoInputs.cache
+C:\Users\priyanka.thakur\source\repos\DelegateApp\DelegateApp\obj\Debug\netcoreapp2.1\DelegateApp.AssemblyInfo.cs
+C:\Users\priyanka.thakur\source\repos\DelegateApp\DelegateApp\obj\Debug\netcoreapp2.1\DelegateApp.dll
+C:\Users\priyanka.thakur\source\repos\DelegateApp\DelegateApp\obj\Debug\netcoreapp2.1\DelegateApp.pdb

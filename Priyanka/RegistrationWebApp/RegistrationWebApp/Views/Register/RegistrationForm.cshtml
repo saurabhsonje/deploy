@@ -1,0 +1,74 @@
+﻿@model RegistrationWebApp.Models.Register
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Registration Form</title>
+
+</head>
+<body>
+    @using (Html.BeginForm())
+    {
+        @Html.ValidationSummary()
+        <table border="1" class="table">
+            <tr>
+                <td>
+                    First Name
+                </td>
+                <td>
+                    @Html.TextBoxFor(x => x.firstName)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Last Name
+                </td>
+                <td>
+                    @Html.TextBoxFor(x => x.lastName)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Gender
+                </td>
+                <td>
+                     @Html.TextBoxFor(x=>x.gender)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Contact Number
+                </td>
+                <td>
+                    @Html.TextBoxFor(x => x.contact)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    City
+                </td>
+                <td>
+                    @Html.TextBoxFor(x => x.city)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Email-ID
+                </td>
+                <td>
+                    @Html.TextBoxFor(x => x.email)
+                </td>
+            </tr>
+
+        </table>
+        <input type="submit" value="Register" />
+    }
+</body>
+</html>

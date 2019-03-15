@@ -1,0 +1,11 @@
+C:\Users\priyanka.thakur\source\repos\LinqApp\LinqApp\bin\Debug\netcoreapp2.1\LinqApp.deps.json
+C:\Users\priyanka.thakur\source\repos\LinqApp\LinqApp\bin\Debug\netcoreapp2.1\LinqApp.runtimeconfig.json
+C:\Users\priyanka.thakur\source\repos\LinqApp\LinqApp\bin\Debug\netcoreapp2.1\LinqApp.runtimeconfig.dev.json
+C:\Users\priyanka.thakur\source\repos\LinqApp\LinqApp\bin\Debug\netcoreapp2.1\LinqApp.dll
+C:\Users\priyanka.thakur\source\repos\LinqApp\LinqApp\bin\Debug\netcoreapp2.1\LinqApp.pdb
+C:\Users\priyanka.thakur\source\repos\LinqApp\LinqApp\obj\Debug\netcoreapp2.1\LinqApp.csproj.CoreCompileInputs.cache
+C:\Users\priyanka.thakur\source\repos\LinqApp\LinqApp\obj\Debug\netcoreapp2.1\LinqApp.AssemblyInfoInputs.cache
+C:\Users\priyanka.thakur\source\repos\LinqApp\LinqApp\obj\Debug\netcoreapp2.1\LinqApp.AssemblyInfo.cs
+C:\Users\priyanka.thakur\source\repos\LinqApp\LinqApp\obj\Debug\netcoreapp2.1\LinqApp.dll
+C:\Users\priyanka.thakur\source\repos\LinqApp\LinqApp\obj\Debug\netcoreapp2.1\LinqApp.pdb
+C:\Users\priyanka.thakur\source\repos\LinqApp\LinqApp\obj\Debug\netcoreapp2.1\LinqApp.csprojAssemblyReference.cache

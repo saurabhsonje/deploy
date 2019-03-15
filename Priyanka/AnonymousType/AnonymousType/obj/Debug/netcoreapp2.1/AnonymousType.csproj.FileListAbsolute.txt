@@ -1,0 +1,11 @@
+C:\Users\priyanka.thakur\source\repos\AnonymousType\AnonymousType\bin\Debug\netcoreapp2.1\AnonymousType.deps.json
+C:\Users\priyanka.thakur\source\repos\AnonymousType\AnonymousType\bin\Debug\netcoreapp2.1\AnonymousType.runtimeconfig.json
+C:\Users\priyanka.thakur\source\repos\AnonymousType\AnonymousType\bin\Debug\netcoreapp2.1\AnonymousType.runtimeconfig.dev.json
+C:\Users\priyanka.thakur\source\repos\AnonymousType\AnonymousType\bin\Debug\netcoreapp2.1\AnonymousType.dll
+C:\Users\priyanka.thakur\source\repos\AnonymousType\AnonymousType\bin\Debug\netcoreapp2.1\AnonymousType.pdb
+C:\Users\priyanka.thakur\source\repos\AnonymousType\AnonymousType\obj\Debug\netcoreapp2.1\AnonymousType.csproj.CoreCompileInputs.cache
+C:\Users\priyanka.thakur\source\repos\AnonymousType\AnonymousType\obj\Debug\netcoreapp2.1\AnonymousType.AssemblyInfoInputs.cache
+C:\Users\priyanka.thakur\source\repos\AnonymousType\AnonymousType\obj\Debug\netcoreapp2.1\AnonymousType.AssemblyInfo.cs
+C:\Users\priyanka.thakur\source\repos\AnonymousType\AnonymousType\obj\Debug\netcoreapp2.1\AnonymousType.dll
+C:\Users\priyanka.thakur\source\repos\AnonymousType\AnonymousType\obj\Debug\netcoreapp2.1\AnonymousType.pdb
+C:\Users\priyanka.thakur\source\repos\AnonymousType\AnonymousType\obj\Debug\netcoreapp2.1\AnonymousType.csprojAssemblyReference.cache

@@ -1,0 +1,11 @@
+C:\Users\priyanka.thakur\source\repos\ExtensionMethod\ExtensionMethod\bin\Debug\netcoreapp2.1\ExtensionMethod.deps.json
+C:\Users\priyanka.thakur\source\repos\ExtensionMethod\ExtensionMethod\bin\Debug\netcoreapp2.1\ExtensionMethod.runtimeconfig.json
+C:\Users\priyanka.thakur\source\repos\ExtensionMethod\ExtensionMethod\bin\Debug\netcoreapp2.1\ExtensionMethod.runtimeconfig.dev.json
+C:\Users\priyanka.thakur\source\repos\ExtensionMethod\ExtensionMethod\bin\Debug\netcoreapp2.1\ExtensionMethod.dll
+C:\Users\priyanka.thakur\source\repos\ExtensionMethod\ExtensionMethod\bin\Debug\netcoreapp2.1\ExtensionMethod.pdb
+C:\Users\priyanka.thakur\source\repos\ExtensionMethod\ExtensionMethod\obj\Debug\netcoreapp2.1\ExtensionMethod.csprojAssemblyReference.cache
+C:\Users\priyanka.thakur\source\repos\ExtensionMethod\ExtensionMethod\obj\Debug\netcoreapp2.1\ExtensionMethod.csproj.CoreCompileInputs.cache
+C:\Users\priyanka.thakur\source\repos\ExtensionMethod\ExtensionMethod\obj\Debug\netcoreapp2.1\ExtensionMethod.AssemblyInfoInputs.cache
+C:\Users\priyanka.thakur\source\repos\ExtensionMethod\ExtensionMethod\obj\Debug\netcoreapp2.1\ExtensionMethod.AssemblyInfo.cs
+C:\Users\priyanka.thakur\source\repos\ExtensionMethod\ExtensionMethod\obj\Debug\netcoreapp2.1\ExtensionMethod.dll
+C:\Users\priyanka.thakur\source\repos\ExtensionMethod\ExtensionMethod\obj\Debug\netcoreapp2.1\ExtensionMethod.pdb
