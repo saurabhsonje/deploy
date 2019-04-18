@@ -1,0 +1,70 @@
+﻿@model EmployeeManagementSystemApplication.Models.RegistrationModel
+
+@{
+    ViewBag.Title = "GetEmployeeByID";
+}
+
+<h2>Employee Details</h2>
+<div align="right">
+    <input type="button" value="Logout" onclick="location.href='@Url.Action("Logout", "MainCommonMvc")'" />
+</div>
+
+<div>
+    
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayName("Email ID")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EmailID)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("User Name")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserName)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Age")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Age)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Salary")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Salary)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Role")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Role)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Studio")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StudioName)
+        </dd>
+
+        
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "UpdateEmployee", new { id = Model.EmployeeID }) |
+    @Html.ActionLink("Employee List", "GetAllEmployees")
+</p>

@@ -1,0 +1,49 @@
+﻿@model IEnumerable<EmployeeManagementSystemApplication.Models.StudioModel>
+
+@{
+    ViewBag.Title = "GetStudioList";
+}
+
+<h2>Studio List</h2>
+<div align="right">
+    <input type="button" value="Logout" onclick="location.href='@Url.Action("Logout", "MainCommonMvc")'" />
+</div>
+<p>
+    @Html.ActionLink("Create Studio", "AddStudio")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayName("Studio Name")
+        </th>
+        <th>
+            @Html.DisplayName("Studio Description")
+        </th>
+        <th>
+            @Html.DisplayName("Tech Director")
+        </th>
+       
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.StudioName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.StudioDescription)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TechDirector)
+        </td>
+       
+        <td>
+            @Html.ActionLink("Edit", "UpdateStudio", new { id=item.StudioID }) |
+            @Html.ActionLink("Details", "GetStudioByID", new { id=item.StudioID }) |
+            @Html.ActionLink("Delete", "DeleteStudio", new { id=item.StudioID })
+        </td>
+    </tr>
+}
+
+</table>

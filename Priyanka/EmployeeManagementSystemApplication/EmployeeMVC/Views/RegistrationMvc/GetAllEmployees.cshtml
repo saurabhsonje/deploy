@@ -1,0 +1,66 @@
+﻿@model IEnumerable<EmployeeManagementSystemApplication.Models.RegistrationModel>
+
+@{
+    ViewBag.Title = "GetAllEmployees";
+}
+
+<h2>Employee List</h2>
+<div align="right">
+    <input type="button" value="Logout" onclick="location.href='@Url.Action("Logout", "MainCommonMvc")'" />
+</div>
+<p>
+    @Html.ActionLink("Register", "RegisterEmployee")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayName("Email ID")
+        </th>
+        <th>
+            @Html.DisplayName("User Name")
+        </th>
+        <th>
+            @Html.DisplayName("Age")
+        </th>
+        <th>
+            @Html.DisplayName("Salary")
+        </th>
+        <th>
+            @Html.DisplayName("Role")
+        </th>
+        <th>
+            @Html.DisplayName("Studio")
+  </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.EmailID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UserName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Age)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Salary)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Role)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.StudioName)
+        </td>
+       
+        <td>
+            @Html.ActionLink("Edit", "UpdateEmployee", new { id=item.EmployeeID }) |
+            @Html.ActionLink("Details", "GetEmployeeByID", new { id=item.EmployeeID }) |
+            @Html.ActionLink("Delete", "DeleteEmployee", new { id=item.EmployeeID })
+        </td>
+    </tr>
+}
+
+</table>

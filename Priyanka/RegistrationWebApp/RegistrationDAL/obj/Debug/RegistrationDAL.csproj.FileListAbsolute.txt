@@ -1,0 +1,12 @@
+C:\Users\priyanka.thakur\source\repos\RegistrationWebApp\RegistrationDAL\bin\Debug\RegistrationDAL.dll.config
+C:\Users\priyanka.thakur\source\repos\RegistrationWebApp\RegistrationDAL\bin\Debug\RegistrationDAL.dll
+C:\Users\priyanka.thakur\source\repos\RegistrationWebApp\RegistrationDAL\bin\Debug\RegistrationDAL.pdb
+C:\Users\priyanka.thakur\source\repos\RegistrationWebApp\RegistrationDAL\bin\Debug\EntityFramework.dll
+C:\Users\priyanka.thakur\source\repos\RegistrationWebApp\RegistrationDAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\priyanka.thakur\source\repos\RegistrationWebApp\RegistrationDAL\bin\Debug\EntityFramework.xml
+C:\Users\priyanka.thakur\source\repos\RegistrationWebApp\RegistrationDAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\priyanka.thakur\source\repos\RegistrationWebApp\RegistrationDAL\obj\Debug\RegistrationDAL.csproj.CoreCompileInputs.cache
+C:\Users\priyanka.thakur\source\repos\RegistrationWebApp\RegistrationDAL\obj\Debug\RegistrationDAL.csproj.CopyComplete
+C:\Users\priyanka.thakur\source\repos\RegistrationWebApp\RegistrationDAL\obj\Debug\RegistrationDAL.dll
+C:\Users\priyanka.thakur\source\repos\RegistrationWebApp\RegistrationDAL\obj\Debug\RegistrationDAL.pdb
+C:\Users\priyanka.thakur\source\repos\RegistrationWebApp\RegistrationDAL\obj\Debug\RegistrationDAL.csprojAssemblyReference.cache
