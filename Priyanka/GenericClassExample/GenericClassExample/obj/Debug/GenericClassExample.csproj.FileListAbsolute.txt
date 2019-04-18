@@ -1,0 +1,6 @@
+C:\DotNetTraining\Assignments\Priyanka\GenericClassExample\GenericClassExample\bin\Debug\GenericClassExample.exe.config
+C:\DotNetTraining\Assignments\Priyanka\GenericClassExample\GenericClassExample\bin\Debug\GenericClassExample.exe
+C:\DotNetTraining\Assignments\Priyanka\GenericClassExample\GenericClassExample\bin\Debug\GenericClassExample.pdb
+C:\DotNetTraining\Assignments\Priyanka\GenericClassExample\GenericClassExample\obj\Debug\GenericClassExample.csproj.CoreCompileInputs.cache
+C:\DotNetTraining\Assignments\Priyanka\GenericClassExample\GenericClassExample\obj\Debug\GenericClassExample.exe
+C:\DotNetTraining\Assignments\Priyanka\GenericClassExample\GenericClassExample\obj\Debug\GenericClassExample.pdb

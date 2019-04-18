@@ -1,0 +1,7 @@
+C:\DotNetTraining\Assignments\Priyanka\MyThread\MyThread\bin\Debug\MyThread.exe.config
+C:\DotNetTraining\Assignments\Priyanka\MyThread\MyThread\bin\Debug\MyThread.exe
+C:\DotNetTraining\Assignments\Priyanka\MyThread\MyThread\bin\Debug\MyThread.pdb
+C:\DotNetTraining\Assignments\Priyanka\MyThread\MyThread\obj\Debug\MyThread.csprojAssemblyReference.cache
+C:\DotNetTraining\Assignments\Priyanka\MyThread\MyThread\obj\Debug\MyThread.csproj.CoreCompileInputs.cache
+C:\DotNetTraining\Assignments\Priyanka\MyThread\MyThread\obj\Debug\MyThread.exe
+C:\DotNetTraining\Assignments\Priyanka\MyThread\MyThread\obj\Debug\MyThread.pdb

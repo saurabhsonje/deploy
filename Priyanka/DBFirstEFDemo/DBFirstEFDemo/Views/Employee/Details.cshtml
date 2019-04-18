@@ -1,0 +1,38 @@
+﻿@model DBFirstEFDemo.Employee
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayName("Employee Name")
+        </th>
+   
+        <th>
+            @Html.DisplayName("Employee Salary")
+        </th>
+        <th>
+            @Html.DisplayName("Department")
+        </th>
+    </tr>
+   
+        <tr>
+            <td>
+                @Html.DisplayFor(model => model.EmployeeName)
+            </td>
+       
+        <td>
+            @Html.DisplayFor(model => model.EmployeeSalary)
+        </td>
+
+        <td>
+            @Html.DisplayFor(model => model.Department.DepartmentName)
+        </td>
+    </tr>
+
+</table>
+
