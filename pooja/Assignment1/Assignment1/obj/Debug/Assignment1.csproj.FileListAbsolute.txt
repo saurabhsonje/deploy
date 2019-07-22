@@ -1,0 +1,7 @@
+C:\Users\pooja.yerva\Documents\Visual Studio 2017\Projects\Assignment1\Assignment1\bin\Debug\Assignment1.exe.config
+C:\Users\pooja.yerva\Documents\Visual Studio 2017\Projects\Assignment1\Assignment1\bin\Debug\Assignment1.exe
+C:\Users\pooja.yerva\Documents\Visual Studio 2017\Projects\Assignment1\Assignment1\bin\Debug\Assignment1.pdb
+C:\Users\pooja.yerva\Documents\Visual Studio 2017\Projects\Assignment1\Assignment1\obj\Debug\Assignment1.csprojAssemblyReference.cache
+C:\Users\pooja.yerva\Documents\Visual Studio 2017\Projects\Assignment1\Assignment1\obj\Debug\Assignment1.csproj.CoreCompileInputs.cache
+C:\Users\pooja.yerva\Documents\Visual Studio 2017\Projects\Assignment1\Assignment1\obj\Debug\Assignment1.exe
+C:\Users\pooja.yerva\Documents\Visual Studio 2017\Projects\Assignment1\Assignment1\obj\Debug\Assignment1.pdb
