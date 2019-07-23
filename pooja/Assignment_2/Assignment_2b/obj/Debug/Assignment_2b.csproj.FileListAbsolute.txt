@@ -1,0 +1,6 @@
+C:\Users\pooja.yerva\Documents\Visual Studio 2017\Projects\Assignment_2\Assignment_2b\bin\Debug\Assignment_2b.exe.config
+C:\Users\pooja.yerva\Documents\Visual Studio 2017\Projects\Assignment_2\Assignment_2b\bin\Debug\Assignment_2b.exe
+C:\Users\pooja.yerva\Documents\Visual Studio 2017\Projects\Assignment_2\Assignment_2b\bin\Debug\Assignment_2b.pdb
+C:\Users\pooja.yerva\Documents\Visual Studio 2017\Projects\Assignment_2\Assignment_2b\obj\Debug\Assignment_2b.csproj.CoreCompileInputs.cache
+C:\Users\pooja.yerva\Documents\Visual Studio 2017\Projects\Assignment_2\Assignment_2b\obj\Debug\Assignment_2b.exe
+C:\Users\pooja.yerva\Documents\Visual Studio 2017\Projects\Assignment_2\Assignment_2b\obj\Debug\Assignment_2b.pdb
