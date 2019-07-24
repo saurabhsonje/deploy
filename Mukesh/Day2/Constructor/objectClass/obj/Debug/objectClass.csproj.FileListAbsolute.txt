@@ -1,0 +1,7 @@
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\objectClass\objectClass\bin\Debug\objectClass.exe.config
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\objectClass\objectClass\bin\Debug\objectClass.exe
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\objectClass\objectClass\bin\Debug\objectClass.pdb
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\objectClass\objectClass\obj\Debug\objectClass.csproj.CoreCompileInputs.cache
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\objectClass\objectClass\obj\Debug\objectClass.exe
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\objectClass\objectClass\obj\Debug\objectClass.pdb
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\objectClass\objectClass\obj\Debug\objectClass.csprojAssemblyReference.cache
