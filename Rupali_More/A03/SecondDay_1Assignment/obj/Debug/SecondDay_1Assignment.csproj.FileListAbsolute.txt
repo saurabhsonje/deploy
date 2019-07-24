@@ -1,0 +1,7 @@
+C:\Users\rupali.more\source\repos\SecondDay_1Assignment\SecondDay_1Assignment\bin\Debug\SecondDay_1Assignment.exe.config
+C:\Users\rupali.more\source\repos\SecondDay_1Assignment\SecondDay_1Assignment\bin\Debug\SecondDay_1Assignment.exe
+C:\Users\rupali.more\source\repos\SecondDay_1Assignment\SecondDay_1Assignment\bin\Debug\SecondDay_1Assignment.pdb
+C:\Users\rupali.more\source\repos\SecondDay_1Assignment\SecondDay_1Assignment\obj\Debug\SecondDay_1Assignment.csprojAssemblyReference.cache
+C:\Users\rupali.more\source\repos\SecondDay_1Assignment\SecondDay_1Assignment\obj\Debug\SecondDay_1Assignment.csproj.CoreCompileInputs.cache
+C:\Users\rupali.more\source\repos\SecondDay_1Assignment\SecondDay_1Assignment\obj\Debug\SecondDay_1Assignment.exe
+C:\Users\rupali.more\source\repos\SecondDay_1Assignment\SecondDay_1Assignment\obj\Debug\SecondDay_1Assignment.pdb

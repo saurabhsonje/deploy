@@ -1,0 +1,7 @@
+C:\Users\rupali.more\source\repos\A07\A07\bin\Debug\A07.exe.config
+C:\Users\rupali.more\source\repos\A07\A07\bin\Debug\A07.exe
+C:\Users\rupali.more\source\repos\A07\A07\bin\Debug\A07.pdb
+C:\Users\rupali.more\source\repos\A07\A07\obj\Debug\A07.csprojAssemblyReference.cache
+C:\Users\rupali.more\source\repos\A07\A07\obj\Debug\A07.csproj.CoreCompileInputs.cache
+C:\Users\rupali.more\source\repos\A07\A07\obj\Debug\A07.exe
+C:\Users\rupali.more\source\repos\A07\A07\obj\Debug\A07.pdb
