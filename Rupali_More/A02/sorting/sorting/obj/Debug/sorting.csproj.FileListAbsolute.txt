@@ -1,0 +1,7 @@
+C:\Users\rupali.more\source\repos\sorting\sorting\bin\Debug\sorting.exe.config
+C:\Users\rupali.more\source\repos\sorting\sorting\bin\Debug\sorting.exe
+C:\Users\rupali.more\source\repos\sorting\sorting\bin\Debug\sorting.pdb
+C:\Users\rupali.more\source\repos\sorting\sorting\obj\Debug\sorting.csproj.CoreCompileInputs.cache
+C:\Users\rupali.more\source\repos\sorting\sorting\obj\Debug\sorting.exe
+C:\Users\rupali.more\source\repos\sorting\sorting\obj\Debug\sorting.pdb
+C:\Users\rupali.more\source\repos\sorting\sorting\obj\Debug\sorting.csprojAssemblyReference.cache
