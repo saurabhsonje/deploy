@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace Assignment_02_GenericClass
@@ -34,18 +35,28 @@ namespace Assignment_02_GenericClass
         public static void Initilization()
         {
 
-            Int16 choice = 0;
+            int choice = 0;
             GenericClass<Employee> GenericEmployee = new GenericClass<Employee>();
 
             do
             {
-                Console.WriteLine();
-                Console.WriteLine(ONE_FOR_INSERTION);
-                Console.WriteLine(TWO_FOR_DISPLAY);
-                Console.WriteLine(THREE_FOR_DELETION);
-                Console.WriteLine(ZERO_FOR_EXIT);
-                Console.WriteLine(ENTER_CHOICE);
-                choice = Convert.ToInt16(Console.ReadLine());
+
+
+                string[] Menus = { ZERO_FOR_EXIT, ONE_FOR_INSERTION,
+                                   TWO_FOR_DISPLAY, THREE_FOR_DELETION,
+                                    ENTER_CHOICE};
+
+
+                MenuPrinting(ref Menus);
+
+
+                var choiceAsString = Console.ReadLine();
+
+                while (!int.TryParse(choiceAsString, out choice))
+                {
+                    Console.WriteLine("CHOICE MUST BE AN INTEGER!");
+                    choiceAsString = Console.ReadLine();
+                }
                 switch (choice)
                 {
                     case (int)OPERATION.INSERTION :
@@ -59,7 +70,7 @@ namespace Assignment_02_GenericClass
 
                     case (int)OPERATION.DELETION :
                         Employee em = EnterEmployeeDetails();
-                        Console.WriteLine(em.GetHashCode() + "--------------->");
+                      //  Console.WriteLine(em.GetHashCode() + "--------------->");
                         GenericEmployee.DeleteEntity(em);  
                         break;
 
@@ -74,17 +85,39 @@ namespace Assignment_02_GenericClass
 
         }
 
+        public static void MenuPrinting(ref string[] Menus)
+        {
+            foreach (var Menu in Menus)
+                Console.WriteLine(Menu);
+        }
+
+
 
         public static Employee EnterEmployeeDetails()
         {
 
+            int Id;
             Console.WriteLine(ENTER_ID);
-            Int16 Id = Convert.ToInt16(Console.ReadLine());
+            var idAsString = Console.ReadLine();
+            while (!int.TryParse(idAsString, out Id))
+            {
+                Console.WriteLine("ID MUST BE A NUMBER!");
+                idAsString = Console.ReadLine();
+            }
             Console.WriteLine(ENTER_NAME);
-            string Name = Console.ReadLine();
-            Employee emp = new Employee() { Id = Id, EmpName = Name };
-            Console.WriteLine(emp.GetHashCode() + "--------------->");
-            return emp;
+            var name = Console.ReadLine();
+            while (string.IsNullOrEmpty(name))
+            {
+                Console.WriteLine("NAME CAN'T BE EMPTY! ");
+                name = Console.ReadLine();
+            }
+            while (!Regex.IsMatch(name, "[a-zA-Z]"))
+            {
+                Console.WriteLine("ENTER VALID CHARACTERS  ");
+                name = Console.ReadLine();
+            }
+            Employee employee = new Employee() { Id = Id, EmpName = name };
+            return employee;
         }
 
 
