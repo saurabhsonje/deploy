@@ -1,0 +1,7 @@
+C:\Users\rupali.more\source\repos\dictionary\dictionary\bin\Debug\dictionary.exe.config
+C:\Users\rupali.more\source\repos\dictionary\dictionary\bin\Debug\dictionary.exe
+C:\Users\rupali.more\source\repos\dictionary\dictionary\bin\Debug\dictionary.pdb
+C:\Users\rupali.more\source\repos\dictionary\dictionary\obj\Debug\dictionary.csprojAssemblyReference.cache
+C:\Users\rupali.more\source\repos\dictionary\dictionary\obj\Debug\dictionary.csproj.CoreCompileInputs.cache
+C:\Users\rupali.more\source\repos\dictionary\dictionary\obj\Debug\dictionary.exe
+C:\Users\rupali.more\source\repos\dictionary\dictionary\obj\Debug\dictionary.pdb

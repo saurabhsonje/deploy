@@ -1,0 +1,7 @@
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\generic-class\generic-class\bin\Debug\generic-class.exe.config
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\generic-class\generic-class\bin\Debug\generic-class.exe
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\generic-class\generic-class\bin\Debug\generic-class.pdb
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\generic-class\generic-class\obj\Debug\generic-class.csprojAssemblyReference.cache
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\generic-class\generic-class\obj\Debug\generic-class.csproj.CoreCompileInputs.cache
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\generic-class\generic-class\obj\Debug\generic-class.exe
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\generic-class\generic-class\obj\Debug\generic-class.pdb

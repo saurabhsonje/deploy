@@ -74,13 +74,13 @@ namespace Assignment_03_OOPS
 
 
                     case 4:
-                        CustomerUtils. SearchCustomerByEmail(customers);
-                        break;
+                             CustomerUtils. SearchCustomerByEmail(customers);
+                            break;
 
 
                     case 5:
-                      BankUtils.BankInfo(banks);
-                        break;
+                             BankUtils.BankInfo(banks);
+                             break;
 
                    default:
                         Console.WriteLine(PRINTING_EXIT);

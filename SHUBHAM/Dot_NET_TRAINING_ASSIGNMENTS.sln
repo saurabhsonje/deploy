@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment_05_A09_Extension
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment_06_A11_1_SP_EF", "Assignment_06_A11_1_SP_EF\Assignment_06_A11_1_SP_EF.csproj", "{A542746B-5F3D-4E9D-9AD3-E25DA012D5E0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment_06_A11_2_EF_RelationShip", "Assignment_06_A11_2_EF_RelationShip\Assignment_06_A11_2_EF_RelationShip.csproj", "{3F552E2F-CC95-4E4B-ADB0-635F78577E24}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{A542746B-5F3D-4E9D-9AD3-E25DA012D5E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A542746B-5F3D-4E9D-9AD3-E25DA012D5E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A542746B-5F3D-4E9D-9AD3-E25DA012D5E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F552E2F-CC95-4E4B-ADB0-635F78577E24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F552E2F-CC95-4E4B-ADB0-635F78577E24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F552E2F-CC95-4E4B-ADB0-635F78577E24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F552E2F-CC95-4E4B-ADB0-635F78577E24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

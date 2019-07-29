@@ -1,0 +1,7 @@
+C:\Users\rupali.more\source\repos\Employee\Employee\bin\Debug\Employee.exe.config
+C:\Users\rupali.more\source\repos\Employee\Employee\bin\Debug\Employee.exe
+C:\Users\rupali.more\source\repos\Employee\Employee\bin\Debug\Employee.pdb
+C:\Users\rupali.more\source\repos\Employee\Employee\obj\Debug\Employee.csprojAssemblyReference.cache
+C:\Users\rupali.more\source\repos\Employee\Employee\obj\Debug\Employee.csproj.CoreCompileInputs.cache
+C:\Users\rupali.more\source\repos\Employee\Employee\obj\Debug\Employee.exe
+C:\Users\rupali.more\source\repos\Employee\Employee\obj\Debug\Employee.pdb
