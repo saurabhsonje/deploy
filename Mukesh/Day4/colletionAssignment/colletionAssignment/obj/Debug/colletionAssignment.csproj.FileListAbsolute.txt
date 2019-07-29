@@ -1,0 +1,7 @@
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\colletionAssignment\colletionAssignment\bin\Debug\colletionAssignment.exe.config
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\colletionAssignment\colletionAssignment\bin\Debug\colletionAssignment.exe
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\colletionAssignment\colletionAssignment\bin\Debug\colletionAssignment.pdb
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\colletionAssignment\colletionAssignment\obj\Debug\colletionAssignment.csprojAssemblyReference.cache
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\colletionAssignment\colletionAssignment\obj\Debug\colletionAssignment.csproj.CoreCompileInputs.cache
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\colletionAssignment\colletionAssignment\obj\Debug\colletionAssignment.exe
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\colletionAssignment\colletionAssignment\obj\Debug\colletionAssignment.pdb

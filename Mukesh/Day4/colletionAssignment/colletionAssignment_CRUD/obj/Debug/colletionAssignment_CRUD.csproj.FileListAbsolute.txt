@@ -1,0 +1,7 @@
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\colletionAssignment\colletionAssignment_CRUD\bin\Debug\colletionAssignment_CRUD.exe.config
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\colletionAssignment\colletionAssignment_CRUD\bin\Debug\colletionAssignment_CRUD.exe
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\colletionAssignment\colletionAssignment_CRUD\bin\Debug\colletionAssignment_CRUD.pdb
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\colletionAssignment\colletionAssignment_CRUD\obj\Debug\colletionAssignment_CRUD.csprojAssemblyReference.cache
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\colletionAssignment\colletionAssignment_CRUD\obj\Debug\colletionAssignment_CRUD.csproj.CoreCompileInputs.cache
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\colletionAssignment\colletionAssignment_CRUD\obj\Debug\colletionAssignment_CRUD.exe
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\colletionAssignment\colletionAssignment_CRUD\obj\Debug\colletionAssignment_CRUD.pdb

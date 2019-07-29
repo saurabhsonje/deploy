@@ -1,0 +1,7 @@
+C:\Users\mukesh.jha\source\repos\DateTimeExtensions\DateTimeExtensions\obj\Debug\DateTimeFormating.csprojAssemblyReference.cache
+C:\Users\mukesh.jha\source\repos\DateTimeExtensions\DateTimeExtensions\obj\Debug\DateTimeFormating.csproj.CoreCompileInputs.cache
+C:\Users\mukesh.jha\source\repos\DateTimeExtensions\DateTimeExtensions\bin\Debug\DateTimeExtensions.exe.config
+C:\Users\mukesh.jha\source\repos\DateTimeExtensions\DateTimeExtensions\bin\Debug\DateTimeExtensions.exe
+C:\Users\mukesh.jha\source\repos\DateTimeExtensions\DateTimeExtensions\bin\Debug\DateTimeExtensions.pdb
+C:\Users\mukesh.jha\source\repos\DateTimeExtensions\DateTimeExtensions\obj\Debug\DateTimeExtensions.exe
+C:\Users\mukesh.jha\source\repos\DateTimeExtensions\DateTimeExtensions\obj\Debug\DateTimeExtensions.pdb

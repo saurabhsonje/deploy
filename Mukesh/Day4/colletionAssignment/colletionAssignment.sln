@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "colletionAssignment_count", "colletionAssignment\colletionAssignment_count.csproj", "{69D4E2B9-73CB-4CB9-8DA9-A89EF398F9A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "colletionAssignment_CRUD", "colletionAssignment_CRUD\colletionAssignment_CRUD.csproj", "{7D70A3FD-5B07-472E-AD91-E7739EBA1F7A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69D4E2B9-73CB-4CB9-8DA9-A89EF398F9A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69D4E2B9-73CB-4CB9-8DA9-A89EF398F9A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69D4E2B9-73CB-4CB9-8DA9-A89EF398F9A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69D4E2B9-73CB-4CB9-8DA9-A89EF398F9A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D70A3FD-5B07-472E-AD91-E7739EBA1F7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D70A3FD-5B07-472E-AD91-E7739EBA1F7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D70A3FD-5B07-472E-AD91-E7739EBA1F7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D70A3FD-5B07-472E-AD91-E7739EBA1F7A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {56AE10CC-849F-4226-92EB-41A5EE7B297B}
+	EndGlobalSection
+EndGlobal
