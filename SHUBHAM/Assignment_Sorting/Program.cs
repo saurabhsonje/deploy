@@ -41,6 +41,20 @@ namespace Assignment_Sorting
         }
 
 
+
+        private static int[] InitializeArray()
+        {
+            Console.WriteLine("Enter the size of the Array");
+            Int16 n = Convert.ToInt16(Console.ReadLine());
+            int[] ArrayEnterd = new int[n];
+            Console.WriteLine("Enter the element in  the Array ---------->");
+            for (var j = 0; j < ArrayEnterd.Length; j++)
+                ArrayEnterd[j] = Convert.ToInt16(Console.ReadLine());
+            return ArrayEnterd;
+        }
+
+
+
         private static void SortingInDsendingOrder()
         {
             int[] ArrayToSort;
@@ -60,20 +74,6 @@ namespace Assignment_Sorting
             }
             PrintSortedArray(ArrayToSort);
         }
-
-        private static int[] InitializeArray()
-        {
-            Console.WriteLine("Enter the size of the Array");
-            Int16 n = Convert.ToInt16(Console.ReadLine());
-            int[] ArrayEnterd = new int[n];
-            Console.WriteLine("Enter the element in  the Array ---------->");
-            for (var j = 0; j < ArrayEnterd.Length; j++)
-                ArrayEnterd[j] = Convert.ToInt16(Console.ReadLine());
-            return ArrayEnterd;
-        }
-
-
-
 
         private static void SortingInAscendingOrder()
         {
@@ -100,9 +100,8 @@ namespace Assignment_Sorting
         {
             Console.WriteLine("Sorted Array is --->");
             foreach (var a in ArrayToPrint)
-            {
-             Console.WriteLine(a);
-            }
+            Console.WriteLine(a);
+            
 
         }
 
