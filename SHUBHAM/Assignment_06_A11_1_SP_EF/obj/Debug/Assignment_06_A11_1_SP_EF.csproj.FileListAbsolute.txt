@@ -1,0 +1,14 @@
+C:\Users\shubham.yadav\Documents\SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_06_A11_1_SP_EF\bin\Debug\Assignment_06_A11_1_SP_EF.exe.config
+C:\Users\shubham.yadav\Documents\SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_06_A11_1_SP_EF\bin\Debug\Assignment_06_A11_1_SP_EF.exe
+C:\Users\shubham.yadav\Documents\SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_06_A11_1_SP_EF\bin\Debug\Assignment_06_A11_1_SP_EF.pdb
+C:\Users\shubham.yadav\Documents\SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_06_A11_1_SP_EF\obj\Debug\Assignment_06_A11_1_SP_EF.csproj.CoreCompileInputs.cache
+C:\Users\shubham.yadav\Documents\SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_06_A11_1_SP_EF\obj\Debug\Assignment_06_A11_1_SP_EF.exe
+C:\Users\shubham.yadav\Documents\SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_06_A11_1_SP_EF\obj\Debug\Assignment_06_A11_1_SP_EF.pdb
+C:\Users\shubham.yadav\Documents\SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_06_A11_1_SP_EF\bin\Debug\EntityFramework.dll
+C:\Users\shubham.yadav\Documents\SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_06_A11_1_SP_EF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\shubham.yadav\Documents\SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_06_A11_1_SP_EF\bin\Debug\EntityFramework.xml
+C:\Users\shubham.yadav\Documents\SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_06_A11_1_SP_EF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\shubham.yadav\Documents\SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_06_A11_1_SP_EF\obj\Debug\Assignment_06_A11_1_SP_EF.csprojAssemblyReference.cache
+C:\Users\shubham.yadav\Documents\SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_06_A11_1_SP_EF\obj\Debug\Assignment_06_A11_1_SP_EF.csproj.CopyComplete
+C:\Users\shubham.yadav\Documents\SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_06_A11_1_SP_EF\obj\Debug\Assignment_06_A11_1_SP_EF.Migrations.kl.resources
+C:\Users\shubham.yadav\Documents\SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_06_A11_1_SP_EF\obj\Debug\Assignment_06_A11_1_SP_EF.csproj.GenerateResource.cache

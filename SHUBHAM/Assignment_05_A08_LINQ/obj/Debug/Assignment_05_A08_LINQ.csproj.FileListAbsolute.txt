@@ -1,0 +1,7 @@
+C:\Users\shubham.yadav\Documents\SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_05_A08_LINQ\bin\Debug\Assignment_05_A08_LINQ.exe.config
+C:\Users\shubham.yadav\Documents\SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_05_A08_LINQ\bin\Debug\Assignment_05_A08_LINQ.exe
+C:\Users\shubham.yadav\Documents\SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_05_A08_LINQ\bin\Debug\Assignment_05_A08_LINQ.pdb
+C:\Users\shubham.yadav\Documents\SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_05_A08_LINQ\obj\Debug\Assignment_05_A08_LINQ.csproj.CoreCompileInputs.cache
+C:\Users\shubham.yadav\Documents\SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_05_A08_LINQ\obj\Debug\Assignment_05_A08_LINQ.exe
+C:\Users\shubham.yadav\Documents\SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_05_A08_LINQ\obj\Debug\Assignment_05_A08_LINQ.pdb
+C:\Users\shubham.yadav\Documents\SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_05_A08_LINQ\obj\Debug\Assignment_05_A08_LINQ.csprojAssemblyReference.cache
