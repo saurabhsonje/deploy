@@ -40,10 +40,6 @@ namespace Assignment_06_A11_2_EF_RelationShip
                 ).ToList();
 
 
-           
-
-
-
             foreach (var item in d)
             {
                 Console.WriteLine(item);
