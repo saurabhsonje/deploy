@@ -1,0 +1,14 @@
+C:\Users\pooja.yerva\Documents\Visual Studio 2017\Projects\Assign07_Entity\Assign07_Entity\bin\Debug\Assign07_Entity.exe.config
+C:\Users\pooja.yerva\Documents\Visual Studio 2017\Projects\Assign07_Entity\Assign07_Entity\bin\Debug\Assign07_Entity.exe
+C:\Users\pooja.yerva\Documents\Visual Studio 2017\Projects\Assign07_Entity\Assign07_Entity\bin\Debug\Assign07_Entity.pdb
+C:\Users\pooja.yerva\Documents\Visual Studio 2017\Projects\Assign07_Entity\Assign07_Entity\bin\Debug\EntityFramework.dll
+C:\Users\pooja.yerva\Documents\Visual Studio 2017\Projects\Assign07_Entity\Assign07_Entity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\pooja.yerva\Documents\Visual Studio 2017\Projects\Assign07_Entity\Assign07_Entity\bin\Debug\EntityFramework.xml
+C:\Users\pooja.yerva\Documents\Visual Studio 2017\Projects\Assign07_Entity\Assign07_Entity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\pooja.yerva\Documents\Visual Studio 2017\Projects\Assign07_Entity\Assign07_Entity\obj\Debug\Assign07_Entity.csprojAssemblyReference.cache
+C:\Users\pooja.yerva\Documents\Visual Studio 2017\Projects\Assign07_Entity\Assign07_Entity\obj\Debug\Assign07_Entity.csproj.CoreCompileInputs.cache
+C:\Users\pooja.yerva\Documents\Visual Studio 2017\Projects\Assign07_Entity\Assign07_Entity\obj\Debug\Assign07_Entity.csproj.CopyComplete
+C:\Users\pooja.yerva\Documents\Visual Studio 2017\Projects\Assign07_Entity\Assign07_Entity\obj\Debug\Assign07_Entity.exe
+C:\Users\pooja.yerva\Documents\Visual Studio 2017\Projects\Assign07_Entity\Assign07_Entity\obj\Debug\Assign07_Entity.pdb
+C:\Users\pooja.yerva\Documents\Visual Studio 2017\Projects\Assign07_Entity\Assign07_Entity\obj\Debug\Assign07_Entity.Migrations.student_Dept.resources
+C:\Users\pooja.yerva\Documents\Visual Studio 2017\Projects\Assign07_Entity\Assign07_Entity\obj\Debug\Assign07_Entity.csproj.GenerateResource.cache
