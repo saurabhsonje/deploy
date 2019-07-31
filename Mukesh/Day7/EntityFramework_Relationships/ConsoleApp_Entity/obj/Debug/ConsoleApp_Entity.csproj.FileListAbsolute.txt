@@ -1,0 +1,28 @@
+C:\Users\mukesh.jha\source\repos\ConsoleApp_Entity\ConsoleApp_Entity\bin\Debug\ConsoleApp_Entity.exe.config
+C:\Users\mukesh.jha\source\repos\ConsoleApp_Entity\ConsoleApp_Entity\bin\Debug\ConsoleApp_Entity.exe
+C:\Users\mukesh.jha\source\repos\ConsoleApp_Entity\ConsoleApp_Entity\bin\Debug\ConsoleApp_Entity.pdb
+C:\Users\mukesh.jha\source\repos\ConsoleApp_Entity\ConsoleApp_Entity\bin\Debug\EntityFramework.dll
+C:\Users\mukesh.jha\source\repos\ConsoleApp_Entity\ConsoleApp_Entity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mukesh.jha\source\repos\ConsoleApp_Entity\ConsoleApp_Entity\bin\Debug\EntityFramework.xml
+C:\Users\mukesh.jha\source\repos\ConsoleApp_Entity\ConsoleApp_Entity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mukesh.jha\source\repos\ConsoleApp_Entity\ConsoleApp_Entity\obj\Debug\ConsoleApp_Entity.csprojAssemblyReference.cache
+C:\Users\mukesh.jha\source\repos\ConsoleApp_Entity\ConsoleApp_Entity\obj\Debug\ConsoleApp_Entity.csproj.CoreCompileInputs.cache
+C:\Users\mukesh.jha\source\repos\ConsoleApp_Entity\ConsoleApp_Entity\obj\Debug\ConsoleApp_Entity.csproj.CopyComplete
+C:\Users\mukesh.jha\source\repos\ConsoleApp_Entity\ConsoleApp_Entity\obj\Debug\ConsoleApp_Entity.exe
+C:\Users\mukesh.jha\source\repos\ConsoleApp_Entity\ConsoleApp_Entity\obj\Debug\ConsoleApp_Entity.pdb
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\ConsoleApp_Entity\ConsoleApp_Entity\bin\Debug\ConsoleApp_Entity.exe.config
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\ConsoleApp_Entity\ConsoleApp_Entity\bin\Debug\ConsoleApp_Entity.exe
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\ConsoleApp_Entity\ConsoleApp_Entity\bin\Debug\ConsoleApp_Entity.pdb
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\ConsoleApp_Entity\ConsoleApp_Entity\bin\Debug\EntityFramework.dll
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\ConsoleApp_Entity\ConsoleApp_Entity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\ConsoleApp_Entity\ConsoleApp_Entity\bin\Debug\EntityFramework.xml
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\ConsoleApp_Entity\ConsoleApp_Entity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\ConsoleApp_Entity\ConsoleApp_Entity\obj\Debug\ConsoleApp_Entity.csprojAssemblyReference.cache
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\ConsoleApp_Entity\ConsoleApp_Entity\obj\Debug\ConsoleApp_Entity.csproj.CoreCompileInputs.cache
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\ConsoleApp_Entity\ConsoleApp_Entity\obj\Debug\ConsoleApp_Entity.csproj.CopyComplete
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\ConsoleApp_Entity\ConsoleApp_Entity\obj\Debug\ConsoleApp_Entity.exe
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\ConsoleApp_Entity\ConsoleApp_Entity\obj\Debug\ConsoleApp_Entity.pdb
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\ConsoleApp_Entity\ConsoleApp_Entity\obj\Debug\ConsoleApp_Entity.Migrations.InitialCreate.resources
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\ConsoleApp_Entity\ConsoleApp_Entity\obj\Debug\ConsoleApp_Entity.csproj.GenerateResource.cache
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\ConsoleApp_Entity\ConsoleApp_Entity\obj\Debug\ConsoleApp_Entity.Migrations.mytu.resources
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\ConsoleApp_Entity\ConsoleApp_Entity\obj\Debug\ConsoleApp_Entity.Migrations.mui.resources

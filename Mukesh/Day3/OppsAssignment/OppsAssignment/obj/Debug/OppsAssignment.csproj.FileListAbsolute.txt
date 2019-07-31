@@ -1,0 +1,7 @@
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\OppsAssignment\OppsAssignment\bin\Debug\OppsAssignment.exe.config
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\OppsAssignment\OppsAssignment\bin\Debug\OppsAssignment.exe
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\OppsAssignment\OppsAssignment\bin\Debug\OppsAssignment.pdb
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\OppsAssignment\OppsAssignment\obj\Debug\OppsAssignment.csprojAssemblyReference.cache
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\OppsAssignment\OppsAssignment\obj\Debug\OppsAssignment.csproj.CoreCompileInputs.cache
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\OppsAssignment\OppsAssignment\obj\Debug\OppsAssignment.exe
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\OppsAssignment\OppsAssignment\obj\Debug\OppsAssignment.pdb
