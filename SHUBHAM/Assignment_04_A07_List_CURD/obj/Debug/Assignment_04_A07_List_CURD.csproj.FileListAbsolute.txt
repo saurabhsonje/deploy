@@ -5,3 +5,10 @@ C:\Users\shubham.yadav\Documents\SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_
 C:\Users\shubham.yadav\Documents\SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_04_A07_List_CURD\obj\Debug\Assignment_04_A07_List_CURD.exe
 C:\Users\shubham.yadav\Documents\SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_04_A07_List_CURD\obj\Debug\Assignment_04_A07_List_CURD.pdb
 C:\Users\shubham.yadav\Documents\SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_04_A07_List_CURD\obj\Debug\Assignment_04_A07_List_CURD.csprojAssemblyReference.cache
+C:\Users\shubham.yadav\Documents\_SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_04_A07_List_CURD\bin\Debug\Assignment_04_A07_List_CURD.exe.config
+C:\Users\shubham.yadav\Documents\_SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_04_A07_List_CURD\bin\Debug\Assignment_04_A07_List_CURD.exe
+C:\Users\shubham.yadav\Documents\_SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_04_A07_List_CURD\bin\Debug\Assignment_04_A07_List_CURD.pdb
+C:\Users\shubham.yadav\Documents\_SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_04_A07_List_CURD\obj\Debug\Assignment_04_A07_List_CURD.csprojAssemblyReference.cache
+C:\Users\shubham.yadav\Documents\_SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_04_A07_List_CURD\obj\Debug\Assignment_04_A07_List_CURD.csproj.CoreCompileInputs.cache
+C:\Users\shubham.yadav\Documents\_SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_04_A07_List_CURD\obj\Debug\Assignment_04_A07_List_CURD.exe
+C:\Users\shubham.yadav\Documents\_SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_04_A07_List_CURD\obj\Debug\Assignment_04_A07_List_CURD.pdb

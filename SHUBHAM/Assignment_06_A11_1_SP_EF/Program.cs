@@ -11,7 +11,7 @@ namespace Assignment_06_A11_1_SP_EF
         static void Main(string[] args)
         {
             EmployeeDBContext employeeDBContext = new EmployeeDBContext();
-            var employees = employeeDBContext.Employee.SqlQuery("EXEC GetEmployeesList").ToList();
+            var employees = employeeDBContext.Employee.SqlQuery("GetEmployeesList").ToList();
             foreach (var item in employees)
             {
                 Console.WriteLine(item);

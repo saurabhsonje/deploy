@@ -12,6 +12,23 @@ namespace Assignment_06_A11_2_EF_RelationShip
         static void Main(string[] args)
         {
             EmployeeDBContext db = new EmployeeDBContext();
+
+
+            Employee employee = new Employee();
+            employee.Id = 1;
+            employee.FName = "ABC";
+            employee.LName = "KK";
+
+            Address address = new Address();
+            address.Id = 3;
+            address.Location = "LKO";
+            address.EmpId = 1;
+
+            db.Employee.Add(employee);
+            db.Address.Add(address);
+
+            db.SaveChanges();
+
              var d =    db.Employee.Join(
                                      db.Address,
                                       e => e.Id,
@@ -21,6 +38,11 @@ namespace Assignment_06_A11_2_EF_RelationShip
                                                     Add = a.Location
                                                  }
                 ).ToList();
+
+
+           
+
+
 
             foreach (var item in d)
             {
