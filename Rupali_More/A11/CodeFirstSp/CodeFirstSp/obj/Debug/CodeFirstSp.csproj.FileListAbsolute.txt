@@ -1,0 +1,12 @@
+C:\Users\rupali.more\source\repos\CodeFirstSp\CodeFirstSp\bin\Debug\CodeFirstSp.exe.config
+C:\Users\rupali.more\source\repos\CodeFirstSp\CodeFirstSp\bin\Debug\CodeFirstSp.exe
+C:\Users\rupali.more\source\repos\CodeFirstSp\CodeFirstSp\bin\Debug\CodeFirstSp.pdb
+C:\Users\rupali.more\source\repos\CodeFirstSp\CodeFirstSp\bin\Debug\EntityFramework.dll
+C:\Users\rupali.more\source\repos\CodeFirstSp\CodeFirstSp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\rupali.more\source\repos\CodeFirstSp\CodeFirstSp\bin\Debug\EntityFramework.xml
+C:\Users\rupali.more\source\repos\CodeFirstSp\CodeFirstSp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\rupali.more\source\repos\CodeFirstSp\CodeFirstSp\obj\Debug\CodeFirstSp.csprojAssemblyReference.cache
+C:\Users\rupali.more\source\repos\CodeFirstSp\CodeFirstSp\obj\Debug\CodeFirstSp.csproj.CoreCompileInputs.cache
+C:\Users\rupali.more\source\repos\CodeFirstSp\CodeFirstSp\obj\Debug\CodeFirstSp.csproj.CopyComplete
+C:\Users\rupali.more\source\repos\CodeFirstSp\CodeFirstSp\obj\Debug\CodeFirstSp.exe
+C:\Users\rupali.more\source\repos\CodeFirstSp\CodeFirstSp\obj\Debug\CodeFirstSp.pdb

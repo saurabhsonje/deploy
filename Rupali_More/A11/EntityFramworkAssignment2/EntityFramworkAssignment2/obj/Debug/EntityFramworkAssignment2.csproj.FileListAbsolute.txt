@@ -1,0 +1,16 @@
+C:\Users\rupali.more\source\repos\EntityFramworkAssignment2\EntityFramworkAssignment2\bin\Debug\EntityFramworkAssignment2.exe.config
+C:\Users\rupali.more\source\repos\EntityFramworkAssignment2\EntityFramworkAssignment2\bin\Debug\EntityFramworkAssignment2.exe
+C:\Users\rupali.more\source\repos\EntityFramworkAssignment2\EntityFramworkAssignment2\bin\Debug\EntityFramworkAssignment2.pdb
+C:\Users\rupali.more\source\repos\EntityFramworkAssignment2\EntityFramworkAssignment2\bin\Debug\EntityFramework.dll
+C:\Users\rupali.more\source\repos\EntityFramworkAssignment2\EntityFramworkAssignment2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\rupali.more\source\repos\EntityFramworkAssignment2\EntityFramworkAssignment2\bin\Debug\EntityFramework.xml
+C:\Users\rupali.more\source\repos\EntityFramworkAssignment2\EntityFramworkAssignment2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\rupali.more\source\repos\EntityFramworkAssignment2\EntityFramworkAssignment2\obj\Debug\EntityFramworkAssignment2.csprojAssemblyReference.cache
+C:\Users\rupali.more\source\repos\EntityFramworkAssignment2\EntityFramworkAssignment2\obj\Debug\EntityFramworkAssignment2.csproj.CoreCompileInputs.cache
+C:\Users\rupali.more\source\repos\EntityFramworkAssignment2\EntityFramworkAssignment2\obj\Debug\EntityFramworkAssignment2.csproj.CopyComplete
+C:\Users\rupali.more\source\repos\EntityFramworkAssignment2\EntityFramworkAssignment2\obj\Debug\EntityFramworkAssignment2.exe
+C:\Users\rupali.more\source\repos\EntityFramworkAssignment2\EntityFramworkAssignment2\obj\Debug\EntityFramworkAssignment2.pdb
+C:\Users\rupali.more\source\repos\EntityFramworkAssignment2\EntityFramworkAssignment2\obj\Debug\EntityFramworkAssignment2.Migrations.Initial.resources
+C:\Users\rupali.more\source\repos\EntityFramworkAssignment2\EntityFramworkAssignment2\obj\Debug\EntityFramworkAssignment2.csproj.GenerateResource.cache
+C:\Users\rupali.more\source\repos\EntityFramworkAssignment2\EntityFramworkAssignment2\obj\Debug\EntityFramworkAssignment2.Migrations.food.resources
+C:\Users\rupali.more\source\repos\EntityFramworkAssignment2\EntityFramworkAssignment2\obj\Debug\EntityFramworkAssignment2.Migrations.food1.resources
