@@ -12,3 +12,10 @@ C:\Users\shubham.yadav\Documents\SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_
 C:\Users\shubham.yadav\Documents\SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_Sorting\obj\Debug\Assignment_Sorting.csproj.CoreCompileInputs.cache
 C:\Users\shubham.yadav\Documents\SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_Sorting\obj\Debug\Assignment_Sorting.exe
 C:\Users\shubham.yadav\Documents\SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_Sorting\obj\Debug\Assignment_Sorting.pdb
+C:\Users\shubham.yadav\Documents\_SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_Sorting\bin\Debug\Assignment_Sorting.exe.config
+C:\Users\shubham.yadav\Documents\_SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_Sorting\bin\Debug\Assignment_Sorting.exe
+C:\Users\shubham.yadav\Documents\_SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_Sorting\bin\Debug\Assignment_Sorting.pdb
+C:\Users\shubham.yadav\Documents\_SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_Sorting\obj\Debug\Assignment_Sorting.csprojAssemblyReference.cache
+C:\Users\shubham.yadav\Documents\_SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_Sorting\obj\Debug\Assignment_Sorting.csproj.CoreCompileInputs.cache
+C:\Users\shubham.yadav\Documents\_SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_Sorting\obj\Debug\Assignment_Sorting.exe
+C:\Users\shubham.yadav\Documents\_SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_Sorting\obj\Debug\Assignment_Sorting.pdb

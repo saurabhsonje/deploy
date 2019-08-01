@@ -12,3 +12,10 @@ C:\Users\shubham.yadav\Documents\SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_
 C:\Users\shubham.yadav\Documents\SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_02_Constructor\obj\Debug\Assignment_02_Constructor.csproj.CoreCompileInputs.cache
 C:\Users\shubham.yadav\Documents\SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_02_Constructor\obj\Debug\Assignment_02_Constructor.exe
 C:\Users\shubham.yadav\Documents\SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_02_Constructor\obj\Debug\Assignment_02_Constructor.pdb
+C:\Users\shubham.yadav\Documents\_SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_02_Constructor\bin\Debug\Assignment_02_Constructor.exe.config
+C:\Users\shubham.yadav\Documents\_SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_02_Constructor\bin\Debug\Assignment_02_Constructor.exe
+C:\Users\shubham.yadav\Documents\_SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_02_Constructor\bin\Debug\Assignment_02_Constructor.pdb
+C:\Users\shubham.yadav\Documents\_SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_02_Constructor\obj\Debug\Assignment_02_Constructor.csprojAssemblyReference.cache
+C:\Users\shubham.yadav\Documents\_SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_02_Constructor\obj\Debug\Assignment_02_Constructor.csproj.CoreCompileInputs.cache
+C:\Users\shubham.yadav\Documents\_SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_02_Constructor\obj\Debug\Assignment_02_Constructor.exe
+C:\Users\shubham.yadav\Documents\_SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_02_Constructor\obj\Debug\Assignment_02_Constructor.pdb
