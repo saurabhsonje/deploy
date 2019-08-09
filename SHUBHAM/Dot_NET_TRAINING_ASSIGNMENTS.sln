@@ -29,7 +29,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment_06_A11_2_EF_Rela
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment_07_A12_API_CRUD", "Assignment_07_A12_API_CRUD\Assignment_07_A12_API_CRUD.csproj", "{F2BC8CD4-D1D1-498D-98DE-144DDE3AB1BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment_A18_JWT_TOKEN", "..\..\..\Visual Studio 2017\Projects\JWT_TOKEN\JWT_TOKEN\Assignment_A18_JWT_TOKEN.csproj", "{3ED36E43-841D-4F7E-B463-CE9E9DFAC011}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment_A18_JWT_TOKEN", "JWT_TOKEN\JWT_TOKEN\Assignment_A18_JWT_TOKEN.csproj", "{3ED36E43-841D-4F7E-B463-CE9E9DFAC011}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
