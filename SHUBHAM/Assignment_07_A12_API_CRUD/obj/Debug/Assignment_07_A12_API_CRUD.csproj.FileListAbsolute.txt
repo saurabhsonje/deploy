@@ -80,6 +80,7 @@ C:\Users\shubham.yadav\Documents\SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_
 C:\Users\shubham.yadav\Documents\SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_07_A12_API_CRUD\obj\Debug\Assignment_07_A12_API_CRUD.csproj.CopyComplete
 C:\Users\shubham.yadav\Documents\SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_07_A12_API_CRUD\obj\Debug\Assignment_07_A12_API_CRUD.dll
 C:\Users\shubham.yadav\Documents\SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_07_A12_API_CRUD\obj\Debug\Assignment_07_A12_API_CRUD.pdb
+<<<<<<< HEAD
 C:\Users\shubham.yadav\Documents\_SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_07_A12_API_CRUD\bin\Assignment_07_A12_API_CRUD.dll.config
 C:\Users\shubham.yadav\Documents\_SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_07_A12_API_CRUD\bin\Assignment_07_A12_API_CRUD.dll
 C:\Users\shubham.yadav\Documents\_SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_07_A12_API_CRUD\bin\Assignment_07_A12_API_CRUD.pdb
@@ -166,3 +167,5 @@ C:\Users\shubham.yadav\Documents\_SHUBHAM\TrainingAssignments\SHUBHAM\Assignment
 C:\Users\shubham.yadav\Documents\_SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_07_A12_API_CRUD\bin\EntityFramework.SqlServer.dll
 C:\Users\shubham.yadav\Documents\_SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_07_A12_API_CRUD\bin\EntityFramework.xml
 C:\Users\shubham.yadav\Documents\_SHUBHAM\TrainingAssignments\SHUBHAM\Assignment_07_A12_API_CRUD\bin\EntityFramework.SqlServer.xml
+=======
+>>>>>>> 532560e60ec4c385a464b1f236c63777279c73fd

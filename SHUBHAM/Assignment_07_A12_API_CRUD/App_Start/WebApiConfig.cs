@@ -2,7 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
+<<<<<<< HEAD
 using System.Web.Http.Results;
+=======
+>>>>>>> 532560e60ec4c385a464b1f236c63777279c73fd
 
 namespace Assignment_07_A12_API_CRUD
 {
