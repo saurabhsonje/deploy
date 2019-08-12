@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EmployeeManagementModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="EID" />
+    </Key>
+    <Property Name="EID" Type="int" Nullable="false" />
+    <Property Name="FirstName" Type="varchar" MaxLength="20" />
+    <Property Name="LastName" Type="varchar" MaxLength="20" />
+    <Property Name="StudioID" Type="int" />
+    <Property Name="Role" Type="varchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="Studio">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <Association Name="FK__Employee__Studio__1273C1CD">
+    <End Role="Studio" Type="Self.Studio" Multiplicity="0..1" />
+    <End Role="Employee" Type="Self.Employee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Studio">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Employee">
+        <PropertyRef Name="StudioID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="EmployeeManagementModelStoreContainer">
+    <EntitySet Name="Employee" EntityType="Self.Employee" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Studio" EntityType="Self.Studio" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Employee__Studio__1273C1CD" Association="Self.FK__Employee__Studio__1273C1CD">
+      <End Role="Studio" EntitySet="Studio" />
+      <End Role="Employee" EntitySet="Employee" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
