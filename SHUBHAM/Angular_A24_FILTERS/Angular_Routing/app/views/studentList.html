@@ -1,0 +1,33 @@
+﻿
+
+    <div ng-controller="studentController">
+     <h3> Applied Custom Filters On FullName and Salary Column := </h3>
+        <table border="1">
+
+           <thead>
+               <tr>
+                   <th>FirstName(Uppercase)</th>
+                   <th>LastName(Lowercase)</th>
+                   <th>FullName (CustomFilter)</th>
+                   <th>Salary (salaryInRs)</th>
+                   <th>DOB (DateFilter)</th>
+               </tr>
+
+           </thead>
+            <tbody>
+
+                <tr ng-repeat="employee in Employees" >
+
+                    <td>{{employee.firstName |  uppercase }}</td>
+                    <td>{{employee.lastName | lowercase}}</td>
+                    <td>{{employee.firstName  | customfilter }} {{employee.lastName | customfilter}}</td>
+                    <td>{{employee.salary | salaryInRs }}</td>
+                    <td>{{employee.dob | date : "short"}}</td>
+                 </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+
+

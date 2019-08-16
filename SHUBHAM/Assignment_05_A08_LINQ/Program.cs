@@ -22,8 +22,6 @@ namespace Assignment_05_A08_LINQ
 
         static void Main(string[] args)
         {
-
-
             Initialization();
             Console.ReadLine();
         }

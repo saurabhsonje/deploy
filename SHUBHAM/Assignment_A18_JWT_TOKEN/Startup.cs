@@ -24,15 +24,10 @@ namespace JWT_TOKEN
         public void Configuration(IAppBuilder app)
         {
             HttpConfiguration httpConfig = new HttpConfiguration();
-
             ConfigureOAuthTokenGeneration(app);
-
-
             ConfigureOAuthTokenConsumption(app);
             ConfigureWebApi(httpConfig);
-
             app.UseCors(Microsoft.Owin.Cors.CorsOptions.AllowAll);
-
             app.UseWebApi(httpConfig);
 
         }
@@ -43,7 +38,6 @@ namespace JWT_TOKEN
             app.CreatePerOwinContext(ApplicationDbContext.Create);
             app.CreatePerOwinContext<ApplicationUserManager>(ApplicationUserManager.Create);
             app.CreatePerOwinContext<ApplicationRoleManager>(ApplicationRoleManager.Create);
-
             OAuthAuthorizationServerOptions OAuthServerOptions = new OAuthAuthorizationServerOptions()
             {
                 //For Dev enviroment only (on production should be AllowInsecureHttp = false)
@@ -53,9 +47,6 @@ namespace JWT_TOKEN
                 Provider = new CustomOAuthProvider(),
                 AccessTokenFormat = new CustomJwtFormat("http://localhost:59822")
             };
-
-
-          
             // OAuth 2.0 Bearer Access Token Generation
             app.UseOAuthAuthorizationServer(OAuthServerOptions);
         }
@@ -81,13 +72,9 @@ namespace JWT_TOKEN
                 });
         }
 
-
-
-
         private void ConfigureWebApi(HttpConfiguration config)
         {
             config.MapHttpAttributeRoutes();
-
             var jsonFormatter = config.Formatters.OfType<JsonMediaTypeFormatter>().First();
             jsonFormatter.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
         }

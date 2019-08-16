@@ -65,9 +65,6 @@ namespace Assignment_07_A12_API_CRUD.Controllers
             
         }
 
-       
-
-
         [HttpDelete]
         [Route("api/values/DeleteEmployee/{id}")]
         public IHttpActionResult Delete([FromUri]int id)

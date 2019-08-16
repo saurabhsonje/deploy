@@ -76,8 +76,6 @@ namespace Assignment_05_A09_Extension_Method
                         dateAsString.DateInYYMMDDFormat(ref vs);
                         break;
 
-
-
                     default:
                         Console.WriteLine(EXIT);
                         System.Environment.Exit(0);
