@@ -31,6 +31,7 @@ app.controller("employeeController",function($scope)
                             $scope.IsVisible = false;
                             $scope.firstName ='';
                             $scope.lastName = '';
+							$scope.mobileNumber = '';
                              }
                        
                     } 
