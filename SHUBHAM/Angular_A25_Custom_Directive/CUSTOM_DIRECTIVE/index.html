@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="app/app.js"></script>
+    <script src="app/controller/demoController.js"></script>
+    <script src="app/directive/customDirective.js"></script>
+    <script src="app/filters/filters.js"></script>
+</head>
+
+<body>
+
+    <div ng-app="DemoApp" ng-controller="DemoController">
+
+        <div>
+            <span>FIRST NAME</span><br />
+            <input type="text" ng-model="firstName" placeholder="ENTER FIRSTNAME" /><br />
+            <span>LAST NAME</span><br />
+            <input type="text" ng-model="lastName" placeholder="ENTER LASTNAME" /><br />
+            <input type="submit" value="submit" ng-click="show()" />
+            <div ng-show="isVisible">
+
+                <div>
+                    <h3>--VALUE OF FULL NAME USING CUSTOM DIRECTIVE --</h3>
+                    <span>FULL NAME :=</span><ng-guru></ng-guru>
+                 </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,64 @@
+﻿
+<hr />
+    <h5>----------ELEMENT IN THE LIST-----------</h5>
+    <table border="1">
+
+        <tr><td colspan="2">Name</td></tr>
+        <tr ng-repeat="name in firstNameList">
+            <td>{{$index}}</td>
+            <td>{{name}}</td>
+        </tr>
+    </table>
+
+    <hr />
+
+    <h5>---------- ELEMENT AT FIRST INDEX-----------</h5>
+    <table border="1">
+        <tr><td colspan="2">Name</td></tr>
+        <tr ng-repeat="name in firstNameList" ng-if="$first">
+            <td>{{$index}}</td>
+            <td>{{name}}</td>
+        </tr>
+    </table>
+    <hr />
+
+    <h5>---------- ELEMENT AT LAST INDEX-----------</h5>
+    <table border="1">
+        <tr><td colspan="2">Name</td></tr>
+        <tr ng-repeat="name in firstNameList" ng-if="$last">
+            <td>{{$index}}</td>
+            <td>{{name}}</td>
+        </tr>
+    </table>
+    <hr />
+
+    <h5>---------- ELEMENT AT MIDDLE INDEX-----------</h5>
+    <table border="1">
+        <tr><td colspan="2">Name</td></tr>
+        <tr ng-repeat="name in firstNameList" ng-if="$middle">
+            <td>{{$index}}</td>
+            <td>{{name}}</td>
+        </tr>
+    </table>
+    <hr />
+
+    <h5>---------- ELEMENTS AT ODD INDEX-----------</h5>
+    <table border="1">
+        <tr><td colspan="2">Name</td></tr>
+        <tr ng-repeat="name in firstNameList" ng-if="$odd">
+            <td>{{$index}}</td>
+            <td>{{name}}</td>
+        </tr>
+    </table>
+    <hr />
+    <h5>----------ELEMENTS AT EVEN INDEX-----------</h5>
+    <table border="1">
+        <tr><td colspan="2">Name</td></tr>
+        <tr ng-repeat="name in firstNameList" ng-if="$even">
+            <td>{{$index}}</td>
+            <td>{{name}}</td>
+        </tr>
+    </table>
+    <hr />
+
+

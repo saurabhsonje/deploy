@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <script src="Scripts/angular.js"></script>
+    <script src="Scripts/angular.min.js"></script>
+    <title></title>
+    <script src="app/app.js"></script>
+    <script src="app/controllers/studentController.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+    <script src="app/config/config.js"></script>
+    <script src="app/directive/directive.js"></script>
+
+</head>
+
+<body>  
+    <div ng-app="demoApp">
+
+        <hr />
+        <div ng-controller="studentController">
+            <center>  <ng-Student></ng-Student></center>
+            <hr />
+            <a href="#!studentList">CLICK TO SEE THE LIST OF STUDENT</a>
+            <div ng-view></div>
+        </div>
+    </div>
+   
+</body>
+</html>

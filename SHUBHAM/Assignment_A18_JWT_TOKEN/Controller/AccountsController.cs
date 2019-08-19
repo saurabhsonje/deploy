@@ -97,9 +97,7 @@ namespace JWT_TOKEN.Controller
                 EmailConfirmed = true,
                 Level = 3,
                 JoinDate = DateTime.Now.Date,
-
-               
-        };
+            };
 
            
             IdentityResult addUserResult = await this.AppUserManager.CreateAsync(user, createUserModel.Password);
