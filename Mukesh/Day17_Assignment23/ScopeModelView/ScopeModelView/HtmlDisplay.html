@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+
+    <table cellpadding="2" cellspacing="2">
+        <thread>
+            <tr>
+                <th>Index</th>
+                <th>Name</th>
+                <th>ID</th>
+                <th>Course</th>
+                <th>First</th>
+                <th>Middle</th>
+                <th>Last</th>
+            </tr><button ng-click="getStuDetails()">Display Students</button><br /><br />
+            <tbody>
+                <tr ng-repeat="stu in stuDetails">
+                    <td>{{$index}}</td>
+                    <td>{{stu.Name}}</td>
+                    <td>{{stu.ID}}</td>
+                    <td>{{stu.Course}}</td>
+                    <td>{{$first}}</td>
+                    <td>{{$middle}}</td>
+                    <td>{{$last}}</td>
+                </tr>
+            </tbody>
+        </thread>
+    </table><br /><br />
+
+</body>
+</html>

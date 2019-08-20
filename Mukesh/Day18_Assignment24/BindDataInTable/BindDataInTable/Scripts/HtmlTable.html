@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script src="angular.min.js"></script>
+    <script src="TableScript.js"></script>
+    <script src="FIlters.js"></script>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body ng-app="myModule">
+    <h2>Employees Details</h2>
+    <div ng-controller="myController">
+        <table>
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>ID</th>
+                    <th>Salary(number)</th>
+                    <th>Salary(currency)</th>
+                    <th>DOB</th>
+                </tr>
+            </thead>
+            <tbody>
+               <!--false value for sorting in ascending order as we make reverse to false.-->
+                <tr ng-repeat="emp in employees | orderBy:'ID':false">
+                    <td>{{emp.firstName | uppercase}}</td>
+                    <td>{{emp.lastName | caseFilter}}</td>
+                    <td>{{emp.ID}}</td>
+                    <td>{{emp.salary | number:2}}</td>
+                    <td>{{emp.salary | currency}}</td>
+                    <td>{{emp.DOB | date:"dd/MM/yyyy"}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
