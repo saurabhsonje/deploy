@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <script src="Scripts/angular.js"></script>
+    <script src="JavaScript4.js"></script>
+    <title></title>
+</head>
+
+
+<body ng-app="MyAppDemo" , ng-controller="MyCtrlDemo">
+    <form>
+
+        <table border="1">
+
+            <tr>
+                <th>Firstname(UpperCase)</th>
+                <th>Lastname(LowerCase)</th>
+                <th>Gender(CustomFilter(1st letter UpperCase))</th>
+                <th>Salary</th>
+                <th>DOB</th>
+                <th>FullName(CustomFilter)</th>
+            </tr>
+            <tr ng-repeat="x in Employees">
+
+                <td> <input ng-model="x.FirstName | uppercase" type="text"></td>
+                <td><input ng-model="x.LastName | lowercase " type="text"></td>
+                <td><input ng-model="x.Gender | CustomFilter" type="text"></td>
+                <td><input ng-model="x.Salary | currency : 'Rs.'" type="text"></td>
+                <td><input ng-model="x.DOB| date : 'short' " type="text"></td>
+                <td>{{x.FirstName|CustomFilter}} {{x.LastName | CustomFilter}}</td>
+                <!--<td><input ng-model="x.FirstName|CustomFilter " type="text"><input ng-model="x.LastName | lowercase" type="text"></td>-->
+
+            </tr>
+        </table>
+
+
+        <div><button id="mybutton" ng-click="ShowForm()">Add-Employee</button></div>
+        <div>
+            <div ng-show="myvalue">
+                <table border="1">
+
+                    <tr>
+                        <td>
+                            <label for="FirstName">First Name</label>
+                            <input ng-model="firstname" type="text">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="LastName">Last Name</label>
+                            <input ng-model="lastname" type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Gender">Gender</label>
+                            <input ng-model="gender" type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="DOB">DOB</label>
+                            <input ng-model="dob" type="date">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Salary">Salary</label>
+                            <input ng-model="salary" type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>
+
+                                <input type="button" value="Add" ng-click="AddEmployee()" maxlength="50" style="width:100px">
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+
+
+            </div>
+        </div>
+    </form>
+
+</body>
+</html>

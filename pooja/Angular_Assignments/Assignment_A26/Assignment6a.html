@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <script src="Scripts/angular.js"></script>
+    <script src="JavaScript6.js"></script>
+    <script src="Scripts/angular-route.js"></script>
+    <title></title>
+</head>
+
+
+<body ng-app="Mainapp">
+    <div ng-module="MyAppDemo" , ng-controller="MyCtrlDemo">
+    <form>
+
+        <table border="1">
+
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+
+            </tr>
+            <tr ng-repeat="x in Customers">
+
+                <td> <input ng-model="x.FirstName" type="text" maxlength="50" style="width: 260px"></td>
+                <td><input ng-model="x.LastName" type="text" maxlength="50" style="width: 260px"></td>
+
+            </tr>
+        </table>
+
+      
+       
+
+    </form>
+
+    <a href="#!Add">Add-Employee</a>
+    <div ng-view></div>
+        </div>
+</body>
+</html>
