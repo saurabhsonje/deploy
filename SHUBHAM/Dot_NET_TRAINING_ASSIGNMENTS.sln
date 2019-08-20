@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angular_A23_NGVIEW", "Angul
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angular_A25_Custom_Directive", "Angular_A25_Custom_Directive\CUSTOM_DIRECTIVE\Angular_A25_Custom_Directive.csproj", "{6561EA3B-6677-4DC8-81F3-68619B3B6B21}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angular_A26_Modules", "Angular_A26_Modules\Angular_A26_Modules.csproj", "{2A49EB87-E752-437B-89D0-B241BFEB9C70}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{6561EA3B-6677-4DC8-81F3-68619B3B6B21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6561EA3B-6677-4DC8-81F3-68619B3B6B21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6561EA3B-6677-4DC8-81F3-68619B3B6B21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A49EB87-E752-437B-89D0-B241BFEB9C70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A49EB87-E752-437B-89D0-B241BFEB9C70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A49EB87-E752-437B-89D0-B241BFEB9C70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A49EB87-E752-437B-89D0-B241BFEB9C70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
