@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <script src="Scripts/angular.js"></script>
+    <script src="JavaScript.js"></script>
+    <script src="Scripts/angular-route.js"></script>
+
+    <title></title>
+
+</head>
+<body ng-app="myApp" ng-controller="MyController">
+
+
+    <table cellpadding="0" cellspacing="0">
+        <tr>
+            <th>FirstName</th>
+            <th>LastName</th>
+            <th>MobNo</th>
+        </tr>
+        <tbody ng-repeat="m in Customers">
+            <tr>
+                <td><input type="text" ng-model="m.FirstName" /></td>
+                <td><input type="text" ng-model="m.LastName" /></td>
+                <td><input type="number" ng-model="m.MobNo" /></td>
+                <td><input type="button" ng-click="Remove($index)" value="Remove" /></td>
+            </tr>
+        </tbody>
+
+    </table>
+
+
+
+    <div><button ng-click="ShowForm()">Add-Employee</button></div>
+
+    <div ng-show="myValue">
+
+
+        <Form>
+
+
+            <label class="col-md-3">First Name:</label>
+            <div class="col-md-9">
+                <input type="text" ng-model="FirstName" class="form-control">
+            </div>
+
+            <label class="col-md-3">Last Name:</label>
+            <div class="col-md-9">
+                <input type="text" ng-model="LastName" class="form-control">
+            </div>
+
+            <label class="col-md-3">Mobile Number:</label>
+            <div class="col-md-9">
+                <input type="number" ng-model="MobNo" class="form-control">
+            </div>
+            <input type="button" ng-click="Add()" value="Add" class="btn btn-danger " />
+        </Form>
+    </div>
+
+</body>
+</html>

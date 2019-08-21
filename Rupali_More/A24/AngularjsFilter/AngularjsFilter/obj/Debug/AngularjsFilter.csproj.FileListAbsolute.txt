@@ -1,0 +1,112 @@
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\bin\AngularjsFilter.dll.config
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\bin\AngularjsFilter.dll
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\bin\AngularjsFilter.pdb
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\bin\roslyn\csc.exe
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\bin\roslyn\csc.exe.config
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\bin\roslyn\csc.rsp
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\bin\roslyn\csi.exe
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\bin\roslyn\csi.exe.config
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\bin\roslyn\csi.rsp
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\bin\roslyn\System.AppContext.dll
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\bin\roslyn\System.Console.dll
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\bin\roslyn\System.IO.Compression.dll
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\bin\roslyn\System.IO.Pipes.dll
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\bin\roslyn\System.Security.Claims.dll
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\bin\roslyn\System.ValueTuple.dll
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\bin\roslyn\System.Xml.XPath.dll
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\bin\roslyn\vbc.exe
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\bin\roslyn\vbc.exe.config
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\bin\roslyn\vbc.rsp
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\bin\roslyn\VBCSCompiler.exe
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\obj\Debug\AngularjsFilter.csprojAssemblyReference.cache
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\obj\Debug\AngularjsFilter.csproj.CoreCompileInputs.cache
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\obj\Debug\AngularjsFilter.csproj.CopyComplete
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\obj\Debug\AngularjsFilter.dll
+C:\Users\rupali.more\source\repos\AngularjsFilter\AngularjsFilter\obj\Debug\AngularjsFilter.pdb
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\bin\AngularjsFilter.dll.config
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\bin\AngularjsFilter.dll
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\bin\AngularjsFilter.pdb
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\bin\roslyn\csc.exe
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\bin\roslyn\csc.exe.config
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\bin\roslyn\csc.rsp
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\bin\roslyn\csi.exe
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\bin\roslyn\csi.exe.config
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\bin\roslyn\csi.rsp
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\bin\roslyn\System.AppContext.dll
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\bin\roslyn\System.Console.dll
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\bin\roslyn\System.IO.Compression.dll
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\bin\roslyn\System.IO.Pipes.dll
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\bin\roslyn\System.Security.Claims.dll
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\bin\roslyn\System.ValueTuple.dll
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\bin\roslyn\System.Xml.XPath.dll
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\bin\roslyn\vbc.exe
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\bin\roslyn\vbc.exe.config
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\bin\roslyn\vbc.rsp
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\bin\roslyn\VBCSCompiler.exe
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\obj\Debug\AngularjsFilter.csprojAssemblyReference.cache
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\obj\Debug\AngularjsFilter.csproj.CoreCompileInputs.cache
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\obj\Debug\AngularjsFilter.csproj.CopyComplete
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\obj\Debug\AngularjsFilter.dll
+C:\Users\rupali.more\source\repos\Rupali More\Rupali_More\A24\AngularjsFilter\AngularjsFilter\obj\Debug\AngularjsFilter.pdb

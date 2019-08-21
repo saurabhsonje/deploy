@@ -1,0 +1,24 @@
+﻿<Form ng-app="myApp" ng-controller="myAddController">
+    <table>
+        <tr>
+            <td>
+                <label class="col-md-3">Name:</label>
+            </td>
+            <td>
+                <input type="text" ng-model="Name" class="form-control">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label class="col-md-3">Number:</label>
+            </td>
+            <td>
+                <input type="text" ng-model="Number" class="form-control">
+            </td>
+        <tr>
+            <td>
+                <input type="button" ng-click="Add()" value="Add" class="btn btn-danger " />
+            </td>
+        </tr>
+    </table>
+</Form>

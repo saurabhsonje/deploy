@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+<script src="JavaScript.js"></script>
+
+<body ng-app="myApp" ng-controller="mycontroller">
+
+
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>FirstName(UpperCase)</th>
+            <th>LastName(LowerCase)</th>
+            <th>FullName(CustomFilter)</th>
+            <th>Salary(currency)</th>
+            <th>DOB(Date)</th>
+        </tr>
+
+        <tr ng-repeat="m in customers  ">
+
+            <td><input type="text" ng-model="m.ID" /></td>
+
+            <td><input type="text" ng-model="m.FName | uppercase" /></td>
+
+            <td><input type="text" ng-model="m.LName | lowercase" /></td>
+
+            <td><input type="text" ng-model="m.FName+' '+m.LName | myFormat" /></td>
+
+            <td><input type="text" ng-model="m.Salary | currency:'rs.'" /></td>
+
+            <td><input type="text" ng-model="m.DOB |date : 'MMMM d, y'" /></td>
+
+        </tr>
+
+
+    </table>
+    <Form >
+        <table>
+            <tr>
+                <td>
+                    <label class="col-md-3">ID:</label>
+                </td>
+                <td>
+                    <input type="text" ng-model="ID" class="form-control">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label class="col-md-3">FName:</label>
+                </td>
+                <td>
+                    <input type="text" ng-model="FName" class="form-control">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label class="col-md-3">LName:</label>
+                </td>
+                <td>
+                    <input type="text" ng-model="LName" class="form-control">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label class="col-md-3">Salary:</label>
+                </td>
+                <td>
+                    <input type="text" ng-model="Salary" class="form-control">
+                </td>
+            <tr>
+            <tr>
+                <td>
+                    <label class="col-md-3">DOB:</label>
+                </td>
+                <td>
+                    <input type="Date" ng-model="DOB" class="form-control">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" ng-click="Add()" value="Add" class="btn btn-danger " />
+                </td>
+            </tr>
+        </table>
+    </Form>
+
+</body>
+</html>

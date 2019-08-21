@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+<script src="JavaScript.js"></script>
+
+<body ng-app="myApp" ng-controller="mycontroller">
+
+    <p><a href="#/!">Main</a></p>
+
+    <a href="#!EmployeeInfo">Employeeform</a>
+    <div ng-view></div>
+    <table border="1">
+        <tr>
+            <th>FirstIndex</th>
+            <th>LastIndex</th>
+            <th>MiddleIndex</th>
+            <th>EvenIndex</th>
+            <th>OddIndex</th>
+            <th>SR No.</th>
+            <th>FirstName</th>
+            <th>LastName</th>
+        </tr>
+
+        <tr ng-repeat="m in customers" ng-style="{'background-color':$even?'red':'blue'}">
+
+            <td>
+                {{$first}}</td">
+                <br ng-if="$first" {{Name}}><br />
+            <td>{{$last}}</td>
+            <td>{{$middle}}</td>
+            <td>{{$even}}</td>
+            <td>{{$odd}}</td>
+            <td>{{$index}}</td>
+            <td><input type="text" ng-model="m.Name" /></td>
+
+            <td><input type="text" ng-model="m.Number" /></td>
+
+
+    </table>
+
+</body>
+</html>

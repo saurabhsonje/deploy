@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <script src="Scripts/angular.js"></script>
+    <script src="JavaScript.js"></script>
+
+    <title></title>
+</head>
+<body ng-app="myapp1" ng-controller="mycontroller" ng-init="Greet='Welcome to This Page:)'">
+    <center>
+    <form>
+        <center> <h1>{{Greet}}</h1> </center>
+        <table>
+
+            <tr>
+                <th>Name</th>
+                <th>Number</th>
+                <th>Salary</th>
+            </tr>
+            <tr ng-repeat="x in Employees " >  
+                <td>
+                    <input type="text" ng-model="x.name"  >
+
+                </td>
+                <td>
+                    <input type="text" ng-model="x.Number">
+                </td>
+                <td>
+                    <input type="text" ng-model="x.Salary">
+                </td>
+            </tr>
+
+        </table>
+    </form>
+    <form>
+        <table>
+            <tr>
+                <td>
+                    Disabled<input type="checkbox" ng-model="checked">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label class="col-md-3">Name</label>
+                </td>
+                <td>
+                    <input type="text" ng-model="name" class="form-control">
+                    <!--use of ng-bild-->
+                    <span ng-bind="name"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label class="col-md-3">Number</label>
+                </td>
+                <td>
+                    <input type="number" ng-model="Number" class="form-control">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label class="col-md-3">Salary</label>
+                </td>
+                <td>
+                    <input type="number" ng-model="Salary" class="form-control">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label class="col-md-3">Father's Name</label>
+                </td>
+                <td>
+                    <input ng-disabled="checked" type="text"  class="form-control">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label class="col-md-3">Mother's Name</label>
+                </td>
+                <td>
+                    <input ng-readonly="checked" type="number" ng-model="Salary" class="form-control">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <!--use of ng-if and ng-click-->
+                    <button ng-if="checked" type="button" ng-click="Add()">Add</button>
+                </td>
+
+
+            </tr>
+        </table>
+        </form>
+        </center>
+</body>
+</html>
