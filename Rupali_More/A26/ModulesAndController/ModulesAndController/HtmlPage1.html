@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <script src="Scripts/angular.js"></script>
+    <script src="JavaScript.js"></script>
+    <title></title>
+</head>
+<body ng-app = "CombineModule">
+    <div ng-module="Addition" ng-controller="additioncntrl">
+    <table>
+        <tr>
+            <td>
+                Result for Addition:
+                <input type="number" ng-model="c">
+            </td>
+            </tr>
+        </table>
+     </div>
+    <div  ng-controller="subtractioncntrl">
+        <table>
+            <tr>
+                <td>
+                    Result For Substraction:<input type="number" ng-model="d">
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

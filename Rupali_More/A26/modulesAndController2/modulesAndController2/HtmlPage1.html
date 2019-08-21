@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <script src="Scripts/angular.js"></script>
+    <script src="JavaScript.js"></script>
+    <title></title>
+</head>
+<body ng-app="CombineModule">
+    <table>
+    <form>
+        <table>
+            <tr>
+                <td>
+                    Enter First Number:<input type="number" ng-model="a">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Enter Second Number:<input type="number" ng-model="b">
+                </td>
+            </tr>
+        </table>
+    </form>
+    <div ng-module="Addition" ng-controller="additioncntrl">
+        <table>
+            <tr>
+                <td>
+                    <button ng-click="Add()">Addition</button>
+                </td>
+                <td>
+                    <input type="number" ng-model="c">
+
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div ng-module="substraction" ng-controller="substractioncntrl">
+        <table>
+            <tr>
+                <td>
+                    <button ng-click="Sub()">substraction</button>
+                </td>
+                <td>
+                    <input type="number" ng-model="d">
+
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div ng-module="multiplication" ng-controller="multiplicationcntrl">
+        <table>
+            <tr>
+                <td>
+                    <button ng-click="Mul()">Multiplication</button>
+                </td>
+                <td>
+          <input type="number" ng-model="e">
+
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div ng-module="Division" ng-controller="Divisioncntrl">
+        <table>
+            <tr>
+                <td>
+                    <button ng-click="Div()">Divisioncntrl</button>
+                </td>
+                <td>
+                 <input type="number" ng-model="f">
+
+                </td>
+            </tr>
+        </table>
+    </div>
+        </table>>
+</body>
+</html>
