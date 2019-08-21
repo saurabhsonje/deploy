@@ -21,7 +21,7 @@
                 <th>Last</th>
             </tr><button ng-click="getStuDetails()">Display Students</button><br /><br />
             <tbody>
-                <tr ng-repeat="stu in stuDetails">
+                <tr ng-repeat="stu in stuDetails" ng-class="$index % 2 == 0?'even':'odd'">
                     <td>{{$index}}</td>
                     <td>{{stu.Name}}</td>
                     <td>{{stu.ID}}</td>

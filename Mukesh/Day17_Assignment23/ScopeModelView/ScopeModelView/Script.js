@@ -10,9 +10,9 @@
         })
 
     }).controller("AddStudent", function ($scope, $rootScope) {
-        $scope.Name = ""
-        $scope.ID = ""
-        $scope.Course = ""
+        $rootScope.Name = ""
+        $rootScope.ID = ""
+        $rootScope.Course = ""
         $rootScope.stuDetails = []
         $scope.addStuDetails = function () {
             $rootScope.stuDetails.push({ Name: $scope.Name, ID: $scope.ID, Course: $scope.Course })
