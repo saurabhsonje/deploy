@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <script src=https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js></script>
+
+    <script src="script1.js"></script>
+    <title></title>
+</head>
+<body ng-app="Myapp" ng-controller="Mycontroller" ng-init="GetEmpInfo()">
+    <div>
+        {{error}}
+        <br />
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Location</th>
+                    <th>Name</th>
+                    <th>Salary</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="employee in employees">
+                    <td>{{employee.Id}}</td>
+                    <td>{{employee.Location}}</td>
+                    <td>{{employee.Name}}</td>
+                    <td>{{employee.Salary}}</td>
+
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br />
+    <br />
+
+    <form>
+
+        <div>
+            <div>
+
+                <table border="1">
+
+
+                    <tr>
+                        <td>
+                            <label for="Location">Location</label>
+                            <input ng-model="EmployeeData.Location" type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Name">Name</label>
+                            <input ng-model="EmployeeData.Name" type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Salary">Salary</label>
+                            <input ng-model="EmployeeData.Salary" type="number">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <div>
+
+                                <input type="button" value="Add" ng-click="AddEmployee(EmployeeData)" maxlength="50" style="width:100px">
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+
+
+            </div>
+        </div>
+    </form>
+</body>
+</html>
