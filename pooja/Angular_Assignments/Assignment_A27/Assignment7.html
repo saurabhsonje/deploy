@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <script src="Scripts/angular.js"></script>
+    <script src="Scripts/angular-route.js"></script>
+
+
+    <script src="JavaScript7.js"></script>
+    <title></title>
+</head>
+
+
+<body ng-app="MyAppDemo" , ng-controller="MyDemo">
+    <form>
+        <a href="#!Add-Employee">Add-Employee</a>
+        <a href="#!Edit-Employee">edit-employee</a>
+        <br />
+        <table border="1">
+
+            <tr>
+                <th>ID</th>
+                <th>Firstname</th>
+                <th>Lastname</th>
+               
+            </tr>
+            <tr ng-repeat="x in Employees" data-ng-click="BindSelectData(x)">
+                <td>{{x.Id}}</td>
+                <td> <input ng-model="x.FirstName" type="text" maxlength="50" style="width: 260px"></td>
+                <td><input ng-model="x.LastName" type="text" maxlength="50" style="width: 260px"></td>
+
+            </tr>
+
+        </table>
+
+        <br />
+        <div ng-view></div>
+    </form>
+  
+</body>
+</html>
+
+
+
