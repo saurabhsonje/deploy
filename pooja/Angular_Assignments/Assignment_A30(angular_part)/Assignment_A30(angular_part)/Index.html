@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.16/angular.min.js"></script>-->
+    <!--<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>-->
+
+    <script src=https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js></script>
+    <script src="script1.js"></script>
+    <title></title>
+    <style>
+        span {
+            color: red;
+        }
+
+        hr {
+            border: 1px solid #f1f1f1;
+            margin-bottom: 25px;
+        }
+
+        /* Add padding to containers */
+        .container {
+            padding: 16px;
+            background-color: white;
+        }
+        /* Full-width input fields */
+        input[type=text], input[type=password], input[type=date], input[type=email] {
+            width: 50%;
+            padding: 10px;
+            margin: 4px 0 20px 0;
+            display: inline-block;
+            border: none;
+            background: #f1f1f1;
+        }
+
+            input[type=text]:focus, input[type=password]:focus, input[type=date]:focus, input[type=email]:focus {
+                background-color: #ddd;
+                outline: none;
+            }
+
+        .registerbtn {
+            background-color: blue;
+            color: white;
+            padding: 16px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body ng-app="appServices" ng-controller="angularController" ng-init="GetEmpInfo()">
+    
+    <div>
+        {{error}}
+        <br />
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>FirstName</th>
+                    <th>LastName</th>
+                    <th>Dob</th>
+                    <th>Location</th>
+                    <th>Email</th>
+                    <th>Password</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="employee in employees">
+                    <td>{{employee.Id}}</td>
+                    <td>{{employee.FirstName}}</td>
+                    <td>{{employee.LastName}}</td>
+                    <td>{{employee.Dob}}</td>
+                    <td>{{employee.Location}}</td>
+                    <td>{{employee.Email}}</td>
+                    <td>{{employee.Password}}</td>
+                </tr>
+               
+            </tbody>
+        </table>
+    </div>
+    <h1>Register</h1>
+    <div class="container">
+        <form name="RegisterForm" validate>
+            <hr />
+            <label for="FirstName"><b>First Name:</b></label> <br />
+            <input type="text" name="FirstName" ng-model="user.FirstName" ng-required="true" required />
+            <span ng-show="RegisterForm.FirstName.$touched && RegisterForm.FirstName.$error.required">First name is required.</span><br /><br />
+
+
+            <label for="lastName"><b>Last Name:</b></label><br />
+            <input type="text" name="LastName" ng-model="user.LastName" ng-required="true" required />
+            <span ng-show="RegisterForm.LastName.$touched && RegisterForm.LastName.$error.required">Last Name is required.</span><br /><br />
+
+
+            <label for="dob"><b>Date of Birth: </b></label> <br />
+            <input type="date" name="Dob" ng-model="user.Dob" ng-required="true" required />
+            <span ng-show="RegisterForm.Dob.$touched && RegisterForm.Dob.$error.required">Dob is required.</span><br /><br />
+
+            <label for="location"><b>Location : </b></label> <br />
+            <input type="text" name="Location" ng-model="user.Location" ng-required="true" required />
+            <span ng-show="RegisterForm.Location.$touched && RegisterForm.Location.$error.required">Location is required.</span><br /><br />
+
+
+            <label for="email"><b>Email :</b></label><br />
+            <input type="email" ng-model="user.Email" name="Email" ng-required="true" />
+            <span ng-show="RegisterForm.Email.$touched && (RegisterForm.Email.$error.email || RegisterForm.Email.$error.required) ">Please enter valid email id.</span><br /><br />
+            
+
+            <label for="password"><b>Password : </b></label> <br />
+            <input type="password" name="Password" ng-model="user.Password" ng-minlength="3" ng-maxlength="10" required />
+            <span ng-show="RegisterForm.Password.$touched && RegisterForm.Password.$error.minlength">Min 3 characters.</span><br /><br />
+            <span ng-show="RegisterForm.Password.$touched && RegisterForm.Password.$error.maxlength">Max 10 characters.</span><br /><br />
+
+            <hr />
+
+
+            <input type="submit" class="registerbtn" ng-click="AddEmployee(user)" value="Submit" />
+
+        </form>
+    </div>
+</body>
+</html>
