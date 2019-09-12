@@ -1,0 +1,92 @@
+﻿    <!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="ValidationScript.js"></script>
+
+    <style>
+        table, th, td {
+            border: 1Px solid black;
+        }
+        input {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            text-align: left;
+            width: 250px;
+            line-height: 20px;
+            margin-bottom: 5px;
+        }
+
+            input.invalid {
+                background-color: pink;
+            }
+
+            input.valid {
+                background-color: lightgreen;
+            }
+    </style>
+</head>
+<body ng-app="validateModule" ng-controller="validateController">
+    <form name="myForm">
+        <div>
+            <table>
+                <tr>
+                    <th>Username</th>
+                    <th>Email</th>
+                    <th>Password</th>
+                    <th>Confirm Password</th>
+                    <th>Phone</th>
+                </tr>
+                <tr ng-repeat="emp in employees">
+                    <td><input type="name" ng-model="emp.userName" /></td>
+                    <td><input type="email" ng-model="emp.email" /></td>
+                    <td><input type="password" ng-model="emp.password" /></td>
+                    <td><input type="password" ng-model="emp.confirmPassword" /></td>
+                    <td><input type="name" ng-model="emp.phone" /></td>
+                </tr>
+            </table>
+        </div>
+
+        <h2>Employee Registration form</h2>
+        <div>
+            <p>
+                UserName:<input name="userName" type="text" ng-model="userName" required />
+                <span style="color:red" ng-show="myForm.userName.$touched && myForm.userName.$invalid ">
+                    <span ng-show="myForm.userName.$error.required">UserName is required</span>
+                </span>
+            </p>
+            <p>
+                Email:<input name="email" type="email" ng-model="email" required />
+                <span style="color:red" ng-show="myForm.email.$touched && myForm.email.$invalid">
+                    <span ng-show="myForm.email.$error.required">Email is required.</span>
+                    <span ng-show="myForm.email.$error.email">Invalid email address.</span>
+                </span>
+            </p>
+            <p>
+                Password:<input name="password" type="password" ng-minlength="8" ng-model="password" required />
+                <span style="color:red" ng-show="myForm.password.$touched && myForm.password.$invalid ">
+                 <span ng-show="myForm.password.$error.required">Password is required</span>
+                <span style="color:red" ng-show="myForm.password.$touched && myForm.password.$minlength ">Minimum length is 8</span>
+                </span>
+            </p>
+            <p>
+                Confirm Password:<input name="confirmPassword" type="password"   ng-model="confirmPassword" required />
+                <span style="color:red" ng-show="myForm.confirmPassword.$touched && myForm.confirmPassword.$invalid ">This is required</span><br />
+            </p>
+            <p>
+                Phone:<input name="phone" type="text" ng-model="phone" ng-minlength="10" />
+            </p>
+            <p>
+                <button type="button" ng-click="addDetails()" ng-disabled="myForm.userName.$untouched && myForm.userName.$invalid ||
+                            myForm.email.$untouched && myForm.email.$invalid ||
+                            myForm.password.$untouched && myForm.password.$invalid ||
+                            myForm.confirmPassword.$untouched && myForm.confirmPassword.$invalid">
+                    Submit
+                </button>
+            </p>
+        </div>
+    </form>
+
+</body>
+</html>

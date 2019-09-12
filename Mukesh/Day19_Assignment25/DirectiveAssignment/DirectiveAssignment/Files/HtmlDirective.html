@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script src="../Scripts/angular.min.js"></script>
+    <script src="DirectiveScript.js"></script>
+    <script src="CustomDirective.js"></script>
+    <script src="customFilter.js"></script>
+</head>
+<body ng-app="myDirectives">
+    <h2>Custome Directive to mark first letter as a capital</h2>
+    <div ng-controller="DirController">
+        First Name<input type="text" ng-model="firstName" placeholder="FIRSTNAME" /><br /><br />
+        Last Name<input type="text" ng-model="lastName" placeholder="LASTNAME" /><br /><br />
+        <button  ng-click="getName()" >Click to save</button><br /><br />
+        FIRST NAME:{{firstName}}<br /><br />
+        LAST NAME: {{lastName}}<br /><br />
+        CONCATENATED NAME:<div custom-directive=""></div>
+    </div>
+
+</body>
+</html>

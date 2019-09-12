@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="ServiceScript.js"></script>
+</head>
+<body ng-app="myModule" >
+<h2> This is $HTTP service Demo</h2>
+    <div ng-controller="myController">
+        <table>
+            <tr>
+               <th>ID</th>
+               <th>Name</th>
+               <th>Course</th>
+            </tr>
+            <tr ng-repeat="stu in students">
+                <td><input type="text" ng-model="stu.ID"/></td>
+                <td><input type="text" ng-model="stu.Name"/></td>
+                <td><input type="text" ng-model="stu.Course"/></td>
+            </tr>
+        </table><br />
+
+        <div>
+            Id:<input type="text" ng-model="st.ID" /><br /><br />
+            Name:<input type="text" ng-model="st.Name" /><br /><br />
+            Course:<input type="text" ng-model="st.Course  " /><br /><br />
+            <button type="button" ng-click="postMe(st)">Post</button>
+        </div>
+
+    </div>
+</body>
+</html>

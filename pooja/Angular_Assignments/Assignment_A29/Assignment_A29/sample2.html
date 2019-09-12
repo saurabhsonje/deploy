@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.16/angular.min.js"></script>
+    <title></title>
+    <style>
+        span{
+            color:red;
+        }
+        hr {
+            border: 1px solid #f1f1f1;
+            margin-bottom: 25px;
+        }
+      
+        /* Add padding to containers */
+        .container {
+            padding: 16px;
+            background-color: white;
+        }
+        /* Full-width input fields */
+        input[type=text], input[type=password], input[type=date], input[type=email] {
+            width: 50%;
+            padding: 10px;
+            margin: 4px 0 20px 0;
+            display: inline-block;
+            border: none;
+            background: #f1f1f1;
+        }
+
+        input[type=text]:focus, input[type=password]:focus, input[type=date]:focus, input[type=email]:focus {
+            background-color: #ddd;
+            outline: none;
+        }
+        .registerbtn {
+            background-color: blue;
+            color: white;
+            padding: 16px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body ng-app>
+    <h1>Register</h1>
+    <div class="container">
+        <form name="RegisterForm" novalidate>
+            <hr />
+            <label for="firstName"><b>First Name:</b></label> <br />
+            <input type="text" name="firstName" ng-model="user.firstName" ng-required="true" />
+            <span ng-show="RegisterForm.firstName.$touched && RegisterForm.firstName.$error.required">First name is required.</span><br /><br />
+
+
+            <label for="lastName"><b>Last Name:</b></label><br />
+            <input type="text" name="lastName" ng-model="user.lastName" ng-required="true" />
+            <span ng-show="RegisterForm.lastName.$touched && RegisterForm.lastName.$error.required">Last Name is required.</span><br /><br />
+
+
+            <label for="dob"><b>Date of Birth: </b></label> <br />
+            <input type="date" name="dob" ng-model="user.dob" ng-required="true" />
+            <span ng-show="RegisterForm.dob.$touched && RegisterForm.dob.$error.required">Dob is required.</span><br /><br />
+
+            <label for="location"><b>Location : </b></label> <br />
+            <input type="text" name="location" ng-model="user.location" ng-required="true" />
+            <span ng-show="RegisterForm.location.$touched && RegisterForm.location.$error.required">Location is required.</span><br /><br />
+
+
+            <label for="email"><b>Email :</b></label><br />
+            <input type="email" id="email" ng-model="user.email" name="email" />
+            <span ng-show="RegisterForm.email.$touched && RegisterForm.email.$error.email">Please enter valid email id.</span><br /><br />
+
+            <label for="password"><b>Password : </b></label> <br />
+            <input type="password" name="password" ng-model="user.password" ng-minlength="3" ng-maxlength="10" />
+            <span ng-show="RegisterForm.password.$touched && RegisterForm.password.$error.minlength">Min 3 characters.</span><br /><br />
+            <span ng-show="RegisterForm.password.$touched && RegisterForm.password.$error.maxlength">Max 10 characters.</span><br /><br />
+
+            <hr />
+            <input type="submit"  class="registerbtn" value="Submit" />
+        </form>
+    </div>
+</body>
+</html>
