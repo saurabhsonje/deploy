@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <script src="Scripts/angular.js"></script>
+    <script src="Scripts/angular-route.js"></script>
+    <script src="StudentDetails.js"></script>
+
+    <title></title>
+</head>
+<body ng-app="Students" ng-controller="StudentCntrl">
+    <form>
+        <a href="#!Add-Student">Add-Student</a><br/>
+        <a href="#!Edit-Student">Edit-Student</a>
+        <table border="1">
+            <thead>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Branch</th>
+            </thead>
+
+            <tbody>
+                <tr ng-repeat="E in StudentData" ng-click="BindSelectData(E)">
+                    <td><input ng-model="E.ID" type="text"></td>
+                    <td><input ng-model="E.Name" type="text"></td>
+                    <td><input ng-model="E.Branch" type="text"></td>
+                </tr>
+            </tbody>
+        </table>
+        <div ng-view></div>
+    </form>
+</body>
+</html>

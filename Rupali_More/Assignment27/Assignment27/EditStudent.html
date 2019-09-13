@@ -1,0 +1,19 @@
+﻿<form ng-app="Students" ng-controller="addStudentCntrl">
+    <table border="1">
+        <tr>
+            <td><label>Student Name:</label></td>
+            <td><input ng-model="Name" type="text"></td>
+        </tr>
+        <tr>
+            <td><label>Student Branch:</label></td>
+            <td><input ng-model="Branch" type="text"></td>
+        </tr>
+        <tr>
+            <td><button type="button" ng-click="editStudent(stdModel)">EditStudent</button></td>
+        </tr>
+        <tr>
+            <td><button type="button" ng-click="deleteStudent(stdModel)">DeleteStudent</button></td>
+        </tr>
+
+    </table>
+</form>
