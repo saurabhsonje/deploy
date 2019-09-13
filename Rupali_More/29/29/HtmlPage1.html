@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html ng-app="formExample">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
+    <script src="script.js"></script>
+    <script src="JavaScript.js"></script>
+
+</head>
+<body>
+
+    <form name="myForm" ng-controller="FormController" class="my-form">
+        userType: <input name="input" ng-model="userType" required>
+        <span class="error" ng-show="myForm.input.$error.required">Required!</span><br>
+        <code>userType = {{userType}}</code><br>
+        <code>myForm.input.$valid = {{myForm.input.$valid}}</code><br>
+        <code>myForm.input.$invalid = {{myForm.input.$invalid}}</code><br>
+        <code>myForm.input.$error = {{myForm.input.$error}}</code><br>
+        <code>myForm.input.$dirty = {{myForm.input.$dirty}}</code><br>
+        <code>myForm.input.$pristine = {{myForm.input.$pristine}}</code><br>
+        <code>myForm.$valid = {{myForm.$valid}}</code><br>
+        <code>myForm.$error.required = {{!!myForm.$error.required}}</code><br>
+        <button ng-click="setpristine()">Set Pristine</button>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <script src="JavaScript.js"></script>
+    <script src="Scripts/angular.js"></script>
+    <title></title>
+</head>
+<body ng-app="" >
+    <form name="myform">
+        <table>
+            <tr>
+                <td>First Name<input name="Fname" type="text" ng-pattern="re" ng-model="Fname" required /></td>
+                <td><span ng-show="myform.Fname.$touched && myform.Fname.$invalid">The name is required.</span></td>
+            </tr>
+            <tr>
+                <td>Email<input name="Email" type="email" ng-model="Email" required /></td>
+                <td><span ng-show="myform.Email.$touched&&myform.Email.$invalid ">Email is required.</span></td>
+               
+            </tr>
+
+            <tr><td>Last Name<input name="Lname" type="text" ng-model="Lname" /></td>
+            <td><span ng-show="myform.Lname.$untouched">{{"This field is untouched"}}</td>
+            <td><span ng-show="myform.Lname.$dirty">{{"This field in dirty mode"}}</td></tr>
+            
+            <tr><td>Home address<input name="Hadd" type="text" ng-model="Hadd"/></td>
+            <td><span ng-show="myform.Hadd.$pristine">{{"This field is pristine"}}</td></tr>
+            <tr><td>Contact Number<input type="text" /></td></tr>
+            <tr>
+                <td>
+                    <button ng-click="setpristine()">Set Pristine</button>
+                </td>
+                </tr>
+        </table>
+</body>
+</html>
