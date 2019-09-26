@@ -1,0 +1,11 @@
+C:\Users\r.jadhav\source\repos\Assignment3\bin\Debug\netcoreapp2.2\Assignment3.deps.json
+C:\Users\r.jadhav\source\repos\Assignment3\bin\Debug\netcoreapp2.2\Assignment3.runtimeconfig.json
+C:\Users\r.jadhav\source\repos\Assignment3\bin\Debug\netcoreapp2.2\Assignment3.runtimeconfig.dev.json
+C:\Users\r.jadhav\source\repos\Assignment3\bin\Debug\netcoreapp2.2\Assignment3.dll
+C:\Users\r.jadhav\source\repos\Assignment3\bin\Debug\netcoreapp2.2\Assignment3.pdb
+C:\Users\r.jadhav\source\repos\Assignment3\obj\Debug\netcoreapp2.2\Assignment3.csprojAssemblyReference.cache
+C:\Users\r.jadhav\source\repos\Assignment3\obj\Debug\netcoreapp2.2\Assignment3.csproj.CoreCompileInputs.cache
+C:\Users\r.jadhav\source\repos\Assignment3\obj\Debug\netcoreapp2.2\Assignment3.AssemblyInfoInputs.cache
+C:\Users\r.jadhav\source\repos\Assignment3\obj\Debug\netcoreapp2.2\Assignment3.AssemblyInfo.cs
+C:\Users\r.jadhav\source\repos\Assignment3\obj\Debug\netcoreapp2.2\Assignment3.dll
+C:\Users\r.jadhav\source\repos\Assignment3\obj\Debug\netcoreapp2.2\Assignment3.pdb
