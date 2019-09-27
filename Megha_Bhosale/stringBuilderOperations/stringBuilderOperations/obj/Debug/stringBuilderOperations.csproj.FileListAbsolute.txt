@@ -1,0 +1,7 @@
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\stringBuilderOperations\stringBuilderOperations\bin\Debug\stringBuilderOperations.exe.config
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\stringBuilderOperations\stringBuilderOperations\bin\Debug\stringBuilderOperations.exe
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\stringBuilderOperations\stringBuilderOperations\bin\Debug\stringBuilderOperations.pdb
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\stringBuilderOperations\stringBuilderOperations\obj\Debug\stringBuilderOperations.csproj.CoreCompileInputs.cache
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\stringBuilderOperations\stringBuilderOperations\obj\Debug\stringBuilderOperations.exe
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\stringBuilderOperations\stringBuilderOperations\obj\Debug\stringBuilderOperations.pdb
+C:\Users\mukesh.jha\Desktop\.NET Trainig Assignments\stringBuilderOperations\stringBuilderOperations\obj\Debug\stringBuilderOperations.csprojAssemblyReference.cache
