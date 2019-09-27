@@ -1,17 +1,16 @@
 ﻿using System;
+using System.Text;
 
 namespace Assignment2
 {
     class Program
     {
-        // Static variable that must be initialized at run time.
-        static readonly long baseline;
+        public static void Main(String[] args)
+        { 
+        StringBuilder sb = new StringBuilder("Hello World!!", 50);
+        sb.Replace("World", "C#");
 
-        // Static constructor is called at most one time, before any
-        // instance constructor is invoked or member is accessed.
-        static Program()
-        {
-            baseline = DateTime.Now.Ticks;
+        Console.WriteLine(sb);
         }
     }
 }
