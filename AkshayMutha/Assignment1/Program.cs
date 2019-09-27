@@ -22,8 +22,7 @@ namespace Assignment1
             }
 
             Console.WriteLine("What number you want to search ?");
-            num = Console.Read();
-
+            num = Convert.ToInt32(Console.ReadLine()); 
             foreach (int element in arr)
             {
                 if (element == num)
