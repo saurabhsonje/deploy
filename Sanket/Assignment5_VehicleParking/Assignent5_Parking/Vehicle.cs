@@ -2,15 +2,11 @@
 
 namespace Assignent5_Parking
 {
-    public interface VehicleParking
+    public interface Vehicle
     {
+        void TakeParkingDuration();
         void CalculatePCharge();
     }
-    
-    //public interface Parking
-    //{
-    //    int CalculateCharges();
 
-    //}
 }
 

@@ -5,19 +5,39 @@ namespace Assignent5_Parking
 
     class Program
     {
-        static void Process(BaseVehicle vehicle) 
+        static void Process(Car cvehicle) 
         {
             int c = 0;
             do
             {
-                Console.WriteLine("Enter hour duration of parking: ");
-                vehicle.GShourstatus = Convert.ToInt32(Console.ReadLine());
-                vehicle.CalculatePCharge();
+                cvehicle.TakeParkingDuration();
+                cvehicle.CalculatePCharge();
                 Console.WriteLine("Enter 1 to recalculate hours or else to return to previous: ");
                 c = Convert.ToInt32(Console.ReadLine());
             } while (c == 1);
         }
-        
+        static void Process(Bike bvehicle)
+        {
+            int c = 0;
+            do
+            {
+                bvehicle.TakeParkingDuration();
+                bvehicle.CalculatePCharge();
+                Console.WriteLine("Enter 1 to recalculate hours or else to return to previous: ");
+                c = Convert.ToInt32(Console.ReadLine());
+            } while (c == 1);
+        }
+        static void Process(Truck tvehicle)
+        {
+            int c = 0;
+            do
+            {
+                tvehicle.TakeParkingDuration();
+                tvehicle.CalculatePCharge();
+                Console.WriteLine("Enter 1 to recalculate hours or else to return to previous: ");
+                c = Convert.ToInt32(Console.ReadLine());
+            } while (c == 1);
+        }
         static void Main(string[] args)
         {
             //Car b = new Car();
@@ -26,7 +46,7 @@ namespace Assignent5_Parking
             //b.Run();
             //Console.WriteLine(b.GShourstatus);
 
-            Console.WriteLine("Parking Vehicle: Which vehicle do you have\n enter 1: Car 2: Bike 3:SUV 4: Truck, \t -1 to exit");
+            Console.WriteLine("Parking Vehicle: Which vehicle do you have\n enter 1: Car 2: Bike 3: Truck, \t -1 to exit");
             int choice = Convert.ToInt32(Console.ReadLine());
             while (choice != -1)
             {
@@ -43,20 +63,20 @@ namespace Assignent5_Parking
                             Bike bobj = new Bike();
                             Process(bobj);
                             break;
-
                         case 3:
-                            SUV sobj = new SUV();
-                            Process(sobj);
-                            break;
-                        case 4:
                             Truck tobj = new Truck();
                             Process(tobj);
                             break;
+                        case 4:
+                            //SUV sobj = new SUV();
+                            //Process(sobj);
+                            //break;
+                        
                         default:
                             break;
                     }
                 }
-                Console.WriteLine("Parking Vehicle: Which vehicle do you have\n enter 1: Car 2: Bike 3:SUV 4: Truck, \t -1 to exit");
+                Console.WriteLine("Parking Vehicle: Which vehicle do you have\n enter 1: Car 2: Bike 3: Truck, \t -1 to exit");
                 choice = Convert.ToInt32(Console.ReadLine());
             }
         }
