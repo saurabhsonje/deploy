@@ -1,0 +1,11 @@
+C:\Users\r.jadhav\source\repos\Assignment6\bin\Debug\netcoreapp2.2\Assignment6.deps.json
+C:\Users\r.jadhav\source\repos\Assignment6\bin\Debug\netcoreapp2.2\Assignment6.runtimeconfig.json
+C:\Users\r.jadhav\source\repos\Assignment6\bin\Debug\netcoreapp2.2\Assignment6.runtimeconfig.dev.json
+C:\Users\r.jadhav\source\repos\Assignment6\bin\Debug\netcoreapp2.2\Assignment6.dll
+C:\Users\r.jadhav\source\repos\Assignment6\bin\Debug\netcoreapp2.2\Assignment6.pdb
+C:\Users\r.jadhav\source\repos\Assignment6\obj\Debug\netcoreapp2.2\Assignment6.csproj.CoreCompileInputs.cache
+C:\Users\r.jadhav\source\repos\Assignment6\obj\Debug\netcoreapp2.2\Assignment6.AssemblyInfoInputs.cache
+C:\Users\r.jadhav\source\repos\Assignment6\obj\Debug\netcoreapp2.2\Assignment6.AssemblyInfo.cs
+C:\Users\r.jadhav\source\repos\Assignment6\obj\Debug\netcoreapp2.2\Assignment6.dll
+C:\Users\r.jadhav\source\repos\Assignment6\obj\Debug\netcoreapp2.2\Assignment6.pdb
+C:\Users\r.jadhav\source\repos\Assignment6\obj\Debug\netcoreapp2.2\Assignment6.csprojAssemblyReference.cache
